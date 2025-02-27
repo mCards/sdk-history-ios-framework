@@ -121,6 +121,13 @@
       },
       {
         "kind": "Import",
+        "name": "CoreSDK",
+        "printedName": "CoreSDK",
+        "declKind": "Import",
+        "moduleName": "HistorySDK"
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",

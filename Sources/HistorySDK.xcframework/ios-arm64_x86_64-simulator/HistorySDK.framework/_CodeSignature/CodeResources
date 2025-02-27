@@ -14,7 +14,7 @@
 		</data>
 		<key>Modules/HistorySDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		3ZRCyI+LENylU+03kzwIbAkR5/g=
+		t0QEvgZ77RBNWeEYUDBEx74PAqM=
 		</data>
 		<key>Modules/HistorySDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -30,11 +30,11 @@
 		</data>
 		<key>Modules/HistorySDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		I4sT5daEuvD6I0L5eXCeiGTy+FU=
+		u37hfPnj73L6ybBa166spTuEpPQ=
 		</data>
 		<key>Modules/HistorySDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		3ZRCyI+LENylU+03kzwIbAkR5/g=
+		t0QEvgZ77RBNWeEYUDBEx74PAqM=
 		</data>
 		<key>Modules/HistorySDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -50,7 +50,7 @@
 		</data>
 		<key>Modules/HistorySDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		i0xT3g+iCCNT3Q1iAWJpeFmwBgc=
+		AfcUKiD4SEwaCafWoGMWjvXYOIM=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -70,7 +70,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			bIGOLGSyKcIUoFlx+Z/MF+SeiSf3aB/14DCmKg1spKM=
+			lIOoCF67zgKNt8yUU3IJkJMciv0+lcbOL1TQv1bSnDw=
 			</data>
 		</dict>
 		<key>Modules/HistorySDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -98,14 +98,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			+fFD3hg6SqheEVilk4eA9dVrYZUGPGbwnRB30H8mxPo=
+			hwuxhYUJ4SkgB+WSGcPAOxausVter4TzRAr8k/a8C8I=
 			</data>
 		</dict>
 		<key>Modules/HistorySDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			bIGOLGSyKcIUoFlx+Z/MF+SeiSf3aB/14DCmKg1spKM=
+			lIOoCF67zgKNt8yUU3IJkJMciv0+lcbOL1TQv1bSnDw=
 			</data>
 		</dict>
 		<key>Modules/HistorySDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -133,7 +133,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			yBP1dMuDR7o/A7Fw5A9KJTFd0+gTsARpvz9cLTWL76Q=
+			k0C7Hku4pIzzqXUbHu0rj6JiL2CXDBeyliUKtqdKPQc=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
