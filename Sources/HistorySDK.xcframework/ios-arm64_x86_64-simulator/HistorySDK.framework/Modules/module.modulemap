@@ -1,0 +1,6 @@
+framework module HistorySDK {
+  umbrella header "HistorySDK.h"
+  export *
+
+  module * { export * }
+}

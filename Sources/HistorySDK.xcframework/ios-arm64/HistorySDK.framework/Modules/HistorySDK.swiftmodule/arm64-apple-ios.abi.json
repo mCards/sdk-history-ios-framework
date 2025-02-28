@@ -1,0 +1,2864 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "HistorySDK",
+    "printedName": "HistorySDK",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "HistorySDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "HistorySDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "HistoryActivity",
+        "printedName": "HistoryActivity",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "HistoryActivity",
+                "printedName": "HistorySDK.HistoryActivity",
+                "usr": "s:10HistorySDK0A8ActivityC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "any Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:10HistorySDK0A8ActivityC4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s10HistorySDK0A8ActivityC4fromACs7Decoder_p_tKcfc",
+            "moduleName": "HistorySDK",
+            "declAttributes": [
+              "AccessControl",
+              "Required"
+            ],
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "any Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10HistorySDK0A8ActivityC6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s10HistorySDK0A8ActivityC6encode2toys7Encoder_p_tKF",
+            "moduleName": "HistorySDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:10HistorySDK0A8ActivityC",
+        "mangledName": "$s10HistorySDK0A8ActivityC",
+        "moduleName": "HistorySDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CoreSDK",
+        "printedName": "CoreSDK",
+        "declKind": "Import",
+        "moduleName": "HistorySDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "HistorySDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ActivityFundingRequest",
+        "printedName": "ActivityFundingRequest",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ActivityFundingRequest",
+                "printedName": "HistorySDK.ActivityFundingRequest",
+                "usr": "s:10HistorySDK22ActivityFundingRequestC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "any Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:10HistorySDK22ActivityFundingRequestC4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s10HistorySDK22ActivityFundingRequestC4fromACs7Decoder_p_tKcfc",
+            "moduleName": "HistorySDK",
+            "declAttributes": [
+              "AccessControl",
+              "Required"
+            ],
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "any Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10HistorySDK22ActivityFundingRequestC6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s10HistorySDK22ActivityFundingRequestC6encode2toys7Encoder_p_tKF",
+            "moduleName": "HistorySDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:10HistorySDK22ActivityFundingRequestC",
+        "mangledName": "$s10HistorySDK22ActivityFundingRequestC",
+        "moduleName": "HistorySDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "HistorySDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "UpdateTransactionTrackingReportRequest",
+        "printedName": "UpdateTransactionTrackingReportRequest",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UpdateTransactionTrackingReportRequest",
+                "printedName": "HistorySDK.UpdateTransactionTrackingReportRequest",
+                "usr": "s:10HistorySDK38UpdateTransactionTrackingReportRequestC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "any Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:10HistorySDK38UpdateTransactionTrackingReportRequestC4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s10HistorySDK38UpdateTransactionTrackingReportRequestC4fromACs7Decoder_p_tKcfc",
+            "moduleName": "HistorySDK",
+            "declAttributes": [
+              "AccessControl",
+              "Required"
+            ],
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "any Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10HistorySDK38UpdateTransactionTrackingReportRequestC6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s10HistorySDK38UpdateTransactionTrackingReportRequestC6encode2toys7Encoder_p_tKF",
+            "moduleName": "HistorySDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:10HistorySDK38UpdateTransactionTrackingReportRequestC",
+        "mangledName": "$s10HistorySDK38UpdateTransactionTrackingReportRequestC",
+        "moduleName": "HistorySDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "HistorySDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "HistorySDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "HistorySDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "TransactionTrackingReportItem",
+        "printedName": "TransactionTrackingReportItem",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "TransactionTrackingReportItem",
+                "printedName": "HistorySDK.TransactionTrackingReportItem",
+                "usr": "s:10HistorySDK29TransactionTrackingReportItemC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "any Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:10HistorySDK29TransactionTrackingReportItemC4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s10HistorySDK29TransactionTrackingReportItemC4fromACs7Decoder_p_tKcfc",
+            "moduleName": "HistorySDK",
+            "declAttributes": [
+              "AccessControl",
+              "Required"
+            ],
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "any Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10HistorySDK29TransactionTrackingReportItemC6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s10HistorySDK29TransactionTrackingReportItemC6encode2toys7Encoder_p_tKF",
+            "moduleName": "HistorySDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "TransactionTrackingReportItem",
+                "printedName": "HistorySDK.TransactionTrackingReportItem",
+                "usr": "s:10HistorySDK29TransactionTrackingReportItemC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "TransactionTrackingReportItem",
+                "printedName": "HistorySDK.TransactionTrackingReportItem",
+                "usr": "s:10HistorySDK29TransactionTrackingReportItemC"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10HistorySDK29TransactionTrackingReportItemC2eeoiySbAC_ACtFZ",
+            "mangledName": "$s10HistorySDK29TransactionTrackingReportItemC2eeoiySbAC_ACtFZ",
+            "moduleName": "HistorySDK",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:10HistorySDK29TransactionTrackingReportItemC",
+        "mangledName": "$s10HistorySDK29TransactionTrackingReportItemC",
+        "moduleName": "HistorySDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "HistorySDK"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "HistorySDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "HistorySDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CoreSDK",
+        "printedName": "CoreSDK",
+        "declKind": "Import",
+        "moduleName": "HistorySDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "HistorySDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "HistorySDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "TransactionMetadata",
+        "printedName": "TransactionMetadata",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "TransactionMetadata",
+                "printedName": "HistorySDK.TransactionMetadata",
+                "usr": "s:10HistorySDK19TransactionMetadataC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "any Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:10HistorySDK19TransactionMetadataC4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s10HistorySDK19TransactionMetadataC4fromACs7Decoder_p_tKcfc",
+            "moduleName": "HistorySDK",
+            "declAttributes": [
+              "AccessControl",
+              "Required"
+            ],
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "any Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10HistorySDK19TransactionMetadataC6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s10HistorySDK19TransactionMetadataC6encode2toys7Encoder_p_tKF",
+            "moduleName": "HistorySDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:10HistorySDK19TransactionMetadataC",
+        "mangledName": "$s10HistorySDK19TransactionMetadataC",
+        "moduleName": "HistorySDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "MetadataUploadImageSuccess",
+        "printedName": "MetadataUploadImageSuccess",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "MetadataUploadImageSuccess",
+                "printedName": "HistorySDK.MetadataUploadImageSuccess",
+                "usr": "s:10HistorySDK26MetadataUploadImageSuccessC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "any Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:10HistorySDK26MetadataUploadImageSuccessC4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s10HistorySDK26MetadataUploadImageSuccessC4fromACs7Decoder_p_tKcfc",
+            "moduleName": "HistorySDK",
+            "declAttributes": [
+              "Required",
+              "AccessControl"
+            ],
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "any Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10HistorySDK26MetadataUploadImageSuccessC6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s10HistorySDK26MetadataUploadImageSuccessC6encode2toys7Encoder_p_tKF",
+            "moduleName": "HistorySDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:10HistorySDK26MetadataUploadImageSuccessC",
+        "mangledName": "$s10HistorySDK26MetadataUploadImageSuccessC",
+        "moduleName": "HistorySDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "HistorySDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "HistorySDK"
+      },
+      {
+        "kind": "Import",
+        "name": "CoreSDK",
+        "printedName": "CoreSDK",
+        "declKind": "Import",
+        "moduleName": "HistorySDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "HistorySDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "HistorySDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "HistorySDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "TransactionMetadataRequest",
+        "printedName": "TransactionMetadataRequest",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "TransactionMetadataRequest",
+                "printedName": "HistorySDK.TransactionMetadataRequest",
+                "usr": "s:10HistorySDK26TransactionMetadataRequestC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "any Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:10HistorySDK26TransactionMetadataRequestC4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s10HistorySDK26TransactionMetadataRequestC4fromACs7Decoder_p_tKcfc",
+            "moduleName": "HistorySDK",
+            "declAttributes": [
+              "AccessControl",
+              "Required"
+            ],
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "any Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10HistorySDK26TransactionMetadataRequestC6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s10HistorySDK26TransactionMetadataRequestC6encode2toys7Encoder_p_tKF",
+            "moduleName": "HistorySDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:10HistorySDK26TransactionMetadataRequestC",
+        "mangledName": "$s10HistorySDK26TransactionMetadataRequestC",
+        "moduleName": "HistorySDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "HistorySDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "HistorySDK"
+      },
+      {
+        "kind": "Import",
+        "name": "CoreSDK",
+        "printedName": "CoreSDK",
+        "declKind": "Import",
+        "moduleName": "HistorySDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "HistorySdk",
+        "printedName": "HistorySdk",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "configure",
+            "printedName": "configure(accessToken:tokenRefreshCallback:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "HSDKTokenRefreshCallback",
+                "printedName": "any HistorySDK.HSDKTokenRefreshCallback",
+                "usr": "s:10HistorySDK24HSDKTokenRefreshCallbackP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10HistorySDK0A3SdkP9configure11accessToken20tokenRefreshCallbackySS_AA09HSDKTokenhI0_ptF",
+            "mangledName": "$s10HistorySDK0A3SdkP9configure11accessToken20tokenRefreshCallbackySS_AA09HSDKTokenhI0_ptF",
+            "moduleName": "HistorySDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : HistorySDK.HistorySdk>",
+            "sugared_genericSig": "<Self where Self : HistorySDK.HistorySdk>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "configure",
+            "printedName": "configure(accessToken:debugMode:tokenRefreshCallback:loggingCallback:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "HSDKTokenRefreshCallback",
+                "printedName": "any HistorySDK.HSDKTokenRefreshCallback",
+                "usr": "s:10HistorySDK24HSDKTokenRefreshCallbackP"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "LoggingCallback",
+                "printedName": "any CoreSDK.LoggingCallback",
+                "usr": "s:7CoreSDK15LoggingCallbackP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10HistorySDK0A3SdkP9configure11accessToken9debugMode20tokenRefreshCallback07loggingK0ySS_SbAA09HSDKTokenjK0_p04CoreB007LoggingK0_ptF",
+            "mangledName": "$s10HistorySDK0A3SdkP9configure11accessToken9debugMode20tokenRefreshCallback07loggingK0ySS_SbAA09HSDKTokenjK0_p04CoreB007LoggingK0_ptF",
+            "moduleName": "HistorySDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : HistorySDK.HistorySdk>",
+            "sugared_genericSig": "<Self where Self : HistorySDK.HistorySdk>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "launch",
+            "printedName": "launch(with:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10HistorySDK0A3SdkP6launch4withySo16UIViewControllerC_tF",
+            "mangledName": "$s10HistorySDK0A3SdkP6launch4withySo16UIViewControllerC_tF",
+            "moduleName": "HistorySDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : HistorySDK.HistorySdk>",
+            "sugared_genericSig": "<Self where Self : HistorySDK.HistorySdk>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getPaginatedActivities",
+            "printedName": "getPaginatedActivities(cardId:sourceIndex:pageSize:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Result<HistorySDK.ActivitiesResponse, any Swift.Error>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Result",
+                    "printedName": "Swift.Result<HistorySDK.ActivitiesResponse, any Swift.Error>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ActivitiesResponse",
+                        "printedName": "HistorySDK.ActivitiesResponse",
+                        "usr": "s:10HistorySDK18ActivitiesResponseC"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "any Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ],
+                    "usr": "s:s6ResultO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10HistorySDK0A3SdkP22getPaginatedActivities6cardId11sourceIndex8pageSize10completionySS_SiSgAIys6ResultOyAA0F8ResponseCs5Error_pGctF",
+            "mangledName": "$s10HistorySDK0A3SdkP22getPaginatedActivities6cardId11sourceIndex8pageSize10completionySS_SiSgAIys6ResultOyAA0F8ResponseCs5Error_pGctF",
+            "moduleName": "HistorySDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : HistorySDK.HistorySdk>",
+            "sugared_genericSig": "<Self where Self : HistorySDK.HistorySdk>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getActivity",
+            "printedName": "getActivity(cardId:activityId:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Result<HistorySDK.HistoryActivity, any Swift.Error>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Result",
+                    "printedName": "Swift.Result<HistorySDK.HistoryActivity, any Swift.Error>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "HistoryActivity",
+                        "printedName": "HistorySDK.HistoryActivity",
+                        "usr": "s:10HistorySDK0A8ActivityC"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "any Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ],
+                    "usr": "s:s6ResultO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10HistorySDK0A3SdkP11getActivity6cardId08activityG010completionySS_SSys6ResultOyAA0aE0Cs5Error_pGctF",
+            "mangledName": "$s10HistorySDK0A3SdkP11getActivity6cardId08activityG010completionySS_SSys6ResultOyAA0aE0Cs5Error_pGctF",
+            "moduleName": "HistorySDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : HistorySDK.HistorySdk>",
+            "sugared_genericSig": "<Self where Self : HistorySDK.HistorySdk>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getActivityFundingSources",
+            "printedName": "getActivityFundingSources(cardId:activityId:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Result<[HistorySDK.TransactionFundingSource], any Swift.Error>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Result",
+                    "printedName": "Swift.Result<[HistorySDK.TransactionFundingSource], any Swift.Error>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[HistorySDK.TransactionFundingSource]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "TransactionFundingSource",
+                            "printedName": "HistorySDK.TransactionFundingSource",
+                            "usr": "s:10HistorySDK24TransactionFundingSourceC"
+                          }
+                        ],
+                        "usr": "s:Sa"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "any Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ],
+                    "usr": "s:s6ResultO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10HistorySDK0A3SdkP25getActivityFundingSources6cardId08activityI010completionySS_SSys6ResultOySayAA011TransactionF6SourceCGs5Error_pGctF",
+            "mangledName": "$s10HistorySDK0A3SdkP25getActivityFundingSources6cardId08activityI010completionySS_SSys6ResultOySayAA011TransactionF6SourceCGs5Error_pGctF",
+            "moduleName": "HistorySDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : HistorySDK.HistorySdk>",
+            "sugared_genericSig": "<Self where Self : HistorySDK.HistorySdk>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setActivityFundingSource",
+            "printedName": "setActivityFundingSource(cardId:activityId:body:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ActivityFundingRequest",
+                "printedName": "HistorySDK.ActivityFundingRequest",
+                "usr": "s:10HistorySDK22ActivityFundingRequestC"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Result<HistorySDK.UpdateActivityFundingSource, any Swift.Error>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Result",
+                    "printedName": "Swift.Result<HistorySDK.UpdateActivityFundingSource, any Swift.Error>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UpdateActivityFundingSource",
+                        "printedName": "HistorySDK.UpdateActivityFundingSource",
+                        "usr": "s:10HistorySDK27UpdateActivityFundingSourceC"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "any Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ],
+                    "usr": "s:s6ResultO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10HistorySDK0A3SdkP24setActivityFundingSource6cardId08activityI04body10completionySS_SSAA0eF7RequestCys6ResultOyAA06UpdateefG0Cs5Error_pGctF",
+            "mangledName": "$s10HistorySDK0A3SdkP24setActivityFundingSource6cardId08activityI04body10completionySS_SSAA0eF7RequestCys6ResultOyAA06UpdateefG0Cs5Error_pGctF",
+            "moduleName": "HistorySDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : HistorySDK.HistorySdk>",
+            "sugared_genericSig": "<Self where Self : HistorySDK.HistorySdk>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getActivityMetadata",
+            "printedName": "getActivityMetadata(cardId:activityId:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Result<HistorySDK.TransactionMetadata, any Swift.Error>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Result",
+                    "printedName": "Swift.Result<HistorySDK.TransactionMetadata, any Swift.Error>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TransactionMetadata",
+                        "printedName": "HistorySDK.TransactionMetadata",
+                        "usr": "s:10HistorySDK19TransactionMetadataC"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "any Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ],
+                    "usr": "s:s6ResultO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10HistorySDK0A3SdkP19getActivityMetadata6cardId08activityH010completionySS_SSys6ResultOyAA011TransactionF0Cs5Error_pGctF",
+            "mangledName": "$s10HistorySDK0A3SdkP19getActivityMetadata6cardId08activityH010completionySS_SSys6ResultOyAA011TransactionF0Cs5Error_pGctF",
+            "moduleName": "HistorySDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : HistorySDK.HistorySdk>",
+            "sugared_genericSig": "<Self where Self : HistorySDK.HistorySdk>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "addActivityMetadata",
+            "printedName": "addActivityMetadata(cardId:activityId:metadata:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "TransactionMetadataRequest",
+                "printedName": "HistorySDK.TransactionMetadataRequest",
+                "usr": "s:10HistorySDK26TransactionMetadataRequestC"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Result<HistorySDK.TransactionMetadata, any Swift.Error>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Result",
+                    "printedName": "Swift.Result<HistorySDK.TransactionMetadata, any Swift.Error>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TransactionMetadata",
+                        "printedName": "HistorySDK.TransactionMetadata",
+                        "usr": "s:10HistorySDK19TransactionMetadataC"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "any Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ],
+                    "usr": "s:s6ResultO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10HistorySDK0A3SdkP19addActivityMetadata6cardId08activityH08metadata10completionySS_SSAA011TransactionF7RequestCys6ResultOyAA0lF0Cs5Error_pGctF",
+            "mangledName": "$s10HistorySDK0A3SdkP19addActivityMetadata6cardId08activityH08metadata10completionySS_SSAA011TransactionF7RequestCys6ResultOyAA0lF0Cs5Error_pGctF",
+            "moduleName": "HistorySDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : HistorySDK.HistorySdk>",
+            "sugared_genericSig": "<Self where Self : HistorySDK.HistorySdk>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "addActivityMetadataPhoto",
+            "printedName": "addActivityMetadataPhoto(cardId:activityId:photoData:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Result<HistorySDK.MetadataUploadImageSuccess, any Swift.Error>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Result",
+                    "printedName": "Swift.Result<HistorySDK.MetadataUploadImageSuccess, any Swift.Error>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "MetadataUploadImageSuccess",
+                        "printedName": "HistorySDK.MetadataUploadImageSuccess",
+                        "usr": "s:10HistorySDK26MetadataUploadImageSuccessC"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "any Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ],
+                    "usr": "s:s6ResultO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10HistorySDK0A3SdkP24addActivityMetadataPhoto6cardId08activityI09photoData10completionySS_S2Sys6ResultOyAA0F18UploadImageSuccessCs5Error_pGctF",
+            "mangledName": "$s10HistorySDK0A3SdkP24addActivityMetadataPhoto6cardId08activityI09photoData10completionySS_S2Sys6ResultOyAA0F18UploadImageSuccessCs5Error_pGctF",
+            "moduleName": "HistorySDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : HistorySDK.HistorySdk>",
+            "sugared_genericSig": "<Self where Self : HistorySDK.HistorySdk>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "logout",
+            "printedName": "logout()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10HistorySDK0A3SdkP6logoutyyF",
+            "mangledName": "$s10HistorySDK0A3SdkP6logoutyyF",
+            "moduleName": "HistorySDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : HistorySDK.HistorySdk>",
+            "sugared_genericSig": "<Self where Self : HistorySDK.HistorySdk>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:10HistorySDK0A3SdkP",
+        "mangledName": "$s10HistorySDK0A3SdkP",
+        "moduleName": "HistorySDK",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "HistorySDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "UpdateActivityFundingSource",
+        "printedName": "UpdateActivityFundingSource",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UpdateActivityFundingSource",
+                "printedName": "HistorySDK.UpdateActivityFundingSource",
+                "usr": "s:10HistorySDK27UpdateActivityFundingSourceC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "any Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:10HistorySDK27UpdateActivityFundingSourceC4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s10HistorySDK27UpdateActivityFundingSourceC4fromACs7Decoder_p_tKcfc",
+            "moduleName": "HistorySDK",
+            "declAttributes": [
+              "AccessControl",
+              "Required"
+            ],
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "any Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10HistorySDK27UpdateActivityFundingSourceC6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s10HistorySDK27UpdateActivityFundingSourceC6encode2toys7Encoder_p_tKF",
+            "moduleName": "HistorySDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:10HistorySDK27UpdateActivityFundingSourceC",
+        "mangledName": "$s10HistorySDK27UpdateActivityFundingSourceC",
+        "moduleName": "HistorySDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "HistorySDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "HistorySDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CoreSDK",
+        "printedName": "CoreSDK",
+        "declKind": "Import",
+        "moduleName": "HistorySDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "HSDKTokenRefreshCallback",
+        "printedName": "HSDKTokenRefreshCallback",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "refreshJWTs",
+            "printedName": "refreshJWTs(completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CoreSDK.JWTs) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "JWTs",
+                    "printedName": "CoreSDK.JWTs",
+                    "usr": "s:7CoreSDK4JWTsV"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10HistorySDK24HSDKTokenRefreshCallbackP11refreshJWTs10completionyy04CoreB00G0Vc_tF",
+            "mangledName": "$s10HistorySDK24HSDKTokenRefreshCallbackP11refreshJWTs10completionyy04CoreB00G0Vc_tF",
+            "moduleName": "HistorySDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : HistorySDK.HSDKTokenRefreshCallback>",
+            "sugared_genericSig": "<Self where Self : HistorySDK.HSDKTokenRefreshCallback>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:10HistorySDK24HSDKTokenRefreshCallbackP",
+        "mangledName": "$s10HistorySDK24HSDKTokenRefreshCallbackP",
+        "moduleName": "HistorySDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "HistorySDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CoreSDK",
+        "printedName": "CoreSDK",
+        "declKind": "Import",
+        "moduleName": "HistorySDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "HistorySDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "HistorySDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "TransactionFundingSource",
+        "printedName": "TransactionFundingSource",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "TransactionFundingSource",
+                "printedName": "HistorySDK.TransactionFundingSource",
+                "usr": "s:10HistorySDK24TransactionFundingSourceC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "any Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:10HistorySDK24TransactionFundingSourceC4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s10HistorySDK24TransactionFundingSourceC4fromACs7Decoder_p_tKcfc",
+            "moduleName": "HistorySDK",
+            "declAttributes": [
+              "AccessControl",
+              "Required"
+            ],
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "any Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10HistorySDK24TransactionFundingSourceC6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s10HistorySDK24TransactionFundingSourceC6encode2toys7Encoder_p_tKF",
+            "moduleName": "HistorySDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "TransactionFundingSource",
+                "printedName": "HistorySDK.TransactionFundingSource",
+                "usr": "s:10HistorySDK24TransactionFundingSourceC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "TransactionFundingSource",
+                "printedName": "HistorySDK.TransactionFundingSource",
+                "usr": "s:10HistorySDK24TransactionFundingSourceC"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10HistorySDK24TransactionFundingSourceC2eeoiySbAC_ACtFZ",
+            "mangledName": "$s10HistorySDK24TransactionFundingSourceC2eeoiySbAC_ACtFZ",
+            "moduleName": "HistorySDK",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:10HistorySDK24TransactionFundingSourceC",
+        "mangledName": "$s10HistorySDK24TransactionFundingSourceC",
+        "moduleName": "HistorySDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "HistorySDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "HistorySdkProvider",
+        "printedName": "HistorySdkProvider",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "shared",
+            "printedName": "shared",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "HistorySdk",
+                "printedName": "any HistorySDK.HistorySdk",
+                "usr": "s:10HistorySDK0A3SdkP"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10HistorySDK0A11SdkProviderC6sharedAA0aC0_pvpZ",
+            "mangledName": "$s10HistorySDK0A11SdkProviderC6sharedAA0aC0_pvpZ",
+            "moduleName": "HistorySDK",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "HistorySdk",
+                    "printedName": "any HistorySDK.HistorySdk",
+                    "usr": "s:10HistorySDK0A3SdkP"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10HistorySDK0A11SdkProviderC6sharedAA0aC0_pvgZ",
+                "mangledName": "$s10HistorySDK0A11SdkProviderC6sharedAA0aC0_pvgZ",
+                "moduleName": "HistorySDK",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:10HistorySDK0A11SdkProviderC",
+        "mangledName": "$s10HistorySDK0A11SdkProviderC",
+        "moduleName": "HistorySDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "HistorySDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "HistorySDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ActivitiesResponse",
+        "printedName": "ActivitiesResponse",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ActivitiesResponse",
+                "printedName": "HistorySDK.ActivitiesResponse",
+                "usr": "s:10HistorySDK18ActivitiesResponseC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "any Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:10HistorySDK18ActivitiesResponseC4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s10HistorySDK18ActivitiesResponseC4fromACs7Decoder_p_tKcfc",
+            "moduleName": "HistorySDK",
+            "declAttributes": [
+              "AccessControl",
+              "Required"
+            ],
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "any Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10HistorySDK18ActivitiesResponseC6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s10HistorySDK18ActivitiesResponseC6encode2toys7Encoder_p_tKF",
+            "moduleName": "HistorySDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:10HistorySDK18ActivitiesResponseC",
+        "mangledName": "$s10HistorySDK18ActivitiesResponseC",
+        "moduleName": "HistorySDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "HistorySDK"
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/yaro\/Work\/MCards\/HistorySDK\/Sources\/HistorySDK\/Models\/HistoryActivity.swift",
+      "kind": "StringLiteral",
+      "offset": 131,
+      "length": 17,
+      "value": "\"account_balance\""
+    },
+    {
+      "filePath": "\/Users\/yaro\/Work\/MCards\/HistorySDK\/Sources\/HistorySDK\/Models\/HistoryActivity.swift",
+      "kind": "StringLiteral",
+      "offset": 169,
+      "length": 15,
+      "value": "\"card_giftcard\""
+    },
+    {
+      "filePath": "\/Users\/yaro\/Work\/MCards\/HistorySDK\/Sources\/HistorySDK\/Models\/HistoryActivity.swift",
+      "kind": "StringLiteral",
+      "offset": 210,
+      "length": 16,
+      "value": "\"arrow_downward\""
+    },
+    {
+      "filePath": "\/Users\/yaro\/Work\/MCards\/HistorySDK\/Sources\/HistorySDK\/Models\/HistoryActivity.swift",
+      "kind": "StringLiteral",
+      "offset": 250,
+      "length": 14,
+      "value": "\"arrow_upward\""
+    },
+    {
+      "filePath": "\/Users\/yaro\/Work\/MCards\/HistorySDK\/Sources\/HistorySDK\/Models\/HistoryActivity.swift",
+      "kind": "StringLiteral",
+      "offset": 344,
+      "length": 13,
+      "value": "\"credit_card\""
+    },
+    {
+      "filePath": "\/Users\/yaro\/Work\/MCards\/HistorySDK\/Sources\/HistorySDK\/Models\/HistoryActivity.swift",
+      "kind": "StringLiteral",
+      "offset": 1540,
+      "length": 18,
+      "value": "\"card_transaction\""
+    },
+    {
+      "filePath": "\/Users\/yaro\/Work\/MCards\/HistorySDK\/Sources\/HistorySDK\/Models\/HistoryActivity.swift",
+      "kind": "StringLiteral",
+      "offset": 1594,
+      "length": 18,
+      "value": "\"balance_transfer\""
+    },
+    {
+      "filePath": "\/Users\/yaro\/Work\/MCards\/HistorySDK\/Sources\/HistorySDK\/Models\/HistoryActivity.swift",
+      "kind": "StringLiteral",
+      "offset": 1648,
+      "length": 18,
+      "value": "\"user_transaction\""
+    },
+    {
+      "filePath": "\/Users\/yaro\/Work\/MCards\/HistorySDK\/Sources\/HistorySDK\/Models\/HistoryActivity.swift",
+      "kind": "StringLiteral",
+      "offset": 2301,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/yaro\/Work\/MCards\/HistorySDK\/Sources\/HistorySDK\/Models\/HistoryActivity.swift",
+      "kind": "StringLiteral",
+      "offset": 2320,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/yaro\/Work\/MCards\/HistorySDK\/Sources\/HistorySDK\/Models\/HistoryActivity.swift",
+      "kind": "StringLiteral",
+      "offset": 2342,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/yaro\/Work\/MCards\/HistorySDK\/Sources\/HistorySDK\/Models\/HistoryActivity.swift",
+      "kind": "StringLiteral",
+      "offset": 3808,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/yaro\/Work\/MCards\/HistorySDK\/Sources\/HistorySDK\/Models\/HistoryActivity.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3830,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/yaro\/Work\/MCards\/HistorySDK\/Sources\/HistorySDK\/Models\/HistoryActivity.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3875,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/yaro\/Work\/MCards\/HistorySDK\/Sources\/HistorySDK\/Models\/HistoryActivity.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3910,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/yaro\/Work\/MCards\/HistorySDK\/Sources\/HistorySDK\/Models\/HistoryActivity.swift",
+      "kind": "StringLiteral",
+      "offset": 4651,
+      "length": 22,
+      "value": "\"transaction_tracking\""
+    },
+    {
+      "filePath": "\/Users\/yaro\/Work\/MCards\/HistorySDK\/Sources\/HistorySDK\/Models\/HistoryActivity.swift",
+      "kind": "StringLiteral",
+      "offset": 4712,
+      "length": 17,
+      "value": "\"settlement_date\""
+    },
+    {
+      "filePath": "\/Users\/yaro\/Work\/MCards\/HistorySDK\/Sources\/HistorySDK\/Models\/HistoryActivity.swift",
+      "kind": "StringLiteral",
+      "offset": 4802,
+      "length": 22,
+      "value": "\"user_metadata_detail\""
+    },
+    {
+      "filePath": "\/Users\/yaro\/Work\/MCards\/HistorySDK\/Sources\/HistorySDK\/Models\/HistoryActivity.swift",
+      "kind": "Array",
+      "offset": 6572,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/yaro\/Work\/MCards\/HistorySDK\/Sources\/HistorySDK\/Models\/HistoryActivity.swift",
+      "kind": "StringLiteral",
+      "offset": 7815,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/yaro\/Work\/MCards\/HistorySDK\/Sources\/HistorySDK\/Models\/HistoryActivity.swift",
+      "kind": "StringLiteral",
+      "offset": 7850,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/yaro\/Work\/MCards\/HistorySDK\/Sources\/HistorySDK\/Models\/HistoryActivity.swift",
+      "kind": "StringLiteral",
+      "offset": 7917,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/yaro\/Work\/MCards\/HistorySDK\/Sources\/HistorySDK\/Models\/HistoryActivity.swift",
+      "kind": "StringLiteral",
+      "offset": 7937,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/yaro\/Work\/MCards\/HistorySDK\/Sources\/HistorySDK\/Models\/HistoryActivity.swift",
+      "kind": "StringLiteral",
+      "offset": 7992,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/yaro\/Work\/MCards\/HistorySDK\/Sources\/HistorySDK\/Models\/HistoryActivity.swift",
+      "kind": "StringLiteral",
+      "offset": 8628,
+      "length": 12,
+      "value": "\"created_at\""
+    },
+    {
+      "filePath": "\/Users\/yaro\/Work\/MCards\/HistorySDK\/Sources\/HistorySDK\/Models\/HistoryActivity.swift",
+      "kind": "StringLiteral",
+      "offset": 8702,
+      "length": 24,
+      "value": "\"formatted_total_amount\""
+    },
+    {
+      "filePath": "\/Users\/yaro\/Work\/MCards\/HistorySDK\/Sources\/HistorySDK\/Models\/HistoryActivity.swift",
+      "kind": "StringLiteral",
+      "offset": 8761,
+      "length": 22,
+      "value": "\"formatted_created_at\""
+    },
+    {
+      "filePath": "\/Users\/yaro\/Work\/MCards\/HistorySDK\/Sources\/HistorySDK\/Models\/HistoryActivity.swift",
+      "kind": "StringLiteral",
+      "offset": 8870,
+      "length": 14,
+      "value": "\"total_amount\""
+    },
+    {
+      "filePath": "\/Users\/yaro\/Work\/MCards\/HistorySDK\/Sources\/HistorySDK\/Models\/HistoryActivity.swift",
+      "kind": "StringLiteral",
+      "offset": 8927,
+      "length": 11,
+      "value": "\"image_url\""
+    },
+    {
+      "filePath": "\/Users\/yaro\/Work\/MCards\/HistorySDK\/Sources\/HistorySDK\/Models\/ActivityFundingRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 1751,
+      "length": 14,
+      "value": "\"total_amount\""
+    },
+    {
+      "filePath": "\/Users\/yaro\/Work\/MCards\/HistorySDK\/Sources\/HistorySDK\/Models\/UpdateTransactionTrackingReportRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 1455,
+      "length": 16,
+      "value": "\"trackingreport\""
+    },
+    {
+      "filePath": "\/Users\/yaro\/Work\/MCards\/HistorySDK\/Sources\/HistorySDK\/Models\/GeneratedReportItem.swift",
+      "kind": "StringLiteral",
+      "offset": 304,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/yaro\/Work\/MCards\/HistorySDK\/Sources\/HistorySDK\/Models\/GeneratedReportItem.swift",
+      "kind": "StringLiteral",
+      "offset": 350,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/yaro\/Work\/MCards\/HistorySDK\/Sources\/HistorySDK\/Models\/GeneratedReportItem.swift",
+      "kind": "StringLiteral",
+      "offset": 373,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/yaro\/Work\/MCards\/HistorySDK\/Sources\/HistorySDK\/Models\/GeneratedReportItem.swift",
+      "kind": "StringLiteral",
+      "offset": 407,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/yaro\/Work\/MCards\/HistorySDK\/Sources\/HistorySDK\/Models\/GeneratedReportItem.swift",
+      "kind": "FloatLiteral",
+      "offset": 441,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/yaro\/Work\/MCards\/HistorySDK\/Sources\/HistorySDK\/Models\/GeneratedReportItem.swift",
+      "kind": "StringLiteral",
+      "offset": 485,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/yaro\/Work\/MCards\/HistorySDK\/Sources\/HistorySDK\/Models\/GeneratedReportItem.swift",
+      "kind": "StringLiteral",
+      "offset": 1031,
+      "length": 14,
+      "value": "\"total_amount\""
+    },
+    {
+      "filePath": "\/Users\/yaro\/Work\/MCards\/HistorySDK\/Sources\/HistorySDK\/Models\/GeneratedReportItem.swift",
+      "kind": "StringLiteral",
+      "offset": 1082,
+      "length": 24,
+      "value": "\"formatted_total_amount\""
+    },
+    {
+      "filePath": "\/Users\/yaro\/Work\/MCards\/HistorySDK\/Sources\/HistorySDK\/Models\/GeneratedReportItem.swift",
+      "kind": "StringLiteral",
+      "offset": 1132,
+      "length": 12,
+      "value": "\"created_at\""
+    },
+    {
+      "filePath": "\/Users\/yaro\/Work\/MCards\/HistorySDK\/Sources\/HistorySDK\/Assets\/Asset.swift",
+      "kind": "StringLiteral",
+      "offset": 269,
+      "length": 21,
+      "value": "\"Receipts\/Background\""
+    },
+    {
+      "filePath": "\/Users\/yaro\/Work\/MCards\/HistorySDK\/Sources\/HistorySDK\/Assets\/Asset.swift",
+      "kind": "StringLiteral",
+      "offset": 344,
+      "length": 15,
+      "value": "\"Receipts\/cash\""
+    },
+    {
+      "filePath": "\/Users\/yaro\/Work\/MCards\/HistorySDK\/Sources\/HistorySDK\/Assets\/Asset.swift",
+      "kind": "StringLiteral",
+      "offset": 415,
+      "length": 17,
+      "value": "\"Receipts\/points\""
+    },
+    {
+      "filePath": "\/Users\/yaro\/Work\/MCards\/HistorySDK\/Sources\/HistorySDK\/Assets\/Asset.swift",
+      "kind": "StringLiteral",
+      "offset": 491,
+      "length": 20,
+      "value": "\"Receipts\/TintColor\""
+    },
+    {
+      "filePath": "\/Users\/yaro\/Work\/MCards\/HistorySDK\/Sources\/HistorySDK\/Assets\/Asset.swift",
+      "kind": "StringLiteral",
+      "offset": 571,
+      "length": 21,
+      "value": "\"Receipts\/TitleColor\""
+    },
+    {
+      "filePath": "\/Users\/yaro\/Work\/MCards\/HistorySDK\/Sources\/HistorySDK\/Assets\/Asset.swift",
+      "kind": "StringLiteral",
+      "offset": 656,
+      "length": 26,
+      "value": "\"Receipts\/account_balance\""
+    },
+    {
+      "filePath": "\/Users\/yaro\/Work\/MCards\/HistorySDK\/Sources\/HistorySDK\/Assets\/Asset.swift",
+      "kind": "StringLiteral",
+      "offset": 745,
+      "length": 25,
+      "value": "\"Receipts\/arrow_downward\""
+    },
+    {
+      "filePath": "\/Users\/yaro\/Work\/MCards\/HistorySDK\/Sources\/HistorySDK\/Assets\/Asset.swift",
+      "kind": "StringLiteral",
+      "offset": 831,
+      "length": 23,
+      "value": "\"Receipts\/arrow_upward\""
+    },
+    {
+      "filePath": "\/Users\/yaro\/Work\/MCards\/HistorySDK\/Sources\/HistorySDK\/Assets\/Asset.swift",
+      "kind": "StringLiteral",
+      "offset": 909,
+      "length": 16,
+      "value": "\"Receipts\/block\""
+    },
+    {
+      "filePath": "\/Users\/yaro\/Work\/MCards\/HistorySDK\/Sources\/HistorySDK\/Assets\/Asset.swift",
+      "kind": "StringLiteral",
+      "offset": 987,
+      "length": 24,
+      "value": "\"Receipts\/card_giftcard\""
+    },
+    {
+      "filePath": "\/Users\/yaro\/Work\/MCards\/HistorySDK\/Sources\/HistorySDK\/Assets\/Asset.swift",
+      "kind": "StringLiteral",
+      "offset": 1071,
+      "length": 22,
+      "value": "\"Receipts\/credit_card\""
+    },
+    {
+      "filePath": "\/Users\/yaro\/Work\/MCards\/HistorySDK\/Sources\/HistorySDK\/Assets\/Asset.swift",
+      "kind": "StringLiteral",
+      "offset": 1147,
+      "length": 15,
+      "value": "\"Receipts\/done\""
+    },
+    {
+      "filePath": "\/Users\/yaro\/Work\/MCards\/HistorySDK\/Sources\/HistorySDK\/Assets\/Asset.swift",
+      "kind": "StringLiteral",
+      "offset": 1216,
+      "length": 15,
+      "value": "\"Receipts\/info\""
+    },
+    {
+      "filePath": "\/Users\/yaro\/Work\/MCards\/HistorySDK\/Sources\/HistorySDK\/Assets\/Asset.swift",
+      "kind": "StringLiteral",
+      "offset": 1299,
+      "length": 30,
+      "value": "\"Receipts\/receipt-placeholder\""
+    },
+    {
+      "filePath": "\/Users\/yaro\/Work\/MCards\/HistorySDK\/Sources\/HistorySDK\/Assets\/Asset.swift",
+      "kind": "StringLiteral",
+      "offset": 1383,
+      "length": 15,
+      "value": "\"Receipts\/undo\""
+    },
+    {
+      "filePath": "\/Users\/yaro\/Work\/MCards\/HistorySDK\/Sources\/HistorySDK\/Assets\/Asset.swift",
+      "kind": "StringLiteral",
+      "offset": 3820,
+      "length": 43,
+      "value": "\"Unable to load color asset named \""
+    },
+    {
+      "filePath": "\/Users\/yaro\/Work\/MCards\/HistorySDK\/Sources\/HistorySDK\/Assets\/Asset.swift",
+      "kind": "StringLiteral",
+      "offset": 3861,
+      "length": 1,
+      "value": "\".\""
+    },
+    {
+      "filePath": "\/Users\/yaro\/Work\/MCards\/HistorySDK\/Sources\/HistorySDK\/Models\/TransactionMetadata.swift",
+      "kind": "StringLiteral",
+      "offset": 2513,
+      "length": 12,
+      "value": "\"tax_amount\""
+    },
+    {
+      "filePath": "\/Users\/yaro\/Work\/MCards\/HistorySDK\/Sources\/HistorySDK\/Models\/TransactionMetadata.swift",
+      "kind": "StringLiteral",
+      "offset": 2560,
+      "length": 22,
+      "value": "\"formatted_tax_amount\""
+    },
+    {
+      "filePath": "\/Users\/yaro\/Work\/MCards\/HistorySDK\/Sources\/HistorySDK\/Models\/TransactionMetadata.swift",
+      "kind": "StringLiteral",
+      "offset": 2608,
+      "length": 12,
+      "value": "\"tip_amount\""
+    },
+    {
+      "filePath": "\/Users\/yaro\/Work\/MCards\/HistorySDK\/Sources\/HistorySDK\/Models\/TransactionMetadata.swift",
+      "kind": "StringLiteral",
+      "offset": 2655,
+      "length": 22,
+      "value": "\"formatted_tip_amount\""
+    },
+    {
+      "filePath": "\/Users\/yaro\/Work\/MCards\/HistorySDK\/Sources\/HistorySDK\/Models\/TransactionMetadata.swift",
+      "kind": "StringLiteral",
+      "offset": 2721,
+      "length": 11,
+      "value": "\"image_url\""
+    },
+    {
+      "filePath": "\/Users\/yaro\/Work\/MCards\/HistorySDK\/Sources\/HistorySDK\/Models\/Item.swift",
+      "kind": "StringLiteral",
+      "offset": 303,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/yaro\/Work\/MCards\/HistorySDK\/Sources\/HistorySDK\/Models\/Item.swift",
+      "kind": "StringLiteral",
+      "offset": 377,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/yaro\/Work\/MCards\/HistorySDK\/Sources\/HistorySDK\/Models\/Item.swift",
+      "kind": "StringLiteral",
+      "offset": 1780,
+      "length": 14,
+      "value": "\"custom_style\""
+    },
+    {
+      "filePath": "\/Users\/yaro\/Work\/MCards\/HistorySDK\/Sources\/HistorySDK\/Models\/Item.swift",
+      "kind": "StringLiteral",
+      "offset": 1964,
+      "length": 9,
+      "value": "\"one-col\""
+    },
+    {
+      "filePath": "\/Users\/yaro\/Work\/MCards\/HistorySDK\/Sources\/HistorySDK\/Models\/Item.swift",
+      "kind": "StringLiteral",
+      "offset": 1996,
+      "length": 9,
+      "value": "\"two-col\""
+    },
+    {
+      "filePath": "\/Users\/yaro\/Work\/MCards\/HistorySDK\/Sources\/HistorySDK\/Models\/TransactionMetadataRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 1138,
+      "length": 12,
+      "value": "\"tax_amount\""
+    },
+    {
+      "filePath": "\/Users\/yaro\/Work\/MCards\/HistorySDK\/Sources\/HistorySDK\/Models\/TransactionMetadataRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 1176,
+      "length": 12,
+      "value": "\"tip_amount\""
+    },
+    {
+      "filePath": "\/Users\/yaro\/Work\/MCards\/HistorySDK\/Sources\/HistorySDK\/Models\/ActionCell.swift",
+      "kind": "Array",
+      "offset": 179,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/yaro\/Work\/MCards\/HistorySDK\/Sources\/HistorySDK\/Models\/ActionCell.swift",
+      "kind": "StringLiteral",
+      "offset": 202,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/yaro\/Work\/MCards\/HistorySDK\/Sources\/HistorySDK\/Models\/ActionCell.swift",
+      "kind": "StringLiteral",
+      "offset": 222,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/yaro\/Work\/MCards\/HistorySDK\/Sources\/HistorySDK\/Models\/ActionCell.swift",
+      "kind": "StringLiteral",
+      "offset": 518,
+      "length": 12,
+      "value": "\"created_at\""
+    },
+    {
+      "filePath": "\/Users\/yaro\/Work\/MCards\/HistorySDK\/Sources\/HistorySDK\/Models\/TransactionFundingSource.swift",
+      "kind": "StringLiteral",
+      "offset": 2329,
+      "length": 14,
+      "value": "\"total_amount\""
+    },
+    {
+      "filePath": "\/Users\/yaro\/Work\/MCards\/HistorySDK\/Sources\/HistorySDK\/Models\/TransactionFundingSource.swift",
+      "kind": "StringLiteral",
+      "offset": 2380,
+      "length": 24,
+      "value": "\"formatted_total_amount\""
+    },
+    {
+      "filePath": "\/Users\/yaro\/Work\/MCards\/HistorySDK\/Sources\/HistorySDK\/Models\/ActivitiesResponse.swift",
+      "kind": "IntegerLiteral",
+      "offset": 267,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/yaro\/Work\/MCards\/HistorySDK\/Sources\/HistorySDK\/Models\/ActivitiesResponse.swift",
+      "kind": "IntegerLiteral",
+      "offset": 282,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/yaro\/Work\/MCards\/HistorySDK\/Sources\/HistorySDK\/Models\/ActivitiesResponse.swift",
+      "kind": "IntegerLiteral",
+      "offset": 300,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/yaro\/Work\/MCards\/HistorySDK\/Sources\/HistorySDK\/Models\/ActivitiesResponse.swift",
+      "kind": "IntegerLiteral",
+      "offset": 321,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/yaro\/Work\/MCards\/HistorySDK\/Sources\/HistorySDK\/Models\/ActivitiesResponse.swift",
+      "kind": "IntegerLiteral",
+      "offset": 337,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/yaro\/Work\/MCards\/HistorySDK\/Sources\/HistorySDK\/Models\/ActivitiesResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 1825,
+      "length": 10,
+      "value": "\"per_page\""
+    },
+    {
+      "filePath": "\/Users\/yaro\/Work\/MCards\/HistorySDK\/Sources\/HistorySDK\/Models\/ActivitiesResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 1862,
+      "length": 13,
+      "value": "\"total_count\""
+    },
+    {
+      "filePath": "\/Users\/yaro\/Work\/MCards\/HistorySDK\/Sources\/HistorySDK\/Models\/GeneratedReport.swift",
+      "kind": "StringLiteral",
+      "offset": 285,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/yaro\/Work\/MCards\/HistorySDK\/Sources\/HistorySDK\/Models\/GeneratedReport.swift",
+      "kind": "StringLiteral",
+      "offset": 304,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/yaro\/Work\/MCards\/HistorySDK\/Sources\/HistorySDK\/Models\/GeneratedReport.swift",
+      "kind": "StringLiteral",
+      "offset": 324,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/yaro\/Work\/MCards\/HistorySDK\/Sources\/HistorySDK\/Models\/GeneratedReport.swift",
+      "kind": "IntegerLiteral",
+      "offset": 353,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/yaro\/Work\/MCards\/HistorySDK\/Sources\/HistorySDK\/Models\/GeneratedReport.swift",
+      "kind": "StringLiteral",
+      "offset": 374,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/yaro\/Work\/MCards\/HistorySDK\/Sources\/HistorySDK\/Models\/GeneratedReport.swift",
+      "kind": "StringLiteral",
+      "offset": 396,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/yaro\/Work\/MCards\/HistorySDK\/Sources\/HistorySDK\/Models\/GeneratedReport.swift",
+      "kind": "StringLiteral",
+      "offset": 427,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/yaro\/Work\/MCards\/HistorySDK\/Sources\/HistorySDK\/Models\/GeneratedReport.swift",
+      "kind": "StringLiteral",
+      "offset": 883,
+      "length": 12,
+      "value": "\"item_count\""
+    },
+    {
+      "filePath": "\/Users\/yaro\/Work\/MCards\/HistorySDK\/Sources\/HistorySDK\/Models\/GeneratedReport.swift",
+      "kind": "StringLiteral",
+      "offset": 928,
+      "length": 19,
+      "value": "\"generated_pdf_url\""
+    },
+    {
+      "filePath": "\/Users\/yaro\/Work\/MCards\/HistorySDK\/Sources\/HistorySDK\/Models\/GeneratedReport.swift",
+      "kind": "StringLiteral",
+      "offset": 979,
+      "length": 19,
+      "value": "\"generated_csv_url\""
+    },
+    {
+      "filePath": "\/Users\/yaro\/Work\/MCards\/HistorySDK\/Sources\/HistorySDK\/Models\/GeneratedReport.swift",
+      "kind": "StringLiteral",
+      "offset": 1046,
+      "length": 12,
+      "value": "\"created_at\""
+    }
+  ]
+}

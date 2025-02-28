@@ -1,0 +1,84 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 6.0.3 effective-5.10 (swiftlang-6.0.3.1.10 clang-1600.0.30.1)
+// swift-module-flags: -target arm64-apple-ios14.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name HistorySDK
+import CoreSDK
+import Foundation
+@_exported import HistorySDK
+import Swift
+import SwiftUI
+import UIKit
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+@_hasMissingDesignatedInitializers public class HistoryActivity : Swift.Codable {
+  required public init(from decoder: any Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers public class ActivityFundingRequest : Swift.Codable {
+  required public init(from decoder: any Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers public class UpdateTransactionTrackingReportRequest : Swift.Codable {
+  required public init(from decoder: any Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers public class TransactionTrackingReportItem : Swift.Codable, Swift.Equatable {
+  required public init(from decoder: any Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+  public static func == (lhs: HistorySDK.TransactionTrackingReportItem, rhs: HistorySDK.TransactionTrackingReportItem) -> Swift.Bool
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers public class TransactionMetadata : Swift.Codable {
+  required public init(from decoder: any Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers public class MetadataUploadImageSuccess : Swift.Codable {
+  required public init(from decoder: any Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers public class TransactionMetadataRequest : Swift.Codable {
+  required public init(from decoder: any Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+  @objc deinit
+}
+public protocol HistorySdk {
+  func configure(accessToken: Swift.String, tokenRefreshCallback: any HistorySDK.HSDKTokenRefreshCallback)
+  func configure(accessToken: Swift.String, debugMode: Swift.Bool, tokenRefreshCallback: any HistorySDK.HSDKTokenRefreshCallback, loggingCallback: any CoreSDK.LoggingCallback)
+  func launch(with controller: UIKit.UIViewController)
+  func getPaginatedActivities(cardId: Swift.String, sourceIndex: Swift.Int?, pageSize: Swift.Int?, completion: @escaping ((_ result: Swift.Result<HistorySDK.ActivitiesResponse, any Swift.Error>) -> Swift.Void))
+  func getActivity(cardId: Swift.String, activityId: Swift.String, completion: @escaping ((_ result: Swift.Result<HistorySDK.HistoryActivity, any Swift.Error>) -> Swift.Void))
+  func getActivityFundingSources(cardId: Swift.String, activityId: Swift.String, completion: @escaping ((_ result: Swift.Result<[HistorySDK.TransactionFundingSource], any Swift.Error>) -> Swift.Void))
+  func setActivityFundingSource(cardId: Swift.String, activityId: Swift.String, body: HistorySDK.ActivityFundingRequest, completion: @escaping ((_ result: Swift.Result<HistorySDK.UpdateActivityFundingSource, any Swift.Error>) -> Swift.Void))
+  func getActivityMetadata(cardId: Swift.String, activityId: Swift.String, completion: @escaping ((_ result: Swift.Result<HistorySDK.TransactionMetadata, any Swift.Error>) -> Swift.Void))
+  func addActivityMetadata(cardId: Swift.String, activityId: Swift.String, metadata: HistorySDK.TransactionMetadataRequest, completion: @escaping ((_ result: Swift.Result<HistorySDK.TransactionMetadata, any Swift.Error>) -> Swift.Void))
+  func addActivityMetadataPhoto(cardId: Swift.String, activityId: Swift.String, photoData: Swift.String, completion: @escaping ((_ result: Swift.Result<HistorySDK.MetadataUploadImageSuccess, any Swift.Error>) -> Swift.Void))
+  func logout()
+}
+@_hasMissingDesignatedInitializers public class UpdateActivityFundingSource : Swift.Codable {
+  required public init(from decoder: any Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+  @objc deinit
+}
+public protocol HSDKTokenRefreshCallback {
+  func refreshJWTs(completion: @escaping (CoreSDK.JWTs) -> Swift.Void)
+}
+@_hasMissingDesignatedInitializers public class TransactionFundingSource : Swift.Codable, Swift.Equatable {
+  required public init(from decoder: any Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+  public static func == (lhs: HistorySDK.TransactionFundingSource, rhs: HistorySDK.TransactionFundingSource) -> Swift.Bool
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers public class HistorySdkProvider {
+  public static let shared: any HistorySDK.HistorySdk
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers public class ActivitiesResponse : Swift.Codable {
+  required public init(from decoder: any Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+  @objc deinit
+}
