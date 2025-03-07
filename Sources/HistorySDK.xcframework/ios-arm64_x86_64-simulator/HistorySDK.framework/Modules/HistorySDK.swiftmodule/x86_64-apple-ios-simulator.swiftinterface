@@ -29,6 +29,9 @@ public enum ActivityIcons : Swift.String, Swift.Equatable, Swift.Codable {
   case info
   case block
   case creditCard
+  public var image: UIKit.UIImage? {
+    get
+  }
   public init?(rawValue: Swift.String)
   public typealias RawValue = Swift.String
   public var rawValue: Swift.String {
@@ -48,6 +51,61 @@ public enum ActivityIcons : Swift.String, Swift.Equatable, Swift.Codable {
   public var totalAmount: Swift.Double?
   public var uuid: Swift.String
   @_hasMissingDesignatedInitializers public class Action : Swift.Codable {
+    public enum ActionType : Swift.String, Swift.Codable {
+      case cardTransaction
+      case balanceTransfer
+      case userTransaction
+      public init?(rawValue: Swift.String)
+      public typealias RawValue = Swift.String
+      public var rawValue: Swift.String {
+        get
+      }
+    }
+    public var cells: [HistorySDK.ActionCell]
+    public var metadata: HistorySDK.HistoryActivity.Action.Metadata?
+    public var type: HistorySDK.HistoryActivity.Action.ActionType?
+    @_hasMissingDesignatedInitializers public class Location : Swift.Codable {
+      public var title: Swift.String
+      public var logo: Swift.String
+      public var address: Swift.String
+      public enum CodingKeys : Swift.String, Swift.CodingKey, Swift.CaseIterable {
+        case title
+        case logo
+        case address
+        public init?(rawValue: Swift.String)
+        public init?(stringValue: Swift.String)
+        public init?(intValue: Swift.Int)
+        public typealias AllCases = [HistorySDK.HistoryActivity.Action.Location.CodingKeys]
+        public typealias RawValue = Swift.String
+        nonisolated public static var allCases: [HistorySDK.HistoryActivity.Action.Location.CodingKeys] {
+          get
+        }
+        public var intValue: Swift.Int? {
+          get
+        }
+        public var rawValue: Swift.String {
+          get
+        }
+        public var stringValue: Swift.String {
+          get
+        }
+      }
+      required public init(from decoder: any Swift.Decoder) throws
+      public func encode(to encoder: any Swift.Encoder) throws
+      @objc deinit
+    }
+    @_hasMissingDesignatedInitializers public class Metadata : Swift.Codable {
+      public var points: Swift.String
+      public var isSettled: Swift.Bool
+      public var isReallocatable: Swift.Bool
+      public var transactionTracking: Swift.Bool
+      public var settlementDate: Foundation.Date
+      public var location: HistorySDK.HistoryActivity.Action.Location
+      public var userDetailMetadata: HistorySDK.TransactionMetadata?
+      required public init(from decoder: any Swift.Decoder) throws
+      public func encode(to encoder: any Swift.Encoder) throws
+      @objc deinit
+    }
     required public init(from decoder: any Swift.Decoder) throws
     public func encode(to encoder: any Swift.Encoder) throws
     @objc deinit
@@ -56,16 +114,18 @@ public enum ActivityIcons : Swift.String, Swift.Equatable, Swift.Codable {
   public func encode(to encoder: any Swift.Encoder) throws
   @objc deinit
 }
-@_hasMissingDesignatedInitializers public class ActivityFundingRequest : Swift.Codable {
+public class ActivityFundingRequest : Swift.Codable {
   public var funding: [HistorySDK.ActivityFunding]
+  public init(funding: [HistorySDK.ActivityFunding])
   required public init(from decoder: any Swift.Decoder) throws
   public func encode(to encoder: any Swift.Encoder) throws
   @objc deinit
 }
-@_hasMissingDesignatedInitializers public class ActivityFunding : Swift.Codable {
+public class ActivityFunding : Swift.Codable {
   public var uuid: Swift.String?
   public var totalAmount: Swift.Double?
   public var type: Swift.String?
+  public init(uuid: Swift.String, totalAmount: Swift.Double? = nil, type: Swift.String)
   required public init(from decoder: any Swift.Decoder) throws
   public func encode(to encoder: any Swift.Encoder) throws
   @objc deinit
@@ -203,10 +263,11 @@ public struct ReportRequest : Swift.Encodable {
   }
   @objc deinit
 }
-@_hasMissingDesignatedInitializers public class TransactionMetadataRequest : Swift.Codable {
+public class TransactionMetadataRequest : Swift.Codable {
   public var taxAmount: Swift.Double?
   public var tipAmount: Swift.Double?
   public var notes: Swift.String?
+  public init(taxAmount: Swift.Double? = nil, tipAmount: Swift.Double? = nil, notes: Swift.String? = nil)
   required public init(from decoder: any Swift.Decoder) throws
   public func encode(to encoder: any Swift.Encoder) throws
   @objc deinit
@@ -294,6 +355,12 @@ public protocol HSDKTokenRefreshCallback {
 }
 extension HistorySDK.ActivityIcons : Swift.Hashable {}
 extension HistorySDK.ActivityIcons : Swift.RawRepresentable {}
+extension HistorySDK.HistoryActivity.Action.ActionType : Swift.Equatable {}
+extension HistorySDK.HistoryActivity.Action.ActionType : Swift.Hashable {}
+extension HistorySDK.HistoryActivity.Action.ActionType : Swift.RawRepresentable {}
+extension HistorySDK.HistoryActivity.Action.Location.CodingKeys : Swift.Equatable {}
+extension HistorySDK.HistoryActivity.Action.Location.CodingKeys : Swift.Hashable {}
+extension HistorySDK.HistoryActivity.Action.Location.CodingKeys : Swift.RawRepresentable {}
 extension HistorySDK.TrackingReport.Status : Swift.Hashable {}
 extension HistorySDK.TrackingReport.Status : Swift.RawRepresentable {}
 extension HistorySDK.TrackingReport.Schedule : Swift.Hashable {}
