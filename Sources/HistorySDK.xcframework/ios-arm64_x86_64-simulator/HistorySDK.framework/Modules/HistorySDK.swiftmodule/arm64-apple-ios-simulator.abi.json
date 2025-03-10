@@ -898,6 +898,62 @@
             "moduleName": "HistorySDK"
           },
           {
+            "kind": "Var",
+            "name": "image",
+            "printedName": "image",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIImage?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIImage",
+                    "printedName": "UIKit.UIImage",
+                    "usr": "c:objc(cs)UIImage"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10HistorySDK13ActivityIconsO5imageSo7UIImageCSgvp",
+            "mangledName": "$s10HistorySDK13ActivityIconsO5imageSo7UIImageCSgvp",
+            "moduleName": "HistorySDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIImage?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIImage",
+                        "printedName": "UIKit.UIImage",
+                        "usr": "c:objc(cs)UIImage"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10HistorySDK13ActivityIconsO5imageSo7UIImageCSgvg",
+                "mangledName": "$s10HistorySDK13ActivityIconsO5imageSo7UIImageCSgvg",
+                "moduleName": "HistorySDK",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
             "kind": "Constructor",
             "name": "init",
             "printedName": "init(rawValue:)",
@@ -2116,6 +2172,2204 @@
             "printedName": "Action",
             "children": [
               {
+                "kind": "TypeDecl",
+                "name": "ActionType",
+                "printedName": "ActionType",
+                "children": [
+                  {
+                    "kind": "Var",
+                    "name": "cardTransaction",
+                    "printedName": "cardTransaction",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(HistorySDK.HistoryActivity.Action.ActionType.Type) -> HistorySDK.HistoryActivity.Action.ActionType",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ActionType",
+                            "printedName": "HistorySDK.HistoryActivity.Action.ActionType",
+                            "usr": "s:10HistorySDK0A8ActivityC6ActionC0D4TypeO"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Metatype",
+                            "printedName": "HistorySDK.HistoryActivity.Action.ActionType.Type",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "ActionType",
+                                "printedName": "HistorySDK.HistoryActivity.Action.ActionType",
+                                "usr": "s:10HistorySDK0A8ActivityC6ActionC0D4TypeO"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ],
+                    "declKind": "EnumElement",
+                    "usr": "s:10HistorySDK0A8ActivityC6ActionC0D4TypeO15cardTransactionyA2GmF",
+                    "mangledName": "$s10HistorySDK0A8ActivityC6ActionC0D4TypeO15cardTransactionyA2GmF",
+                    "moduleName": "HistorySDK"
+                  },
+                  {
+                    "kind": "Var",
+                    "name": "balanceTransfer",
+                    "printedName": "balanceTransfer",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(HistorySDK.HistoryActivity.Action.ActionType.Type) -> HistorySDK.HistoryActivity.Action.ActionType",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ActionType",
+                            "printedName": "HistorySDK.HistoryActivity.Action.ActionType",
+                            "usr": "s:10HistorySDK0A8ActivityC6ActionC0D4TypeO"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Metatype",
+                            "printedName": "HistorySDK.HistoryActivity.Action.ActionType.Type",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "ActionType",
+                                "printedName": "HistorySDK.HistoryActivity.Action.ActionType",
+                                "usr": "s:10HistorySDK0A8ActivityC6ActionC0D4TypeO"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ],
+                    "declKind": "EnumElement",
+                    "usr": "s:10HistorySDK0A8ActivityC6ActionC0D4TypeO15balanceTransferyA2GmF",
+                    "mangledName": "$s10HistorySDK0A8ActivityC6ActionC0D4TypeO15balanceTransferyA2GmF",
+                    "moduleName": "HistorySDK"
+                  },
+                  {
+                    "kind": "Var",
+                    "name": "userTransaction",
+                    "printedName": "userTransaction",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(HistorySDK.HistoryActivity.Action.ActionType.Type) -> HistorySDK.HistoryActivity.Action.ActionType",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ActionType",
+                            "printedName": "HistorySDK.HistoryActivity.Action.ActionType",
+                            "usr": "s:10HistorySDK0A8ActivityC6ActionC0D4TypeO"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Metatype",
+                            "printedName": "HistorySDK.HistoryActivity.Action.ActionType.Type",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "ActionType",
+                                "printedName": "HistorySDK.HistoryActivity.Action.ActionType",
+                                "usr": "s:10HistorySDK0A8ActivityC6ActionC0D4TypeO"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ],
+                    "declKind": "EnumElement",
+                    "usr": "s:10HistorySDK0A8ActivityC6ActionC0D4TypeO15userTransactionyA2GmF",
+                    "mangledName": "$s10HistorySDK0A8ActivityC6ActionC0D4TypeO15userTransactionyA2GmF",
+                    "moduleName": "HistorySDK"
+                  },
+                  {
+                    "kind": "Constructor",
+                    "name": "init",
+                    "printedName": "init(rawValue:)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "HistorySDK.HistoryActivity.Action.ActionType?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ActionType",
+                            "printedName": "HistorySDK.HistoryActivity.Action.ActionType",
+                            "usr": "s:10HistorySDK0A8ActivityC6ActionC0D4TypeO"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Constructor",
+                    "usr": "s:10HistorySDK0A8ActivityC6ActionC0D4TypeO8rawValueAGSgSS_tcfc",
+                    "mangledName": "$s10HistorySDK0A8ActivityC6ActionC0D4TypeO8rawValueAGSgSS_tcfc",
+                    "moduleName": "HistorySDK",
+                    "implicit": true,
+                    "init_kind": "Designated"
+                  },
+                  {
+                    "kind": "Var",
+                    "name": "rawValue",
+                    "printedName": "rawValue",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Var",
+                    "usr": "s:10HistorySDK0A8ActivityC6ActionC0D4TypeO8rawValueSSvp",
+                    "mangledName": "$s10HistorySDK0A8ActivityC6ActionC0D4TypeO8rawValueSSvp",
+                    "moduleName": "HistorySDK",
+                    "implicit": true,
+                    "accessors": [
+                      {
+                        "kind": "Accessor",
+                        "name": "Get",
+                        "printedName": "Get()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "declKind": "Accessor",
+                        "usr": "s:10HistorySDK0A8ActivityC6ActionC0D4TypeO8rawValueSSvg",
+                        "mangledName": "$s10HistorySDK0A8ActivityC6ActionC0D4TypeO8rawValueSSvg",
+                        "moduleName": "HistorySDK",
+                        "implicit": true,
+                        "accessorKind": "get"
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "Enum",
+                "usr": "s:10HistorySDK0A8ActivityC6ActionC0D4TypeO",
+                "mangledName": "$s10HistorySDK0A8ActivityC6ActionC0D4TypeO",
+                "moduleName": "HistorySDK",
+                "declAttributes": [
+                  "AccessControl"
+                ],
+                "enumRawTypeName": "String",
+                "conformances": [
+                  {
+                    "kind": "Conformance",
+                    "name": "Copyable",
+                    "printedName": "Copyable",
+                    "usr": "s:s8CopyableP",
+                    "mangledName": "$ss8CopyableP"
+                  },
+                  {
+                    "kind": "Conformance",
+                    "name": "Escapable",
+                    "printedName": "Escapable",
+                    "usr": "s:s9EscapableP",
+                    "mangledName": "$ss9EscapableP"
+                  },
+                  {
+                    "kind": "Conformance",
+                    "name": "Equatable",
+                    "printedName": "Equatable",
+                    "usr": "s:SQ",
+                    "mangledName": "$sSQ"
+                  },
+                  {
+                    "kind": "Conformance",
+                    "name": "Hashable",
+                    "printedName": "Hashable",
+                    "usr": "s:SH",
+                    "mangledName": "$sSH"
+                  },
+                  {
+                    "kind": "Conformance",
+                    "name": "RawRepresentable",
+                    "printedName": "RawRepresentable",
+                    "children": [
+                      {
+                        "kind": "TypeWitness",
+                        "name": "RawValue",
+                        "printedName": "RawValue",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:SY",
+                    "mangledName": "$sSY"
+                  },
+                  {
+                    "kind": "Conformance",
+                    "name": "Decodable",
+                    "printedName": "Decodable",
+                    "usr": "s:Se",
+                    "mangledName": "$sSe"
+                  },
+                  {
+                    "kind": "Conformance",
+                    "name": "Encodable",
+                    "printedName": "Encodable",
+                    "usr": "s:SE",
+                    "mangledName": "$sSE"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "cells",
+                "printedName": "cells",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[HistorySDK.ActionCell]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ActionCell",
+                        "printedName": "HistorySDK.ActionCell",
+                        "usr": "s:10HistorySDK10ActionCellC"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:10HistorySDK0A8ActivityC6ActionC5cellsSayAA0D4CellCGvp",
+                "mangledName": "$s10HistorySDK0A8ActivityC6ActionC5cellsSayAA0D4CellCGvp",
+                "moduleName": "HistorySDK",
+                "declAttributes": [
+                  "HasStorage",
+                  "AccessControl"
+                ],
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[HistorySDK.ActionCell]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ActionCell",
+                            "printedName": "HistorySDK.ActionCell",
+                            "usr": "s:10HistorySDK10ActionCellC"
+                          }
+                        ],
+                        "usr": "s:Sa"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:10HistorySDK0A8ActivityC6ActionC5cellsSayAA0D4CellCGvg",
+                    "mangledName": "$s10HistorySDK0A8ActivityC6ActionC5cellsSayAA0D4CellCGvg",
+                    "moduleName": "HistorySDK",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Set",
+                    "printedName": "Set()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[HistorySDK.ActionCell]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ActionCell",
+                            "printedName": "HistorySDK.ActionCell",
+                            "usr": "s:10HistorySDK10ActionCellC"
+                          }
+                        ],
+                        "usr": "s:Sa"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:10HistorySDK0A8ActivityC6ActionC5cellsSayAA0D4CellCGvs",
+                    "mangledName": "$s10HistorySDK0A8ActivityC6ActionC5cellsSayAA0D4CellCGvs",
+                    "moduleName": "HistorySDK",
+                    "implicit": true,
+                    "accessorKind": "set"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Modify",
+                    "printedName": "Modify()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:10HistorySDK0A8ActivityC6ActionC5cellsSayAA0D4CellCGvM",
+                    "mangledName": "$s10HistorySDK0A8ActivityC6ActionC5cellsSayAA0D4CellCGvM",
+                    "moduleName": "HistorySDK",
+                    "implicit": true,
+                    "accessorKind": "_modify"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "metadata",
+                "printedName": "metadata",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "HistorySDK.HistoryActivity.Action.Metadata?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metadata",
+                        "printedName": "HistorySDK.HistoryActivity.Action.Metadata",
+                        "usr": "s:10HistorySDK0A8ActivityC6ActionC8MetadataC"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:10HistorySDK0A8ActivityC6ActionC8metadataAE8MetadataCSgvp",
+                "mangledName": "$s10HistorySDK0A8ActivityC6ActionC8metadataAE8MetadataCSgvp",
+                "moduleName": "HistorySDK",
+                "declAttributes": [
+                  "HasInitialValue",
+                  "HasStorage",
+                  "AccessControl"
+                ],
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "HistorySDK.HistoryActivity.Action.Metadata?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Metadata",
+                            "printedName": "HistorySDK.HistoryActivity.Action.Metadata",
+                            "usr": "s:10HistorySDK0A8ActivityC6ActionC8MetadataC"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:10HistorySDK0A8ActivityC6ActionC8metadataAE8MetadataCSgvg",
+                    "mangledName": "$s10HistorySDK0A8ActivityC6ActionC8metadataAE8MetadataCSgvg",
+                    "moduleName": "HistorySDK",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Set",
+                    "printedName": "Set()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "HistorySDK.HistoryActivity.Action.Metadata?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Metadata",
+                            "printedName": "HistorySDK.HistoryActivity.Action.Metadata",
+                            "usr": "s:10HistorySDK0A8ActivityC6ActionC8MetadataC"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:10HistorySDK0A8ActivityC6ActionC8metadataAE8MetadataCSgvs",
+                    "mangledName": "$s10HistorySDK0A8ActivityC6ActionC8metadataAE8MetadataCSgvs",
+                    "moduleName": "HistorySDK",
+                    "implicit": true,
+                    "accessorKind": "set"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Modify",
+                    "printedName": "Modify()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:10HistorySDK0A8ActivityC6ActionC8metadataAE8MetadataCSgvM",
+                    "mangledName": "$s10HistorySDK0A8ActivityC6ActionC8metadataAE8MetadataCSgvM",
+                    "moduleName": "HistorySDK",
+                    "implicit": true,
+                    "accessorKind": "_modify"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "type",
+                "printedName": "type",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "HistorySDK.HistoryActivity.Action.ActionType?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ActionType",
+                        "printedName": "HistorySDK.HistoryActivity.Action.ActionType",
+                        "usr": "s:10HistorySDK0A8ActivityC6ActionC0D4TypeO"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:10HistorySDK0A8ActivityC6ActionC4typeAE0D4TypeOSgvp",
+                "mangledName": "$s10HistorySDK0A8ActivityC6ActionC4typeAE0D4TypeOSgvp",
+                "moduleName": "HistorySDK",
+                "declAttributes": [
+                  "HasInitialValue",
+                  "HasStorage",
+                  "AccessControl"
+                ],
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "HistorySDK.HistoryActivity.Action.ActionType?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ActionType",
+                            "printedName": "HistorySDK.HistoryActivity.Action.ActionType",
+                            "usr": "s:10HistorySDK0A8ActivityC6ActionC0D4TypeO"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:10HistorySDK0A8ActivityC6ActionC4typeAE0D4TypeOSgvg",
+                    "mangledName": "$s10HistorySDK0A8ActivityC6ActionC4typeAE0D4TypeOSgvg",
+                    "moduleName": "HistorySDK",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Set",
+                    "printedName": "Set()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "HistorySDK.HistoryActivity.Action.ActionType?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ActionType",
+                            "printedName": "HistorySDK.HistoryActivity.Action.ActionType",
+                            "usr": "s:10HistorySDK0A8ActivityC6ActionC0D4TypeO"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:10HistorySDK0A8ActivityC6ActionC4typeAE0D4TypeOSgvs",
+                    "mangledName": "$s10HistorySDK0A8ActivityC6ActionC4typeAE0D4TypeOSgvs",
+                    "moduleName": "HistorySDK",
+                    "implicit": true,
+                    "accessorKind": "set"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Modify",
+                    "printedName": "Modify()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:10HistorySDK0A8ActivityC6ActionC4typeAE0D4TypeOSgvM",
+                    "mangledName": "$s10HistorySDK0A8ActivityC6ActionC4typeAE0D4TypeOSgvM",
+                    "moduleName": "HistorySDK",
+                    "implicit": true,
+                    "accessorKind": "_modify"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeDecl",
+                "name": "Location",
+                "printedName": "Location",
+                "children": [
+                  {
+                    "kind": "Var",
+                    "name": "title",
+                    "printedName": "title",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Var",
+                    "usr": "s:10HistorySDK0A8ActivityC6ActionC8LocationC5titleSSvp",
+                    "mangledName": "$s10HistorySDK0A8ActivityC6ActionC8LocationC5titleSSvp",
+                    "moduleName": "HistorySDK",
+                    "declAttributes": [
+                      "HasStorage",
+                      "AccessControl"
+                    ],
+                    "hasStorage": true,
+                    "accessors": [
+                      {
+                        "kind": "Accessor",
+                        "name": "Get",
+                        "printedName": "Get()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "declKind": "Accessor",
+                        "usr": "s:10HistorySDK0A8ActivityC6ActionC8LocationC5titleSSvg",
+                        "mangledName": "$s10HistorySDK0A8ActivityC6ActionC8LocationC5titleSSvg",
+                        "moduleName": "HistorySDK",
+                        "implicit": true,
+                        "accessorKind": "get"
+                      },
+                      {
+                        "kind": "Accessor",
+                        "name": "Set",
+                        "printedName": "Set()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "declKind": "Accessor",
+                        "usr": "s:10HistorySDK0A8ActivityC6ActionC8LocationC5titleSSvs",
+                        "mangledName": "$s10HistorySDK0A8ActivityC6ActionC8LocationC5titleSSvs",
+                        "moduleName": "HistorySDK",
+                        "implicit": true,
+                        "accessorKind": "set"
+                      },
+                      {
+                        "kind": "Accessor",
+                        "name": "Modify",
+                        "printedName": "Modify()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          }
+                        ],
+                        "declKind": "Accessor",
+                        "usr": "s:10HistorySDK0A8ActivityC6ActionC8LocationC5titleSSvM",
+                        "mangledName": "$s10HistorySDK0A8ActivityC6ActionC8LocationC5titleSSvM",
+                        "moduleName": "HistorySDK",
+                        "implicit": true,
+                        "accessorKind": "_modify"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "Var",
+                    "name": "logo",
+                    "printedName": "logo",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Var",
+                    "usr": "s:10HistorySDK0A8ActivityC6ActionC8LocationC4logoSSvp",
+                    "mangledName": "$s10HistorySDK0A8ActivityC6ActionC8LocationC4logoSSvp",
+                    "moduleName": "HistorySDK",
+                    "declAttributes": [
+                      "HasStorage",
+                      "AccessControl"
+                    ],
+                    "hasStorage": true,
+                    "accessors": [
+                      {
+                        "kind": "Accessor",
+                        "name": "Get",
+                        "printedName": "Get()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "declKind": "Accessor",
+                        "usr": "s:10HistorySDK0A8ActivityC6ActionC8LocationC4logoSSvg",
+                        "mangledName": "$s10HistorySDK0A8ActivityC6ActionC8LocationC4logoSSvg",
+                        "moduleName": "HistorySDK",
+                        "implicit": true,
+                        "accessorKind": "get"
+                      },
+                      {
+                        "kind": "Accessor",
+                        "name": "Set",
+                        "printedName": "Set()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "declKind": "Accessor",
+                        "usr": "s:10HistorySDK0A8ActivityC6ActionC8LocationC4logoSSvs",
+                        "mangledName": "$s10HistorySDK0A8ActivityC6ActionC8LocationC4logoSSvs",
+                        "moduleName": "HistorySDK",
+                        "implicit": true,
+                        "accessorKind": "set"
+                      },
+                      {
+                        "kind": "Accessor",
+                        "name": "Modify",
+                        "printedName": "Modify()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          }
+                        ],
+                        "declKind": "Accessor",
+                        "usr": "s:10HistorySDK0A8ActivityC6ActionC8LocationC4logoSSvM",
+                        "mangledName": "$s10HistorySDK0A8ActivityC6ActionC8LocationC4logoSSvM",
+                        "moduleName": "HistorySDK",
+                        "implicit": true,
+                        "accessorKind": "_modify"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "Var",
+                    "name": "address",
+                    "printedName": "address",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Var",
+                    "usr": "s:10HistorySDK0A8ActivityC6ActionC8LocationC7addressSSvp",
+                    "mangledName": "$s10HistorySDK0A8ActivityC6ActionC8LocationC7addressSSvp",
+                    "moduleName": "HistorySDK",
+                    "declAttributes": [
+                      "HasStorage",
+                      "AccessControl"
+                    ],
+                    "hasStorage": true,
+                    "accessors": [
+                      {
+                        "kind": "Accessor",
+                        "name": "Get",
+                        "printedName": "Get()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "declKind": "Accessor",
+                        "usr": "s:10HistorySDK0A8ActivityC6ActionC8LocationC7addressSSvg",
+                        "mangledName": "$s10HistorySDK0A8ActivityC6ActionC8LocationC7addressSSvg",
+                        "moduleName": "HistorySDK",
+                        "implicit": true,
+                        "accessorKind": "get"
+                      },
+                      {
+                        "kind": "Accessor",
+                        "name": "Set",
+                        "printedName": "Set()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "declKind": "Accessor",
+                        "usr": "s:10HistorySDK0A8ActivityC6ActionC8LocationC7addressSSvs",
+                        "mangledName": "$s10HistorySDK0A8ActivityC6ActionC8LocationC7addressSSvs",
+                        "moduleName": "HistorySDK",
+                        "implicit": true,
+                        "accessorKind": "set"
+                      },
+                      {
+                        "kind": "Accessor",
+                        "name": "Modify",
+                        "printedName": "Modify()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          }
+                        ],
+                        "declKind": "Accessor",
+                        "usr": "s:10HistorySDK0A8ActivityC6ActionC8LocationC7addressSSvM",
+                        "mangledName": "$s10HistorySDK0A8ActivityC6ActionC8LocationC7addressSSvM",
+                        "moduleName": "HistorySDK",
+                        "implicit": true,
+                        "accessorKind": "_modify"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeDecl",
+                    "name": "CodingKeys",
+                    "printedName": "CodingKeys",
+                    "children": [
+                      {
+                        "kind": "Var",
+                        "name": "title",
+                        "printedName": "title",
+                        "children": [
+                          {
+                            "kind": "TypeFunc",
+                            "name": "Function",
+                            "printedName": "(HistorySDK.HistoryActivity.Action.Location.CodingKeys.Type) -> HistorySDK.HistoryActivity.Action.Location.CodingKeys",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "CodingKeys",
+                                "printedName": "HistorySDK.HistoryActivity.Action.Location.CodingKeys",
+                                "usr": "s:10HistorySDK0A8ActivityC6ActionC8LocationC10CodingKeysO"
+                              },
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Metatype",
+                                "printedName": "HistorySDK.HistoryActivity.Action.Location.CodingKeys.Type",
+                                "children": [
+                                  {
+                                    "kind": "TypeNominal",
+                                    "name": "CodingKeys",
+                                    "printedName": "HistorySDK.HistoryActivity.Action.Location.CodingKeys",
+                                    "usr": "s:10HistorySDK0A8ActivityC6ActionC8LocationC10CodingKeysO"
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ],
+                        "declKind": "EnumElement",
+                        "usr": "s:10HistorySDK0A8ActivityC6ActionC8LocationC10CodingKeysO5titleyA2ImF",
+                        "mangledName": "$s10HistorySDK0A8ActivityC6ActionC8LocationC10CodingKeysO5titleyA2ImF",
+                        "moduleName": "HistorySDK"
+                      },
+                      {
+                        "kind": "Var",
+                        "name": "logo",
+                        "printedName": "logo",
+                        "children": [
+                          {
+                            "kind": "TypeFunc",
+                            "name": "Function",
+                            "printedName": "(HistorySDK.HistoryActivity.Action.Location.CodingKeys.Type) -> HistorySDK.HistoryActivity.Action.Location.CodingKeys",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "CodingKeys",
+                                "printedName": "HistorySDK.HistoryActivity.Action.Location.CodingKeys",
+                                "usr": "s:10HistorySDK0A8ActivityC6ActionC8LocationC10CodingKeysO"
+                              },
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Metatype",
+                                "printedName": "HistorySDK.HistoryActivity.Action.Location.CodingKeys.Type",
+                                "children": [
+                                  {
+                                    "kind": "TypeNominal",
+                                    "name": "CodingKeys",
+                                    "printedName": "HistorySDK.HistoryActivity.Action.Location.CodingKeys",
+                                    "usr": "s:10HistorySDK0A8ActivityC6ActionC8LocationC10CodingKeysO"
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ],
+                        "declKind": "EnumElement",
+                        "usr": "s:10HistorySDK0A8ActivityC6ActionC8LocationC10CodingKeysO4logoyA2ImF",
+                        "mangledName": "$s10HistorySDK0A8ActivityC6ActionC8LocationC10CodingKeysO4logoyA2ImF",
+                        "moduleName": "HistorySDK"
+                      },
+                      {
+                        "kind": "Var",
+                        "name": "address",
+                        "printedName": "address",
+                        "children": [
+                          {
+                            "kind": "TypeFunc",
+                            "name": "Function",
+                            "printedName": "(HistorySDK.HistoryActivity.Action.Location.CodingKeys.Type) -> HistorySDK.HistoryActivity.Action.Location.CodingKeys",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "CodingKeys",
+                                "printedName": "HistorySDK.HistoryActivity.Action.Location.CodingKeys",
+                                "usr": "s:10HistorySDK0A8ActivityC6ActionC8LocationC10CodingKeysO"
+                              },
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Metatype",
+                                "printedName": "HistorySDK.HistoryActivity.Action.Location.CodingKeys.Type",
+                                "children": [
+                                  {
+                                    "kind": "TypeNominal",
+                                    "name": "CodingKeys",
+                                    "printedName": "HistorySDK.HistoryActivity.Action.Location.CodingKeys",
+                                    "usr": "s:10HistorySDK0A8ActivityC6ActionC8LocationC10CodingKeysO"
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ],
+                        "declKind": "EnumElement",
+                        "usr": "s:10HistorySDK0A8ActivityC6ActionC8LocationC10CodingKeysO7addressyA2ImF",
+                        "mangledName": "$s10HistorySDK0A8ActivityC6ActionC8LocationC10CodingKeysO7addressyA2ImF",
+                        "moduleName": "HistorySDK"
+                      },
+                      {
+                        "kind": "Constructor",
+                        "name": "init",
+                        "printedName": "init(rawValue:)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Optional",
+                            "printedName": "HistorySDK.HistoryActivity.Action.Location.CodingKeys?",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "CodingKeys",
+                                "printedName": "HistorySDK.HistoryActivity.Action.Location.CodingKeys",
+                                "usr": "s:10HistorySDK0A8ActivityC6ActionC8LocationC10CodingKeysO"
+                              }
+                            ],
+                            "usr": "s:Sq"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "declKind": "Constructor",
+                        "usr": "s:10HistorySDK0A8ActivityC6ActionC8LocationC10CodingKeysO8rawValueAISgSS_tcfc",
+                        "mangledName": "$s10HistorySDK0A8ActivityC6ActionC8LocationC10CodingKeysO8rawValueAISgSS_tcfc",
+                        "moduleName": "HistorySDK",
+                        "implicit": true,
+                        "init_kind": "Designated"
+                      },
+                      {
+                        "kind": "Var",
+                        "name": "rawValue",
+                        "printedName": "rawValue",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "declKind": "Var",
+                        "usr": "s:10HistorySDK0A8ActivityC6ActionC8LocationC10CodingKeysO8rawValueSSvp",
+                        "mangledName": "$s10HistorySDK0A8ActivityC6ActionC8LocationC10CodingKeysO8rawValueSSvp",
+                        "moduleName": "HistorySDK",
+                        "implicit": true,
+                        "accessors": [
+                          {
+                            "kind": "Accessor",
+                            "name": "Get",
+                            "printedName": "Get()",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "String",
+                                "printedName": "Swift.String",
+                                "usr": "s:SS"
+                              }
+                            ],
+                            "declKind": "Accessor",
+                            "usr": "s:10HistorySDK0A8ActivityC6ActionC8LocationC10CodingKeysO8rawValueSSvg",
+                            "mangledName": "$s10HistorySDK0A8ActivityC6ActionC8LocationC10CodingKeysO8rawValueSSvg",
+                            "moduleName": "HistorySDK",
+                            "implicit": true,
+                            "accessorKind": "get"
+                          }
+                        ]
+                      },
+                      {
+                        "kind": "Var",
+                        "name": "stringValue",
+                        "printedName": "stringValue",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "declKind": "Var",
+                        "usr": "s:10HistorySDK0A8ActivityC6ActionC8LocationC10CodingKeysO11stringValueSSvp",
+                        "mangledName": "$s10HistorySDK0A8ActivityC6ActionC8LocationC10CodingKeysO11stringValueSSvp",
+                        "moduleName": "HistorySDK",
+                        "implicit": true,
+                        "accessors": [
+                          {
+                            "kind": "Accessor",
+                            "name": "Get",
+                            "printedName": "Get()",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "String",
+                                "printedName": "Swift.String",
+                                "usr": "s:SS"
+                              }
+                            ],
+                            "declKind": "Accessor",
+                            "usr": "s:10HistorySDK0A8ActivityC6ActionC8LocationC10CodingKeysO11stringValueSSvg",
+                            "mangledName": "$s10HistorySDK0A8ActivityC6ActionC8LocationC10CodingKeysO11stringValueSSvg",
+                            "moduleName": "HistorySDK",
+                            "implicit": true,
+                            "accessorKind": "get"
+                          }
+                        ]
+                      },
+                      {
+                        "kind": "Constructor",
+                        "name": "init",
+                        "printedName": "init(stringValue:)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Optional",
+                            "printedName": "HistorySDK.HistoryActivity.Action.Location.CodingKeys?",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "CodingKeys",
+                                "printedName": "HistorySDK.HistoryActivity.Action.Location.CodingKeys",
+                                "usr": "s:10HistorySDK0A8ActivityC6ActionC8LocationC10CodingKeysO"
+                              }
+                            ],
+                            "usr": "s:Sq"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "declKind": "Constructor",
+                        "usr": "s:10HistorySDK0A8ActivityC6ActionC8LocationC10CodingKeysO11stringValueAISgSS_tcfc",
+                        "mangledName": "$s10HistorySDK0A8ActivityC6ActionC8LocationC10CodingKeysO11stringValueAISgSS_tcfc",
+                        "moduleName": "HistorySDK",
+                        "implicit": true,
+                        "init_kind": "Designated"
+                      },
+                      {
+                        "kind": "Var",
+                        "name": "intValue",
+                        "printedName": "intValue",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Optional",
+                            "printedName": "Swift.Int?",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Int",
+                                "printedName": "Swift.Int",
+                                "usr": "s:Si"
+                              }
+                            ],
+                            "usr": "s:Sq"
+                          }
+                        ],
+                        "declKind": "Var",
+                        "usr": "s:10HistorySDK0A8ActivityC6ActionC8LocationC10CodingKeysO8intValueSiSgvp",
+                        "mangledName": "$s10HistorySDK0A8ActivityC6ActionC8LocationC10CodingKeysO8intValueSiSgvp",
+                        "moduleName": "HistorySDK",
+                        "implicit": true,
+                        "accessors": [
+                          {
+                            "kind": "Accessor",
+                            "name": "Get",
+                            "printedName": "Get()",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Optional",
+                                "printedName": "Swift.Int?",
+                                "children": [
+                                  {
+                                    "kind": "TypeNominal",
+                                    "name": "Int",
+                                    "printedName": "Swift.Int",
+                                    "usr": "s:Si"
+                                  }
+                                ],
+                                "usr": "s:Sq"
+                              }
+                            ],
+                            "declKind": "Accessor",
+                            "usr": "s:10HistorySDK0A8ActivityC6ActionC8LocationC10CodingKeysO8intValueSiSgvg",
+                            "mangledName": "$s10HistorySDK0A8ActivityC6ActionC8LocationC10CodingKeysO8intValueSiSgvg",
+                            "moduleName": "HistorySDK",
+                            "implicit": true,
+                            "accessorKind": "get"
+                          }
+                        ]
+                      },
+                      {
+                        "kind": "Constructor",
+                        "name": "init",
+                        "printedName": "init(intValue:)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Optional",
+                            "printedName": "HistorySDK.HistoryActivity.Action.Location.CodingKeys?",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "CodingKeys",
+                                "printedName": "HistorySDK.HistoryActivity.Action.Location.CodingKeys",
+                                "usr": "s:10HistorySDK0A8ActivityC6ActionC8LocationC10CodingKeysO"
+                              }
+                            ],
+                            "usr": "s:Sq"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Int",
+                            "printedName": "Swift.Int",
+                            "usr": "s:Si"
+                          }
+                        ],
+                        "declKind": "Constructor",
+                        "usr": "s:10HistorySDK0A8ActivityC6ActionC8LocationC10CodingKeysO8intValueAISgSi_tcfc",
+                        "mangledName": "$s10HistorySDK0A8ActivityC6ActionC8LocationC10CodingKeysO8intValueAISgSi_tcfc",
+                        "moduleName": "HistorySDK",
+                        "implicit": true,
+                        "init_kind": "Designated"
+                      },
+                      {
+                        "kind": "Var",
+                        "name": "allCases",
+                        "printedName": "allCases",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Array",
+                            "printedName": "[HistorySDK.HistoryActivity.Action.Location.CodingKeys]",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "CodingKeys",
+                                "printedName": "HistorySDK.HistoryActivity.Action.Location.CodingKeys",
+                                "usr": "s:10HistorySDK0A8ActivityC6ActionC8LocationC10CodingKeysO"
+                              }
+                            ],
+                            "usr": "s:Sa"
+                          }
+                        ],
+                        "declKind": "Var",
+                        "usr": "s:10HistorySDK0A8ActivityC6ActionC8LocationC10CodingKeysO8allCasesSayAIGvpZ",
+                        "mangledName": "$s10HistorySDK0A8ActivityC6ActionC8LocationC10CodingKeysO8allCasesSayAIGvpZ",
+                        "moduleName": "HistorySDK",
+                        "static": true,
+                        "implicit": true,
+                        "declAttributes": [
+                          "Nonisolated"
+                        ],
+                        "accessors": [
+                          {
+                            "kind": "Accessor",
+                            "name": "Get",
+                            "printedName": "Get()",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Array",
+                                "printedName": "[HistorySDK.HistoryActivity.Action.Location.CodingKeys]",
+                                "children": [
+                                  {
+                                    "kind": "TypeNominal",
+                                    "name": "CodingKeys",
+                                    "printedName": "HistorySDK.HistoryActivity.Action.Location.CodingKeys",
+                                    "usr": "s:10HistorySDK0A8ActivityC6ActionC8LocationC10CodingKeysO"
+                                  }
+                                ],
+                                "usr": "s:Sa"
+                              }
+                            ],
+                            "declKind": "Accessor",
+                            "usr": "s:10HistorySDK0A8ActivityC6ActionC8LocationC10CodingKeysO8allCasesSayAIGvgZ",
+                            "mangledName": "$s10HistorySDK0A8ActivityC6ActionC8LocationC10CodingKeysO8allCasesSayAIGvgZ",
+                            "moduleName": "HistorySDK",
+                            "static": true,
+                            "implicit": true,
+                            "accessorKind": "get"
+                          }
+                        ]
+                      }
+                    ],
+                    "declKind": "Enum",
+                    "usr": "s:10HistorySDK0A8ActivityC6ActionC8LocationC10CodingKeysO",
+                    "mangledName": "$s10HistorySDK0A8ActivityC6ActionC8LocationC10CodingKeysO",
+                    "moduleName": "HistorySDK",
+                    "declAttributes": [
+                      "AccessControl"
+                    ],
+                    "enumRawTypeName": "String",
+                    "conformances": [
+                      {
+                        "kind": "Conformance",
+                        "name": "Copyable",
+                        "printedName": "Copyable",
+                        "usr": "s:s8CopyableP",
+                        "mangledName": "$ss8CopyableP"
+                      },
+                      {
+                        "kind": "Conformance",
+                        "name": "Escapable",
+                        "printedName": "Escapable",
+                        "usr": "s:s9EscapableP",
+                        "mangledName": "$ss9EscapableP"
+                      },
+                      {
+                        "kind": "Conformance",
+                        "name": "Equatable",
+                        "printedName": "Equatable",
+                        "usr": "s:SQ",
+                        "mangledName": "$sSQ"
+                      },
+                      {
+                        "kind": "Conformance",
+                        "name": "Hashable",
+                        "printedName": "Hashable",
+                        "usr": "s:SH",
+                        "mangledName": "$sSH"
+                      },
+                      {
+                        "kind": "Conformance",
+                        "name": "RawRepresentable",
+                        "printedName": "RawRepresentable",
+                        "children": [
+                          {
+                            "kind": "TypeWitness",
+                            "name": "RawValue",
+                            "printedName": "RawValue",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "String",
+                                "printedName": "Swift.String",
+                                "usr": "s:SS"
+                              }
+                            ]
+                          }
+                        ],
+                        "usr": "s:SY",
+                        "mangledName": "$sSY"
+                      },
+                      {
+                        "kind": "Conformance",
+                        "name": "CodingKey",
+                        "printedName": "CodingKey",
+                        "usr": "s:s9CodingKeyP",
+                        "mangledName": "$ss9CodingKeyP"
+                      },
+                      {
+                        "kind": "Conformance",
+                        "name": "CaseIterable",
+                        "printedName": "CaseIterable",
+                        "children": [
+                          {
+                            "kind": "TypeWitness",
+                            "name": "AllCases",
+                            "printedName": "AllCases",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Array",
+                                "printedName": "[HistorySDK.HistoryActivity.Action.Location.CodingKeys]",
+                                "children": [
+                                  {
+                                    "kind": "TypeNominal",
+                                    "name": "CodingKeys",
+                                    "printedName": "HistorySDK.HistoryActivity.Action.Location.CodingKeys",
+                                    "usr": "s:10HistorySDK0A8ActivityC6ActionC8LocationC10CodingKeysO"
+                                  }
+                                ],
+                                "usr": "s:Sa"
+                              }
+                            ]
+                          }
+                        ],
+                        "usr": "s:s12CaseIterableP",
+                        "mangledName": "$ss12CaseIterableP"
+                      },
+                      {
+                        "kind": "Conformance",
+                        "name": "CustomDebugStringConvertible",
+                        "printedName": "CustomDebugStringConvertible",
+                        "usr": "s:s28CustomDebugStringConvertibleP",
+                        "mangledName": "$ss28CustomDebugStringConvertibleP"
+                      },
+                      {
+                        "kind": "Conformance",
+                        "name": "CustomStringConvertible",
+                        "printedName": "CustomStringConvertible",
+                        "usr": "s:s23CustomStringConvertibleP",
+                        "mangledName": "$ss23CustomStringConvertibleP"
+                      },
+                      {
+                        "kind": "Conformance",
+                        "name": "Sendable",
+                        "printedName": "Sendable",
+                        "usr": "s:s8SendableP",
+                        "mangledName": "$ss8SendableP"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "Constructor",
+                    "name": "init",
+                    "printedName": "init(from:)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Location",
+                        "printedName": "HistorySDK.HistoryActivity.Action.Location",
+                        "usr": "s:10HistorySDK0A8ActivityC6ActionC8LocationC"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Decoder",
+                        "printedName": "any Swift.Decoder",
+                        "usr": "s:s7DecoderP"
+                      }
+                    ],
+                    "declKind": "Constructor",
+                    "usr": "s:10HistorySDK0A8ActivityC6ActionC8LocationC4fromAGs7Decoder_p_tKcfc",
+                    "mangledName": "$s10HistorySDK0A8ActivityC6ActionC8LocationC4fromAGs7Decoder_p_tKcfc",
+                    "moduleName": "HistorySDK",
+                    "declAttributes": [
+                      "Required",
+                      "AccessControl"
+                    ],
+                    "throwing": true,
+                    "init_kind": "Designated"
+                  },
+                  {
+                    "kind": "Function",
+                    "name": "encode",
+                    "printedName": "encode(to:)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Encoder",
+                        "printedName": "any Swift.Encoder",
+                        "usr": "s:s7EncoderP"
+                      }
+                    ],
+                    "declKind": "Func",
+                    "usr": "s:10HistorySDK0A8ActivityC6ActionC8LocationC6encode2toys7Encoder_p_tKF",
+                    "mangledName": "$s10HistorySDK0A8ActivityC6ActionC8LocationC6encode2toys7Encoder_p_tKF",
+                    "moduleName": "HistorySDK",
+                    "declAttributes": [
+                      "AccessControl"
+                    ],
+                    "throwing": true,
+                    "funcSelfKind": "NonMutating"
+                  }
+                ],
+                "declKind": "Class",
+                "usr": "s:10HistorySDK0A8ActivityC6ActionC8LocationC",
+                "mangledName": "$s10HistorySDK0A8ActivityC6ActionC8LocationC",
+                "moduleName": "HistorySDK",
+                "declAttributes": [
+                  "AccessControl"
+                ],
+                "hasMissingDesignatedInitializers": true,
+                "conformances": [
+                  {
+                    "kind": "Conformance",
+                    "name": "Copyable",
+                    "printedName": "Copyable",
+                    "usr": "s:s8CopyableP",
+                    "mangledName": "$ss8CopyableP"
+                  },
+                  {
+                    "kind": "Conformance",
+                    "name": "Escapable",
+                    "printedName": "Escapable",
+                    "usr": "s:s9EscapableP",
+                    "mangledName": "$ss9EscapableP"
+                  },
+                  {
+                    "kind": "Conformance",
+                    "name": "Decodable",
+                    "printedName": "Decodable",
+                    "usr": "s:Se",
+                    "mangledName": "$sSe"
+                  },
+                  {
+                    "kind": "Conformance",
+                    "name": "Encodable",
+                    "printedName": "Encodable",
+                    "usr": "s:SE",
+                    "mangledName": "$sSE"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeDecl",
+                "name": "Metadata",
+                "printedName": "Metadata",
+                "children": [
+                  {
+                    "kind": "Var",
+                    "name": "points",
+                    "printedName": "points",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Var",
+                    "usr": "s:10HistorySDK0A8ActivityC6ActionC8MetadataC6pointsSSvp",
+                    "mangledName": "$s10HistorySDK0A8ActivityC6ActionC8MetadataC6pointsSSvp",
+                    "moduleName": "HistorySDK",
+                    "declAttributes": [
+                      "HasStorage",
+                      "AccessControl"
+                    ],
+                    "hasStorage": true,
+                    "accessors": [
+                      {
+                        "kind": "Accessor",
+                        "name": "Get",
+                        "printedName": "Get()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "declKind": "Accessor",
+                        "usr": "s:10HistorySDK0A8ActivityC6ActionC8MetadataC6pointsSSvg",
+                        "mangledName": "$s10HistorySDK0A8ActivityC6ActionC8MetadataC6pointsSSvg",
+                        "moduleName": "HistorySDK",
+                        "implicit": true,
+                        "accessorKind": "get"
+                      },
+                      {
+                        "kind": "Accessor",
+                        "name": "Set",
+                        "printedName": "Set()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "declKind": "Accessor",
+                        "usr": "s:10HistorySDK0A8ActivityC6ActionC8MetadataC6pointsSSvs",
+                        "mangledName": "$s10HistorySDK0A8ActivityC6ActionC8MetadataC6pointsSSvs",
+                        "moduleName": "HistorySDK",
+                        "implicit": true,
+                        "accessorKind": "set"
+                      },
+                      {
+                        "kind": "Accessor",
+                        "name": "Modify",
+                        "printedName": "Modify()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          }
+                        ],
+                        "declKind": "Accessor",
+                        "usr": "s:10HistorySDK0A8ActivityC6ActionC8MetadataC6pointsSSvM",
+                        "mangledName": "$s10HistorySDK0A8ActivityC6ActionC8MetadataC6pointsSSvM",
+                        "moduleName": "HistorySDK",
+                        "implicit": true,
+                        "accessorKind": "_modify"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "Var",
+                    "name": "isSettled",
+                    "printedName": "isSettled",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      }
+                    ],
+                    "declKind": "Var",
+                    "usr": "s:10HistorySDK0A8ActivityC6ActionC8MetadataC9isSettledSbvp",
+                    "mangledName": "$s10HistorySDK0A8ActivityC6ActionC8MetadataC9isSettledSbvp",
+                    "moduleName": "HistorySDK",
+                    "declAttributes": [
+                      "HasStorage",
+                      "AccessControl"
+                    ],
+                    "hasStorage": true,
+                    "accessors": [
+                      {
+                        "kind": "Accessor",
+                        "name": "Get",
+                        "printedName": "Get()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Bool",
+                            "printedName": "Swift.Bool",
+                            "usr": "s:Sb"
+                          }
+                        ],
+                        "declKind": "Accessor",
+                        "usr": "s:10HistorySDK0A8ActivityC6ActionC8MetadataC9isSettledSbvg",
+                        "mangledName": "$s10HistorySDK0A8ActivityC6ActionC8MetadataC9isSettledSbvg",
+                        "moduleName": "HistorySDK",
+                        "implicit": true,
+                        "accessorKind": "get"
+                      },
+                      {
+                        "kind": "Accessor",
+                        "name": "Set",
+                        "printedName": "Set()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Bool",
+                            "printedName": "Swift.Bool",
+                            "usr": "s:Sb"
+                          }
+                        ],
+                        "declKind": "Accessor",
+                        "usr": "s:10HistorySDK0A8ActivityC6ActionC8MetadataC9isSettledSbvs",
+                        "mangledName": "$s10HistorySDK0A8ActivityC6ActionC8MetadataC9isSettledSbvs",
+                        "moduleName": "HistorySDK",
+                        "implicit": true,
+                        "accessorKind": "set"
+                      },
+                      {
+                        "kind": "Accessor",
+                        "name": "Modify",
+                        "printedName": "Modify()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          }
+                        ],
+                        "declKind": "Accessor",
+                        "usr": "s:10HistorySDK0A8ActivityC6ActionC8MetadataC9isSettledSbvM",
+                        "mangledName": "$s10HistorySDK0A8ActivityC6ActionC8MetadataC9isSettledSbvM",
+                        "moduleName": "HistorySDK",
+                        "implicit": true,
+                        "accessorKind": "_modify"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "Var",
+                    "name": "isReallocatable",
+                    "printedName": "isReallocatable",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      }
+                    ],
+                    "declKind": "Var",
+                    "usr": "s:10HistorySDK0A8ActivityC6ActionC8MetadataC15isReallocatableSbvp",
+                    "mangledName": "$s10HistorySDK0A8ActivityC6ActionC8MetadataC15isReallocatableSbvp",
+                    "moduleName": "HistorySDK",
+                    "declAttributes": [
+                      "HasStorage",
+                      "AccessControl"
+                    ],
+                    "hasStorage": true,
+                    "accessors": [
+                      {
+                        "kind": "Accessor",
+                        "name": "Get",
+                        "printedName": "Get()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Bool",
+                            "printedName": "Swift.Bool",
+                            "usr": "s:Sb"
+                          }
+                        ],
+                        "declKind": "Accessor",
+                        "usr": "s:10HistorySDK0A8ActivityC6ActionC8MetadataC15isReallocatableSbvg",
+                        "mangledName": "$s10HistorySDK0A8ActivityC6ActionC8MetadataC15isReallocatableSbvg",
+                        "moduleName": "HistorySDK",
+                        "implicit": true,
+                        "accessorKind": "get"
+                      },
+                      {
+                        "kind": "Accessor",
+                        "name": "Set",
+                        "printedName": "Set()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Bool",
+                            "printedName": "Swift.Bool",
+                            "usr": "s:Sb"
+                          }
+                        ],
+                        "declKind": "Accessor",
+                        "usr": "s:10HistorySDK0A8ActivityC6ActionC8MetadataC15isReallocatableSbvs",
+                        "mangledName": "$s10HistorySDK0A8ActivityC6ActionC8MetadataC15isReallocatableSbvs",
+                        "moduleName": "HistorySDK",
+                        "implicit": true,
+                        "accessorKind": "set"
+                      },
+                      {
+                        "kind": "Accessor",
+                        "name": "Modify",
+                        "printedName": "Modify()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          }
+                        ],
+                        "declKind": "Accessor",
+                        "usr": "s:10HistorySDK0A8ActivityC6ActionC8MetadataC15isReallocatableSbvM",
+                        "mangledName": "$s10HistorySDK0A8ActivityC6ActionC8MetadataC15isReallocatableSbvM",
+                        "moduleName": "HistorySDK",
+                        "implicit": true,
+                        "accessorKind": "_modify"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "Var",
+                    "name": "transactionTracking",
+                    "printedName": "transactionTracking",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      }
+                    ],
+                    "declKind": "Var",
+                    "usr": "s:10HistorySDK0A8ActivityC6ActionC8MetadataC19transactionTrackingSbvp",
+                    "mangledName": "$s10HistorySDK0A8ActivityC6ActionC8MetadataC19transactionTrackingSbvp",
+                    "moduleName": "HistorySDK",
+                    "declAttributes": [
+                      "HasStorage",
+                      "AccessControl"
+                    ],
+                    "hasStorage": true,
+                    "accessors": [
+                      {
+                        "kind": "Accessor",
+                        "name": "Get",
+                        "printedName": "Get()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Bool",
+                            "printedName": "Swift.Bool",
+                            "usr": "s:Sb"
+                          }
+                        ],
+                        "declKind": "Accessor",
+                        "usr": "s:10HistorySDK0A8ActivityC6ActionC8MetadataC19transactionTrackingSbvg",
+                        "mangledName": "$s10HistorySDK0A8ActivityC6ActionC8MetadataC19transactionTrackingSbvg",
+                        "moduleName": "HistorySDK",
+                        "implicit": true,
+                        "accessorKind": "get"
+                      },
+                      {
+                        "kind": "Accessor",
+                        "name": "Set",
+                        "printedName": "Set()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Bool",
+                            "printedName": "Swift.Bool",
+                            "usr": "s:Sb"
+                          }
+                        ],
+                        "declKind": "Accessor",
+                        "usr": "s:10HistorySDK0A8ActivityC6ActionC8MetadataC19transactionTrackingSbvs",
+                        "mangledName": "$s10HistorySDK0A8ActivityC6ActionC8MetadataC19transactionTrackingSbvs",
+                        "moduleName": "HistorySDK",
+                        "implicit": true,
+                        "accessorKind": "set"
+                      },
+                      {
+                        "kind": "Accessor",
+                        "name": "Modify",
+                        "printedName": "Modify()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          }
+                        ],
+                        "declKind": "Accessor",
+                        "usr": "s:10HistorySDK0A8ActivityC6ActionC8MetadataC19transactionTrackingSbvM",
+                        "mangledName": "$s10HistorySDK0A8ActivityC6ActionC8MetadataC19transactionTrackingSbvM",
+                        "moduleName": "HistorySDK",
+                        "implicit": true,
+                        "accessorKind": "_modify"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "Var",
+                    "name": "settlementDate",
+                    "printedName": "settlementDate",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Date",
+                        "printedName": "Foundation.Date",
+                        "usr": "s:10Foundation4DateV"
+                      }
+                    ],
+                    "declKind": "Var",
+                    "usr": "s:10HistorySDK0A8ActivityC6ActionC8MetadataC14settlementDate10Foundation0G0Vvp",
+                    "mangledName": "$s10HistorySDK0A8ActivityC6ActionC8MetadataC14settlementDate10Foundation0G0Vvp",
+                    "moduleName": "HistorySDK",
+                    "declAttributes": [
+                      "HasStorage",
+                      "AccessControl"
+                    ],
+                    "hasStorage": true,
+                    "accessors": [
+                      {
+                        "kind": "Accessor",
+                        "name": "Get",
+                        "printedName": "Get()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Date",
+                            "printedName": "Foundation.Date",
+                            "usr": "s:10Foundation4DateV"
+                          }
+                        ],
+                        "declKind": "Accessor",
+                        "usr": "s:10HistorySDK0A8ActivityC6ActionC8MetadataC14settlementDate10Foundation0G0Vvg",
+                        "mangledName": "$s10HistorySDK0A8ActivityC6ActionC8MetadataC14settlementDate10Foundation0G0Vvg",
+                        "moduleName": "HistorySDK",
+                        "implicit": true,
+                        "accessorKind": "get"
+                      },
+                      {
+                        "kind": "Accessor",
+                        "name": "Set",
+                        "printedName": "Set()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Date",
+                            "printedName": "Foundation.Date",
+                            "usr": "s:10Foundation4DateV"
+                          }
+                        ],
+                        "declKind": "Accessor",
+                        "usr": "s:10HistorySDK0A8ActivityC6ActionC8MetadataC14settlementDate10Foundation0G0Vvs",
+                        "mangledName": "$s10HistorySDK0A8ActivityC6ActionC8MetadataC14settlementDate10Foundation0G0Vvs",
+                        "moduleName": "HistorySDK",
+                        "implicit": true,
+                        "accessorKind": "set"
+                      },
+                      {
+                        "kind": "Accessor",
+                        "name": "Modify",
+                        "printedName": "Modify()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          }
+                        ],
+                        "declKind": "Accessor",
+                        "usr": "s:10HistorySDK0A8ActivityC6ActionC8MetadataC14settlementDate10Foundation0G0VvM",
+                        "mangledName": "$s10HistorySDK0A8ActivityC6ActionC8MetadataC14settlementDate10Foundation0G0VvM",
+                        "moduleName": "HistorySDK",
+                        "implicit": true,
+                        "accessorKind": "_modify"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "Var",
+                    "name": "location",
+                    "printedName": "location",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Location",
+                        "printedName": "HistorySDK.HistoryActivity.Action.Location",
+                        "usr": "s:10HistorySDK0A8ActivityC6ActionC8LocationC"
+                      }
+                    ],
+                    "declKind": "Var",
+                    "usr": "s:10HistorySDK0A8ActivityC6ActionC8MetadataC8locationAE8LocationCvp",
+                    "mangledName": "$s10HistorySDK0A8ActivityC6ActionC8MetadataC8locationAE8LocationCvp",
+                    "moduleName": "HistorySDK",
+                    "declAttributes": [
+                      "HasStorage",
+                      "AccessControl"
+                    ],
+                    "hasStorage": true,
+                    "accessors": [
+                      {
+                        "kind": "Accessor",
+                        "name": "Get",
+                        "printedName": "Get()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Location",
+                            "printedName": "HistorySDK.HistoryActivity.Action.Location",
+                            "usr": "s:10HistorySDK0A8ActivityC6ActionC8LocationC"
+                          }
+                        ],
+                        "declKind": "Accessor",
+                        "usr": "s:10HistorySDK0A8ActivityC6ActionC8MetadataC8locationAE8LocationCvg",
+                        "mangledName": "$s10HistorySDK0A8ActivityC6ActionC8MetadataC8locationAE8LocationCvg",
+                        "moduleName": "HistorySDK",
+                        "implicit": true,
+                        "accessorKind": "get"
+                      },
+                      {
+                        "kind": "Accessor",
+                        "name": "Set",
+                        "printedName": "Set()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Location",
+                            "printedName": "HistorySDK.HistoryActivity.Action.Location",
+                            "usr": "s:10HistorySDK0A8ActivityC6ActionC8LocationC"
+                          }
+                        ],
+                        "declKind": "Accessor",
+                        "usr": "s:10HistorySDK0A8ActivityC6ActionC8MetadataC8locationAE8LocationCvs",
+                        "mangledName": "$s10HistorySDK0A8ActivityC6ActionC8MetadataC8locationAE8LocationCvs",
+                        "moduleName": "HistorySDK",
+                        "implicit": true,
+                        "accessorKind": "set"
+                      },
+                      {
+                        "kind": "Accessor",
+                        "name": "Modify",
+                        "printedName": "Modify()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          }
+                        ],
+                        "declKind": "Accessor",
+                        "usr": "s:10HistorySDK0A8ActivityC6ActionC8MetadataC8locationAE8LocationCvM",
+                        "mangledName": "$s10HistorySDK0A8ActivityC6ActionC8MetadataC8locationAE8LocationCvM",
+                        "moduleName": "HistorySDK",
+                        "implicit": true,
+                        "accessorKind": "_modify"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "Var",
+                    "name": "userDetailMetadata",
+                    "printedName": "userDetailMetadata",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "HistorySDK.TransactionMetadata?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "TransactionMetadata",
+                            "printedName": "HistorySDK.TransactionMetadata",
+                            "usr": "s:10HistorySDK19TransactionMetadataC"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ],
+                    "declKind": "Var",
+                    "usr": "s:10HistorySDK0A8ActivityC6ActionC8MetadataC010userDetailE0AA011TransactionE0CSgvp",
+                    "mangledName": "$s10HistorySDK0A8ActivityC6ActionC8MetadataC010userDetailE0AA011TransactionE0CSgvp",
+                    "moduleName": "HistorySDK",
+                    "declAttributes": [
+                      "HasInitialValue",
+                      "HasStorage",
+                      "AccessControl"
+                    ],
+                    "hasStorage": true,
+                    "accessors": [
+                      {
+                        "kind": "Accessor",
+                        "name": "Get",
+                        "printedName": "Get()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Optional",
+                            "printedName": "HistorySDK.TransactionMetadata?",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "TransactionMetadata",
+                                "printedName": "HistorySDK.TransactionMetadata",
+                                "usr": "s:10HistorySDK19TransactionMetadataC"
+                              }
+                            ],
+                            "usr": "s:Sq"
+                          }
+                        ],
+                        "declKind": "Accessor",
+                        "usr": "s:10HistorySDK0A8ActivityC6ActionC8MetadataC010userDetailE0AA011TransactionE0CSgvg",
+                        "mangledName": "$s10HistorySDK0A8ActivityC6ActionC8MetadataC010userDetailE0AA011TransactionE0CSgvg",
+                        "moduleName": "HistorySDK",
+                        "implicit": true,
+                        "accessorKind": "get"
+                      },
+                      {
+                        "kind": "Accessor",
+                        "name": "Set",
+                        "printedName": "Set()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Optional",
+                            "printedName": "HistorySDK.TransactionMetadata?",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "TransactionMetadata",
+                                "printedName": "HistorySDK.TransactionMetadata",
+                                "usr": "s:10HistorySDK19TransactionMetadataC"
+                              }
+                            ],
+                            "usr": "s:Sq"
+                          }
+                        ],
+                        "declKind": "Accessor",
+                        "usr": "s:10HistorySDK0A8ActivityC6ActionC8MetadataC010userDetailE0AA011TransactionE0CSgvs",
+                        "mangledName": "$s10HistorySDK0A8ActivityC6ActionC8MetadataC010userDetailE0AA011TransactionE0CSgvs",
+                        "moduleName": "HistorySDK",
+                        "implicit": true,
+                        "accessorKind": "set"
+                      },
+                      {
+                        "kind": "Accessor",
+                        "name": "Modify",
+                        "printedName": "Modify()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          }
+                        ],
+                        "declKind": "Accessor",
+                        "usr": "s:10HistorySDK0A8ActivityC6ActionC8MetadataC010userDetailE0AA011TransactionE0CSgvM",
+                        "mangledName": "$s10HistorySDK0A8ActivityC6ActionC8MetadataC010userDetailE0AA011TransactionE0CSgvM",
+                        "moduleName": "HistorySDK",
+                        "implicit": true,
+                        "accessorKind": "_modify"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "Constructor",
+                    "name": "init",
+                    "printedName": "init(from:)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metadata",
+                        "printedName": "HistorySDK.HistoryActivity.Action.Metadata",
+                        "usr": "s:10HistorySDK0A8ActivityC6ActionC8MetadataC"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Decoder",
+                        "printedName": "any Swift.Decoder",
+                        "usr": "s:s7DecoderP"
+                      }
+                    ],
+                    "declKind": "Constructor",
+                    "usr": "s:10HistorySDK0A8ActivityC6ActionC8MetadataC4fromAGs7Decoder_p_tKcfc",
+                    "mangledName": "$s10HistorySDK0A8ActivityC6ActionC8MetadataC4fromAGs7Decoder_p_tKcfc",
+                    "moduleName": "HistorySDK",
+                    "declAttributes": [
+                      "AccessControl",
+                      "Required"
+                    ],
+                    "throwing": true,
+                    "init_kind": "Designated"
+                  },
+                  {
+                    "kind": "Function",
+                    "name": "encode",
+                    "printedName": "encode(to:)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Encoder",
+                        "printedName": "any Swift.Encoder",
+                        "usr": "s:s7EncoderP"
+                      }
+                    ],
+                    "declKind": "Func",
+                    "usr": "s:10HistorySDK0A8ActivityC6ActionC8MetadataC6encode2toys7Encoder_p_tKF",
+                    "mangledName": "$s10HistorySDK0A8ActivityC6ActionC8MetadataC6encode2toys7Encoder_p_tKF",
+                    "moduleName": "HistorySDK",
+                    "declAttributes": [
+                      "AccessControl"
+                    ],
+                    "throwing": true,
+                    "funcSelfKind": "NonMutating"
+                  }
+                ],
+                "declKind": "Class",
+                "usr": "s:10HistorySDK0A8ActivityC6ActionC8MetadataC",
+                "mangledName": "$s10HistorySDK0A8ActivityC6ActionC8MetadataC",
+                "moduleName": "HistorySDK",
+                "declAttributes": [
+                  "AccessControl"
+                ],
+                "hasMissingDesignatedInitializers": true,
+                "conformances": [
+                  {
+                    "kind": "Conformance",
+                    "name": "Copyable",
+                    "printedName": "Copyable",
+                    "usr": "s:s8CopyableP",
+                    "mangledName": "$ss8CopyableP"
+                  },
+                  {
+                    "kind": "Conformance",
+                    "name": "Escapable",
+                    "printedName": "Escapable",
+                    "usr": "s:s9EscapableP",
+                    "mangledName": "$ss9EscapableP"
+                  },
+                  {
+                    "kind": "Conformance",
+                    "name": "Decodable",
+                    "printedName": "Decodable",
+                    "usr": "s:Se",
+                    "mangledName": "$sSe"
+                  },
+                  {
+                    "kind": "Conformance",
+                    "name": "Encodable",
+                    "printedName": "Encodable",
+                    "usr": "s:SE",
+                    "mangledName": "$sSE"
+                  }
+                ]
+              },
+              {
                 "kind": "Constructor",
                 "name": "init",
                 "printedName": "init(from:)",
@@ -2438,6 +4692,41 @@
           {
             "kind": "Constructor",
             "name": "init",
+            "printedName": "init(funding:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ActivityFundingRequest",
+                "printedName": "HistorySDK.ActivityFundingRequest",
+                "usr": "s:10HistorySDK22ActivityFundingRequestC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[HistorySDK.ActivityFunding]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ActivityFunding",
+                    "printedName": "HistorySDK.ActivityFunding",
+                    "usr": "s:10HistorySDK15ActivityFundingC"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:10HistorySDK22ActivityFundingRequestC7fundingACSayAA0cD0CG_tcfc",
+            "mangledName": "$s10HistorySDK22ActivityFundingRequestC7fundingACSayAA0cD0CG_tcfc",
+            "moduleName": "HistorySDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
             "printedName": "init(from:)",
             "children": [
               {
@@ -2499,7 +4788,6 @@
         "declAttributes": [
           "AccessControl"
         ],
-        "hasMissingDesignatedInitializers": true,
         "conformances": [
           {
             "kind": "Conformance",
@@ -2869,6 +5157,54 @@
           {
             "kind": "Constructor",
             "name": "init",
+            "printedName": "init(uuid:totalAmount:type:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ActivityFunding",
+                "printedName": "HistorySDK.ActivityFunding",
+                "usr": "s:10HistorySDK15ActivityFundingC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Double?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:10HistorySDK15ActivityFundingC4uuid11totalAmount4typeACSS_SdSgSStcfc",
+            "mangledName": "$s10HistorySDK15ActivityFundingC4uuid11totalAmount4typeACSS_SdSgSStcfc",
+            "moduleName": "HistorySDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
             "printedName": "init(from:)",
             "children": [
               {
@@ -2930,7 +5266,6 @@
         "declAttributes": [
           "AccessControl"
         ],
-        "hasMissingDesignatedInitializers": true,
         "conformances": [
           {
             "kind": "Conformance",
@@ -9561,6 +11896,72 @@
           {
             "kind": "Constructor",
             "name": "init",
+            "printedName": "init(taxAmount:tipAmount:notes:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "TransactionMetadataRequest",
+                "printedName": "HistorySDK.TransactionMetadataRequest",
+                "usr": "s:10HistorySDK26TransactionMetadataRequestC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Double?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Double?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:10HistorySDK26TransactionMetadataRequestC9taxAmount03tipG05notesACSdSg_AGSSSgtcfc",
+            "mangledName": "$s10HistorySDK26TransactionMetadataRequestC9taxAmount03tipG05notesACSdSg_AGSSSgtcfc",
+            "moduleName": "HistorySDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
             "printedName": "init(from:)",
             "children": [
               {
@@ -9622,7 +12023,6 @@
         "declAttributes": [
           "AccessControl"
         ],
-        "hasMissingDesignatedInitializers": true,
         "conformances": [
           {
             "kind": "Conformance",
@@ -14114,175 +16514,175 @@
     {
       "filePath": "\/Users\/yaro\/Work\/MCards\/HistorySDK\/Sources\/HistorySDK\/Models\/HistoryActivity.swift",
       "kind": "StringLiteral",
-      "offset": 1631,
+      "offset": 1650,
       "length": 18,
       "value": "\"card_transaction\""
     },
     {
       "filePath": "\/Users\/yaro\/Work\/MCards\/HistorySDK\/Sources\/HistorySDK\/Models\/HistoryActivity.swift",
       "kind": "StringLiteral",
-      "offset": 1685,
+      "offset": 1704,
       "length": 18,
       "value": "\"balance_transfer\""
     },
     {
       "filePath": "\/Users\/yaro\/Work\/MCards\/HistorySDK\/Sources\/HistorySDK\/Models\/HistoryActivity.swift",
       "kind": "StringLiteral",
-      "offset": 1739,
+      "offset": 1758,
       "length": 18,
       "value": "\"user_transaction\""
     },
     {
       "filePath": "\/Users\/yaro\/Work\/MCards\/HistorySDK\/Sources\/HistorySDK\/Models\/HistoryActivity.swift",
       "kind": "StringLiteral",
-      "offset": 2392,
+      "offset": 2461,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/yaro\/Work\/MCards\/HistorySDK\/Sources\/HistorySDK\/Models\/HistoryActivity.swift",
       "kind": "StringLiteral",
-      "offset": 2411,
+      "offset": 2480,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/yaro\/Work\/MCards\/HistorySDK\/Sources\/HistorySDK\/Models\/HistoryActivity.swift",
       "kind": "StringLiteral",
-      "offset": 2433,
+      "offset": 2502,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/yaro\/Work\/MCards\/HistorySDK\/Sources\/HistorySDK\/Models\/HistoryActivity.swift",
       "kind": "StringLiteral",
-      "offset": 3961,
+      "offset": 4058,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/yaro\/Work\/MCards\/HistorySDK\/Sources\/HistorySDK\/Models\/HistoryActivity.swift",
       "kind": "BooleanLiteral",
-      "offset": 3983,
+      "offset": 4080,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/yaro\/Work\/MCards\/HistorySDK\/Sources\/HistorySDK\/Models\/HistoryActivity.swift",
       "kind": "BooleanLiteral",
-      "offset": 4028,
+      "offset": 4125,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/yaro\/Work\/MCards\/HistorySDK\/Sources\/HistorySDK\/Models\/HistoryActivity.swift",
       "kind": "BooleanLiteral",
-      "offset": 4063,
+      "offset": 4160,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/yaro\/Work\/MCards\/HistorySDK\/Sources\/HistorySDK\/Models\/HistoryActivity.swift",
       "kind": "StringLiteral",
-      "offset": 4804,
+      "offset": 4901,
       "length": 22,
       "value": "\"transaction_tracking\""
     },
     {
       "filePath": "\/Users\/yaro\/Work\/MCards\/HistorySDK\/Sources\/HistorySDK\/Models\/HistoryActivity.swift",
       "kind": "StringLiteral",
-      "offset": 4865,
+      "offset": 4962,
       "length": 17,
       "value": "\"settlement_date\""
     },
     {
       "filePath": "\/Users\/yaro\/Work\/MCards\/HistorySDK\/Sources\/HistorySDK\/Models\/HistoryActivity.swift",
       "kind": "StringLiteral",
-      "offset": 4955,
+      "offset": 5052,
       "length": 22,
       "value": "\"user_metadata_detail\""
     },
     {
       "filePath": "\/Users\/yaro\/Work\/MCards\/HistorySDK\/Sources\/HistorySDK\/Models\/HistoryActivity.swift",
       "kind": "Array",
-      "offset": 6732,
+      "offset": 6836,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/yaro\/Work\/MCards\/HistorySDK\/Sources\/HistorySDK\/Models\/HistoryActivity.swift",
       "kind": "StringLiteral",
-      "offset": 7989,
+      "offset": 8093,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/yaro\/Work\/MCards\/HistorySDK\/Sources\/HistorySDK\/Models\/HistoryActivity.swift",
       "kind": "StringLiteral",
-      "offset": 8024,
+      "offset": 8128,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/yaro\/Work\/MCards\/HistorySDK\/Sources\/HistorySDK\/Models\/HistoryActivity.swift",
       "kind": "StringLiteral",
-      "offset": 8091,
+      "offset": 8195,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/yaro\/Work\/MCards\/HistorySDK\/Sources\/HistorySDK\/Models\/HistoryActivity.swift",
       "kind": "StringLiteral",
-      "offset": 8111,
+      "offset": 8215,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/yaro\/Work\/MCards\/HistorySDK\/Sources\/HistorySDK\/Models\/HistoryActivity.swift",
       "kind": "StringLiteral",
-      "offset": 8166,
+      "offset": 8270,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/yaro\/Work\/MCards\/HistorySDK\/Sources\/HistorySDK\/Models\/HistoryActivity.swift",
       "kind": "StringLiteral",
-      "offset": 8802,
+      "offset": 8906,
       "length": 12,
       "value": "\"created_at\""
     },
     {
       "filePath": "\/Users\/yaro\/Work\/MCards\/HistorySDK\/Sources\/HistorySDK\/Models\/HistoryActivity.swift",
       "kind": "StringLiteral",
-      "offset": 8876,
+      "offset": 8980,
       "length": 24,
       "value": "\"formatted_total_amount\""
     },
     {
       "filePath": "\/Users\/yaro\/Work\/MCards\/HistorySDK\/Sources\/HistorySDK\/Models\/HistoryActivity.swift",
       "kind": "StringLiteral",
-      "offset": 8935,
+      "offset": 9039,
       "length": 22,
       "value": "\"formatted_created_at\""
     },
     {
       "filePath": "\/Users\/yaro\/Work\/MCards\/HistorySDK\/Sources\/HistorySDK\/Models\/HistoryActivity.swift",
       "kind": "StringLiteral",
-      "offset": 9044,
+      "offset": 9148,
       "length": 14,
       "value": "\"total_amount\""
     },
     {
       "filePath": "\/Users\/yaro\/Work\/MCards\/HistorySDK\/Sources\/HistorySDK\/Models\/HistoryActivity.swift",
       "kind": "StringLiteral",
-      "offset": 9101,
+      "offset": 9205,
       "length": 11,
       "value": "\"image_url\""
     },
     {
       "filePath": "\/Users\/yaro\/Work\/MCards\/HistorySDK\/Sources\/HistorySDK\/Models\/ActivityFundingRequest.swift",
       "kind": "StringLiteral",
-      "offset": 1800,
+      "offset": 1814,
       "length": 14,
       "value": "\"total_amount\""
     },
@@ -14548,14 +16948,14 @@
     {
       "filePath": "\/Users\/yaro\/Work\/MCards\/HistorySDK\/Sources\/HistorySDK\/Models\/TransactionMetadataRequest.swift",
       "kind": "StringLiteral",
-      "offset": 1159,
+      "offset": 1166,
       "length": 12,
       "value": "\"tax_amount\""
     },
     {
       "filePath": "\/Users\/yaro\/Work\/MCards\/HistorySDK\/Sources\/HistorySDK\/Models\/TransactionMetadataRequest.swift",
       "kind": "StringLiteral",
-      "offset": 1197,
+      "offset": 1204,
       "length": 12,
       "value": "\"tip_amount\""
     },
