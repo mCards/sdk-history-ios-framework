@@ -4,6 +4,10 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>Assets.car</key>
+		<data>
+		7c4n0vv/BrSDbAkaeuusvdjF7bQ=
+		</data>
 		<key>Headers/HistorySDK.h</key>
 		<data>
 		hqTESSMShOSPhT2qTjctkn2pukM=
@@ -14,11 +18,11 @@
 		</data>
 		<key>Modules/HistorySDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		flUv8w2l/LgT6+95+cJ+AYVf20I=
+		uQqKTJCzeJ1chUIvWBgtVWXtm1Q=
 		</data>
 		<key>Modules/HistorySDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		KmBprnfpzMl0mA8l+v8zU0KCKvk=
+		uE3YE+ZHm/2BBfh1qB0h+XKuFxE=
 		</data>
 		<key>Modules/HistorySDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -26,19 +30,19 @@
 		</data>
 		<key>Modules/HistorySDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		KmBprnfpzMl0mA8l+v8zU0KCKvk=
+		uE3YE+ZHm/2BBfh1qB0h+XKuFxE=
 		</data>
 		<key>Modules/HistorySDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		wcAza7PoomgY4O6wlz9eOF3/5WY=
+		qsZZU07uJHw7uUYNY76aeo8CTIY=
 		</data>
 		<key>Modules/HistorySDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		flUv8w2l/LgT6+95+cJ+AYVf20I=
+		uQqKTJCzeJ1chUIvWBgtVWXtm1Q=
 		</data>
 		<key>Modules/HistorySDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		q6rz140kcACa3YJoOajl4rF20FA=
+		9VM3FIwcPGgPCL/lwXNf1xa9lJM=
 		</data>
 		<key>Modules/HistorySDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -46,11 +50,11 @@
 		</data>
 		<key>Modules/HistorySDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		q6rz140kcACa3YJoOajl4rF20FA=
+		9VM3FIwcPGgPCL/lwXNf1xa9lJM=
 		</data>
 		<key>Modules/HistorySDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		esPJIwq2SXVgvo79xxBQfFUo4GU=
+		hTHLG7o+/Jpx+RCotmz04AKRygc=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -59,6 +63,13 @@
 	</dict>
 	<key>files2</key>
 	<dict>
+		<key>Assets.car</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			BXeY6M7G41oaQgAgMU66qUzi/sOMkuy+NniZC/8Rf3k=
+			</data>
+		</dict>
 		<key>Headers/HistorySDK.h</key>
 		<dict>
 			<key>hash2</key>
@@ -70,14 +81,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			2sl8Ly6lYxsdhh3MGRtQJLc/SlyWH9/nN7qT1ETWLsM=
+			YHFGE08egO3bTF0YGQPIKkHGGbUgVpKsbRkDK8tJN7o=
 			</data>
 		</dict>
 		<key>Modules/HistorySDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			MveJnkaUemo76GqxI4QfSEsI8Ov/JJdgXBtu32wuJ3c=
+			EgnpeStfS/AQCXixf4TaVEEKWBgP9dsIXkwI7BxccM0=
 			</data>
 		</dict>
 		<key>Modules/HistorySDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
@@ -91,28 +102,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			MveJnkaUemo76GqxI4QfSEsI8Ov/JJdgXBtu32wuJ3c=
+			EgnpeStfS/AQCXixf4TaVEEKWBgP9dsIXkwI7BxccM0=
 			</data>
 		</dict>
 		<key>Modules/HistorySDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			EzR8IGV4hIdr5d1/ZFAopDUZdANOAAARaGeQJV+gXEY=
+			cJr7OGsC3ezKmvIwRHMggHQ4Xpy7Dyq16qDPrSaVpRQ=
 			</data>
 		</dict>
 		<key>Modules/HistorySDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			2sl8Ly6lYxsdhh3MGRtQJLc/SlyWH9/nN7qT1ETWLsM=
+			YHFGE08egO3bTF0YGQPIKkHGGbUgVpKsbRkDK8tJN7o=
 			</data>
 		</dict>
 		<key>Modules/HistorySDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Q8xqdOj62u3YvSNZVyZ0KQJpd9kw+zwwGx1uVONrWZA=
+			psNzTFR33tyGHyWIdndxICZGs1MP570iv6EPPXYqfaM=
 			</data>
 		</dict>
 		<key>Modules/HistorySDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -126,14 +137,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Q8xqdOj62u3YvSNZVyZ0KQJpd9kw+zwwGx1uVONrWZA=
+			psNzTFR33tyGHyWIdndxICZGs1MP570iv6EPPXYqfaM=
 			</data>
 		</dict>
 		<key>Modules/HistorySDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			n8W0lPMpwgecU38NRCtOmhZ2Bb+FD8QX+Ivm/EEJylw=
+			M95mWyEWvuS7LLIM2tQ6fVblju+i3U7AMePKbHu0dlQ=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
