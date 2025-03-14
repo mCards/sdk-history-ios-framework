@@ -16471,6 +16471,34 @@
             "mangledName": "$sSQ"
           }
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "HistorySDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "HistorySDK"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "HistorySDK"
+      },
+      {
+        "kind": "Import",
+        "name": "DeveloperToolsSupport",
+        "printedName": "DeveloperToolsSupport",
+        "declKind": "Import",
+        "moduleName": "HistorySDK"
       }
     ],
     "json_format_version": 8
@@ -17126,6 +17154,111 @@
       "offset": 1109,
       "length": 12,
       "value": "\"created_at\""
+    },
+    {
+      "filePath": "\/Users\/yaro\/Library\/Developer\/Xcode\/DerivedData\/HistorySDK-gbbcikkwehzcuubbdtvwayixsjyk\/Build\/Intermediates.noindex\/ArchiveIntermediates\/HistorySDK\/IntermediateBuildFilesPath\/HistorySDK.build\/Release-iphonesimulator\/HistorySDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 716,
+      "length": 20,
+      "value": "\"Receipts\/TintColor\""
+    },
+    {
+      "filePath": "\/Users\/yaro\/Library\/Developer\/Xcode\/DerivedData\/HistorySDK-gbbcikkwehzcuubbdtvwayixsjyk\/Build\/Intermediates.noindex\/ArchiveIntermediates\/HistorySDK\/IntermediateBuildFilesPath\/HistorySDK.build\/Release-iphonesimulator\/HistorySDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 878,
+      "length": 21,
+      "value": "\"Receipts\/TitleColor\""
+    },
+    {
+      "filePath": "\/Users\/yaro\/Library\/Developer\/Xcode\/DerivedData\/HistorySDK-gbbcikkwehzcuubbdtvwayixsjyk\/Build\/Intermediates.noindex\/ArchiveIntermediates\/HistorySDK\/IntermediateBuildFilesPath\/HistorySDK.build\/Release-iphonesimulator\/HistorySDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1236,
+      "length": 21,
+      "value": "\"Receipts\/Background\""
+    },
+    {
+      "filePath": "\/Users\/yaro\/Library\/Developer\/Xcode\/DerivedData\/HistorySDK-gbbcikkwehzcuubbdtvwayixsjyk\/Build\/Intermediates.noindex\/ArchiveIntermediates\/HistorySDK\/IntermediateBuildFilesPath\/HistorySDK.build\/Release-iphonesimulator\/HistorySDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1413,
+      "length": 26,
+      "value": "\"Receipts\/account_balance\""
+    },
+    {
+      "filePath": "\/Users\/yaro\/Library\/Developer\/Xcode\/DerivedData\/HistorySDK-gbbcikkwehzcuubbdtvwayixsjyk\/Build\/Intermediates.noindex\/ArchiveIntermediates\/HistorySDK\/IntermediateBuildFilesPath\/HistorySDK.build\/Release-iphonesimulator\/HistorySDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1593,
+      "length": 25,
+      "value": "\"Receipts\/arrow_downward\""
+    },
+    {
+      "filePath": "\/Users\/yaro\/Library\/Developer\/Xcode\/DerivedData\/HistorySDK-gbbcikkwehzcuubbdtvwayixsjyk\/Build\/Intermediates.noindex\/ArchiveIntermediates\/HistorySDK\/IntermediateBuildFilesPath\/HistorySDK.build\/Release-iphonesimulator\/HistorySDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1768,
+      "length": 23,
+      "value": "\"Receipts\/arrow_upward\""
+    },
+    {
+      "filePath": "\/Users\/yaro\/Library\/Developer\/Xcode\/DerivedData\/HistorySDK-gbbcikkwehzcuubbdtvwayixsjyk\/Build\/Intermediates.noindex\/ArchiveIntermediates\/HistorySDK\/IntermediateBuildFilesPath\/HistorySDK.build\/Release-iphonesimulator\/HistorySDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1928,
+      "length": 16,
+      "value": "\"Receipts\/block\""
+    },
+    {
+      "filePath": "\/Users\/yaro\/Library\/Developer\/Xcode\/DerivedData\/HistorySDK-gbbcikkwehzcuubbdtvwayixsjyk\/Build\/Intermediates.noindex\/ArchiveIntermediates\/HistorySDK\/IntermediateBuildFilesPath\/HistorySDK.build\/Release-iphonesimulator\/HistorySDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 2096,
+      "length": 24,
+      "value": "\"Receipts\/card_giftcard\""
+    },
+    {
+      "filePath": "\/Users\/yaro\/Library\/Developer\/Xcode\/DerivedData\/HistorySDK-gbbcikkwehzcuubbdtvwayixsjyk\/Build\/Intermediates.noindex\/ArchiveIntermediates\/HistorySDK\/IntermediateBuildFilesPath\/HistorySDK.build\/Release-iphonesimulator\/HistorySDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 2255,
+      "length": 15,
+      "value": "\"Receipts\/cash\""
+    },
+    {
+      "filePath": "\/Users\/yaro\/Library\/Developer\/Xcode\/DerivedData\/HistorySDK-gbbcikkwehzcuubbdtvwayixsjyk\/Build\/Intermediates.noindex\/ArchiveIntermediates\/HistorySDK\/IntermediateBuildFilesPath\/HistorySDK.build\/Release-iphonesimulator\/HistorySDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 2418,
+      "length": 22,
+      "value": "\"Receipts\/credit_card\""
+    },
+    {
+      "filePath": "\/Users\/yaro\/Library\/Developer\/Xcode\/DerivedData\/HistorySDK-gbbcikkwehzcuubbdtvwayixsjyk\/Build\/Intermediates.noindex\/ArchiveIntermediates\/HistorySDK\/IntermediateBuildFilesPath\/HistorySDK.build\/Release-iphonesimulator\/HistorySDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 2575,
+      "length": 15,
+      "value": "\"Receipts\/done\""
+    },
+    {
+      "filePath": "\/Users\/yaro\/Library\/Developer\/Xcode\/DerivedData\/HistorySDK-gbbcikkwehzcuubbdtvwayixsjyk\/Build\/Intermediates.noindex\/ArchiveIntermediates\/HistorySDK\/IntermediateBuildFilesPath\/HistorySDK.build\/Release-iphonesimulator\/HistorySDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 2725,
+      "length": 15,
+      "value": "\"Receipts\/info\""
+    },
+    {
+      "filePath": "\/Users\/yaro\/Library\/Developer\/Xcode\/DerivedData\/HistorySDK-gbbcikkwehzcuubbdtvwayixsjyk\/Build\/Intermediates.noindex\/ArchiveIntermediates\/HistorySDK\/IntermediateBuildFilesPath\/HistorySDK.build\/Release-iphonesimulator\/HistorySDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 2879,
+      "length": 17,
+      "value": "\"Receipts\/points\""
+    },
+    {
+      "filePath": "\/Users\/yaro\/Library\/Developer\/Xcode\/DerivedData\/HistorySDK-gbbcikkwehzcuubbdtvwayixsjyk\/Build\/Intermediates.noindex\/ArchiveIntermediates\/HistorySDK\/IntermediateBuildFilesPath\/HistorySDK.build\/Release-iphonesimulator\/HistorySDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 3060,
+      "length": 30,
+      "value": "\"Receipts\/receipt-placeholder\""
+    },
+    {
+      "filePath": "\/Users\/yaro\/Library\/Developer\/Xcode\/DerivedData\/HistorySDK-gbbcikkwehzcuubbdtvwayixsjyk\/Build\/Intermediates.noindex\/ArchiveIntermediates\/HistorySDK\/IntermediateBuildFilesPath\/HistorySDK.build\/Release-iphonesimulator\/HistorySDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 3225,
+      "length": 15,
+      "value": "\"Receipts\/undo\""
     }
   ]
 }
