@@ -4576,728 +4576,6 @@
         "moduleName": "HistorySDK"
       },
       {
-        "kind": "TypeDecl",
-        "name": "ActivityFundingRequest",
-        "printedName": "ActivityFundingRequest",
-        "children": [
-          {
-            "kind": "Var",
-            "name": "funding",
-            "printedName": "funding",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Array",
-                "printedName": "[HistorySDK.ActivityFunding]",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "ActivityFunding",
-                    "printedName": "HistorySDK.ActivityFunding",
-                    "usr": "s:10HistorySDK15ActivityFundingC"
-                  }
-                ],
-                "usr": "s:Sa"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:10HistorySDK22ActivityFundingRequestC7fundingSayAA0cD0CGvp",
-            "mangledName": "$s10HistorySDK22ActivityFundingRequestC7fundingSayAA0cD0CGvp",
-            "moduleName": "HistorySDK",
-            "declAttributes": [
-              "HasStorage",
-              "AccessControl"
-            ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Array",
-                    "printedName": "[HistorySDK.ActivityFunding]",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "ActivityFunding",
-                        "printedName": "HistorySDK.ActivityFunding",
-                        "usr": "s:10HistorySDK15ActivityFundingC"
-                      }
-                    ],
-                    "usr": "s:Sa"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:10HistorySDK22ActivityFundingRequestC7fundingSayAA0cD0CGvg",
-                "mangledName": "$s10HistorySDK22ActivityFundingRequestC7fundingSayAA0cD0CGvg",
-                "moduleName": "HistorySDK",
-                "implicit": true,
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Array",
-                    "printedName": "[HistorySDK.ActivityFunding]",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "ActivityFunding",
-                        "printedName": "HistorySDK.ActivityFunding",
-                        "usr": "s:10HistorySDK15ActivityFundingC"
-                      }
-                    ],
-                    "usr": "s:Sa"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:10HistorySDK22ActivityFundingRequestC7fundingSayAA0cD0CGvs",
-                "mangledName": "$s10HistorySDK22ActivityFundingRequestC7fundingSayAA0cD0CGvs",
-                "moduleName": "HistorySDK",
-                "implicit": true,
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:10HistorySDK22ActivityFundingRequestC7fundingSayAA0cD0CGvM",
-                "mangledName": "$s10HistorySDK22ActivityFundingRequestC7fundingSayAA0cD0CGvM",
-                "moduleName": "HistorySDK",
-                "implicit": true,
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init(funding:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "ActivityFundingRequest",
-                "printedName": "HistorySDK.ActivityFundingRequest",
-                "usr": "s:10HistorySDK22ActivityFundingRequestC"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Array",
-                "printedName": "[HistorySDK.ActivityFunding]",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "ActivityFunding",
-                    "printedName": "HistorySDK.ActivityFunding",
-                    "usr": "s:10HistorySDK15ActivityFundingC"
-                  }
-                ],
-                "usr": "s:Sa"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "s:10HistorySDK22ActivityFundingRequestC7fundingACSayAA0cD0CG_tcfc",
-            "mangledName": "$s10HistorySDK22ActivityFundingRequestC7fundingACSayAA0cD0CG_tcfc",
-            "moduleName": "HistorySDK",
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "init_kind": "Designated"
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init(from:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "ActivityFundingRequest",
-                "printedName": "HistorySDK.ActivityFundingRequest",
-                "usr": "s:10HistorySDK22ActivityFundingRequestC"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Decoder",
-                "printedName": "any Swift.Decoder",
-                "usr": "s:s7DecoderP"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "s:10HistorySDK22ActivityFundingRequestC4fromACs7Decoder_p_tKcfc",
-            "mangledName": "$s10HistorySDK22ActivityFundingRequestC4fromACs7Decoder_p_tKcfc",
-            "moduleName": "HistorySDK",
-            "declAttributes": [
-              "AccessControl",
-              "Required"
-            ],
-            "throwing": true,
-            "init_kind": "Designated"
-          },
-          {
-            "kind": "Function",
-            "name": "encode",
-            "printedName": "encode(to:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Encoder",
-                "printedName": "any Swift.Encoder",
-                "usr": "s:s7EncoderP"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:10HistorySDK22ActivityFundingRequestC6encode2toys7Encoder_p_tKF",
-            "mangledName": "$s10HistorySDK22ActivityFundingRequestC6encode2toys7Encoder_p_tKF",
-            "moduleName": "HistorySDK",
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "throwing": true,
-            "funcSelfKind": "NonMutating"
-          }
-        ],
-        "declKind": "Class",
-        "usr": "s:10HistorySDK22ActivityFundingRequestC",
-        "mangledName": "$s10HistorySDK22ActivityFundingRequestC",
-        "moduleName": "HistorySDK",
-        "declAttributes": [
-          "AccessControl"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Decodable",
-            "printedName": "Decodable",
-            "usr": "s:Se",
-            "mangledName": "$sSe"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Encodable",
-            "printedName": "Encodable",
-            "usr": "s:SE",
-            "mangledName": "$sSE"
-          }
-        ]
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "ActivityFunding",
-        "printedName": "ActivityFunding",
-        "children": [
-          {
-            "kind": "Var",
-            "name": "uuid",
-            "printedName": "uuid",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.String?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:10HistorySDK15ActivityFundingC4uuidSSSgvp",
-            "mangledName": "$s10HistorySDK15ActivityFundingC4uuidSSSgvp",
-            "moduleName": "HistorySDK",
-            "declAttributes": [
-              "HasInitialValue",
-              "HasStorage",
-              "AccessControl"
-            ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "Swift.String?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:10HistorySDK15ActivityFundingC4uuidSSSgvg",
-                "mangledName": "$s10HistorySDK15ActivityFundingC4uuidSSSgvg",
-                "moduleName": "HistorySDK",
-                "implicit": true,
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "Swift.String?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:10HistorySDK15ActivityFundingC4uuidSSSgvs",
-                "mangledName": "$s10HistorySDK15ActivityFundingC4uuidSSSgvs",
-                "moduleName": "HistorySDK",
-                "implicit": true,
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:10HistorySDK15ActivityFundingC4uuidSSSgvM",
-                "mangledName": "$s10HistorySDK15ActivityFundingC4uuidSSSgvM",
-                "moduleName": "HistorySDK",
-                "implicit": true,
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "totalAmount",
-            "printedName": "totalAmount",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.Double?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Double",
-                    "printedName": "Swift.Double",
-                    "usr": "s:Sd"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:10HistorySDK15ActivityFundingC11totalAmountSdSgvp",
-            "mangledName": "$s10HistorySDK15ActivityFundingC11totalAmountSdSgvp",
-            "moduleName": "HistorySDK",
-            "declAttributes": [
-              "HasInitialValue",
-              "HasStorage",
-              "AccessControl"
-            ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "Swift.Double?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Double",
-                        "printedName": "Swift.Double",
-                        "usr": "s:Sd"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:10HistorySDK15ActivityFundingC11totalAmountSdSgvg",
-                "mangledName": "$s10HistorySDK15ActivityFundingC11totalAmountSdSgvg",
-                "moduleName": "HistorySDK",
-                "implicit": true,
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "Swift.Double?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Double",
-                        "printedName": "Swift.Double",
-                        "usr": "s:Sd"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:10HistorySDK15ActivityFundingC11totalAmountSdSgvs",
-                "mangledName": "$s10HistorySDK15ActivityFundingC11totalAmountSdSgvs",
-                "moduleName": "HistorySDK",
-                "implicit": true,
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:10HistorySDK15ActivityFundingC11totalAmountSdSgvM",
-                "mangledName": "$s10HistorySDK15ActivityFundingC11totalAmountSdSgvM",
-                "moduleName": "HistorySDK",
-                "implicit": true,
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "type",
-            "printedName": "type",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.String?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:10HistorySDK15ActivityFundingC4typeSSSgvp",
-            "mangledName": "$s10HistorySDK15ActivityFundingC4typeSSSgvp",
-            "moduleName": "HistorySDK",
-            "declAttributes": [
-              "HasInitialValue",
-              "HasStorage",
-              "AccessControl"
-            ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "Swift.String?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:10HistorySDK15ActivityFundingC4typeSSSgvg",
-                "mangledName": "$s10HistorySDK15ActivityFundingC4typeSSSgvg",
-                "moduleName": "HistorySDK",
-                "implicit": true,
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "Swift.String?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:10HistorySDK15ActivityFundingC4typeSSSgvs",
-                "mangledName": "$s10HistorySDK15ActivityFundingC4typeSSSgvs",
-                "moduleName": "HistorySDK",
-                "implicit": true,
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:10HistorySDK15ActivityFundingC4typeSSSgvM",
-                "mangledName": "$s10HistorySDK15ActivityFundingC4typeSSSgvM",
-                "moduleName": "HistorySDK",
-                "implicit": true,
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init(uuid:totalAmount:type:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "ActivityFunding",
-                "printedName": "HistorySDK.ActivityFunding",
-                "usr": "s:10HistorySDK15ActivityFundingC"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.Double?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Double",
-                    "printedName": "Swift.Double",
-                    "usr": "s:Sd"
-                  }
-                ],
-                "hasDefaultArg": true,
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "s:10HistorySDK15ActivityFundingC4uuid11totalAmount4typeACSS_SdSgSStcfc",
-            "mangledName": "$s10HistorySDK15ActivityFundingC4uuid11totalAmount4typeACSS_SdSgSStcfc",
-            "moduleName": "HistorySDK",
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "init_kind": "Designated"
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init(from:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "ActivityFunding",
-                "printedName": "HistorySDK.ActivityFunding",
-                "usr": "s:10HistorySDK15ActivityFundingC"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Decoder",
-                "printedName": "any Swift.Decoder",
-                "usr": "s:s7DecoderP"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "s:10HistorySDK15ActivityFundingC4fromACs7Decoder_p_tKcfc",
-            "mangledName": "$s10HistorySDK15ActivityFundingC4fromACs7Decoder_p_tKcfc",
-            "moduleName": "HistorySDK",
-            "declAttributes": [
-              "AccessControl",
-              "Required"
-            ],
-            "throwing": true,
-            "init_kind": "Designated"
-          },
-          {
-            "kind": "Function",
-            "name": "encode",
-            "printedName": "encode(to:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Encoder",
-                "printedName": "any Swift.Encoder",
-                "usr": "s:s7EncoderP"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:10HistorySDK15ActivityFundingC6encode2toys7Encoder_p_tKF",
-            "mangledName": "$s10HistorySDK15ActivityFundingC6encode2toys7Encoder_p_tKF",
-            "moduleName": "HistorySDK",
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "throwing": true,
-            "funcSelfKind": "NonMutating"
-          }
-        ],
-        "declKind": "Class",
-        "usr": "s:10HistorySDK15ActivityFundingC",
-        "mangledName": "$s10HistorySDK15ActivityFundingC",
-        "moduleName": "HistorySDK",
-        "declAttributes": [
-          "AccessControl"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Decodable",
-            "printedName": "Decodable",
-            "usr": "s:Se",
-            "mangledName": "$sSe"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Encodable",
-            "printedName": "Encodable",
-            "usr": "s:SE",
-            "mangledName": "$sSE"
-          }
-        ]
-      },
-      {
         "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
@@ -5512,6 +4790,42 @@
               {
                 "kind": "Constructor",
                 "name": "init",
+                "printedName": "init(uuid:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TrackingReport",
+                    "printedName": "HistorySDK.UpdateTransactionTrackingReportRequest.TrackingReport",
+                    "usr": "s:10HistorySDK38UpdateTransactionTrackingReportRequestC0eF0C"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "hasDefaultArg": true,
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Constructor",
+                "usr": "s:10HistorySDK38UpdateTransactionTrackingReportRequestC0eF0C4uuidAESSSg_tcfc",
+                "mangledName": "$s10HistorySDK38UpdateTransactionTrackingReportRequestC0eF0C4uuidAESSSg_tcfc",
+                "moduleName": "HistorySDK",
+                "declAttributes": [
+                  "AccessControl"
+                ],
+                "init_kind": "Designated"
+              },
+              {
+                "kind": "Constructor",
+                "name": "init",
                 "printedName": "init(from:)",
                 "children": [
                   {
@@ -5573,7 +4887,6 @@
             "declAttributes": [
               "AccessControl"
             ],
-            "hasMissingDesignatedInitializers": true,
             "conformances": [
               {
                 "kind": "Conformance",
@@ -5604,6 +4917,33 @@
                 "mangledName": "$sSE"
               }
             ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(trackingReport:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UpdateTransactionTrackingReportRequest",
+                "printedName": "HistorySDK.UpdateTransactionTrackingReportRequest",
+                "usr": "s:10HistorySDK38UpdateTransactionTrackingReportRequestC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "TrackingReport",
+                "printedName": "HistorySDK.UpdateTransactionTrackingReportRequest.TrackingReport",
+                "usr": "s:10HistorySDK38UpdateTransactionTrackingReportRequestC0eF0C"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:10HistorySDK38UpdateTransactionTrackingReportRequestC08trackingF0A2C0eF0C_tcfc",
+            "mangledName": "$s10HistorySDK38UpdateTransactionTrackingReportRequestC08trackingF0A2C0eF0C_tcfc",
+            "moduleName": "HistorySDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
           },
           {
             "kind": "Constructor",
@@ -5669,7 +5009,6 @@
         "declAttributes": [
           "AccessControl"
         ],
-        "hasMissingDesignatedInitializers": true,
         "conformances": [
           {
             "kind": "Conformance",
@@ -6636,589 +5975,6 @@
         "moduleName": "HistorySDK"
       },
       {
-        "kind": "TypeDecl",
-        "name": "TransactionTrackingReportItem",
-        "printedName": "TransactionTrackingReportItem",
-        "children": [
-          {
-            "kind": "Var",
-            "name": "uuid",
-            "printedName": "uuid",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.String?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:10HistorySDK29TransactionTrackingReportItemC4uuidSSSgvp",
-            "mangledName": "$s10HistorySDK29TransactionTrackingReportItemC4uuidSSSgvp",
-            "moduleName": "HistorySDK",
-            "declAttributes": [
-              "HasInitialValue",
-              "HasStorage",
-              "AccessControl"
-            ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "Swift.String?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:10HistorySDK29TransactionTrackingReportItemC4uuidSSSgvg",
-                "mangledName": "$s10HistorySDK29TransactionTrackingReportItemC4uuidSSSgvg",
-                "moduleName": "HistorySDK",
-                "implicit": true,
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "Swift.String?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:10HistorySDK29TransactionTrackingReportItemC4uuidSSSgvs",
-                "mangledName": "$s10HistorySDK29TransactionTrackingReportItemC4uuidSSSgvs",
-                "moduleName": "HistorySDK",
-                "implicit": true,
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:10HistorySDK29TransactionTrackingReportItemC4uuidSSSgvM",
-                "mangledName": "$s10HistorySDK29TransactionTrackingReportItemC4uuidSSSgvM",
-                "moduleName": "HistorySDK",
-                "implicit": true,
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "name",
-            "printedName": "name",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.String?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:10HistorySDK29TransactionTrackingReportItemC4nameSSSgvp",
-            "mangledName": "$s10HistorySDK29TransactionTrackingReportItemC4nameSSSgvp",
-            "moduleName": "HistorySDK",
-            "declAttributes": [
-              "HasInitialValue",
-              "HasStorage",
-              "AccessControl"
-            ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "Swift.String?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:10HistorySDK29TransactionTrackingReportItemC4nameSSSgvg",
-                "mangledName": "$s10HistorySDK29TransactionTrackingReportItemC4nameSSSgvg",
-                "moduleName": "HistorySDK",
-                "implicit": true,
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "Swift.String?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:10HistorySDK29TransactionTrackingReportItemC4nameSSSgvs",
-                "mangledName": "$s10HistorySDK29TransactionTrackingReportItemC4nameSSSgvs",
-                "moduleName": "HistorySDK",
-                "implicit": true,
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:10HistorySDK29TransactionTrackingReportItemC4nameSSSgvM",
-                "mangledName": "$s10HistorySDK29TransactionTrackingReportItemC4nameSSSgvM",
-                "moduleName": "HistorySDK",
-                "implicit": true,
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "selected",
-            "printedName": "selected",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.Bool?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Bool",
-                    "printedName": "Swift.Bool",
-                    "usr": "s:Sb"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:10HistorySDK29TransactionTrackingReportItemC8selectedSbSgvp",
-            "mangledName": "$s10HistorySDK29TransactionTrackingReportItemC8selectedSbSgvp",
-            "moduleName": "HistorySDK",
-            "declAttributes": [
-              "HasInitialValue",
-              "HasStorage",
-              "AccessControl"
-            ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "Swift.Bool?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Bool",
-                        "printedName": "Swift.Bool",
-                        "usr": "s:Sb"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:10HistorySDK29TransactionTrackingReportItemC8selectedSbSgvg",
-                "mangledName": "$s10HistorySDK29TransactionTrackingReportItemC8selectedSbSgvg",
-                "moduleName": "HistorySDK",
-                "implicit": true,
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "Swift.Bool?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Bool",
-                        "printedName": "Swift.Bool",
-                        "usr": "s:Sb"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:10HistorySDK29TransactionTrackingReportItemC8selectedSbSgvs",
-                "mangledName": "$s10HistorySDK29TransactionTrackingReportItemC8selectedSbSgvs",
-                "moduleName": "HistorySDK",
-                "implicit": true,
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:10HistorySDK29TransactionTrackingReportItemC8selectedSbSgvM",
-                "mangledName": "$s10HistorySDK29TransactionTrackingReportItemC8selectedSbSgvM",
-                "moduleName": "HistorySDK",
-                "implicit": true,
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "editable",
-            "printedName": "editable",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.Bool?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Bool",
-                    "printedName": "Swift.Bool",
-                    "usr": "s:Sb"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:10HistorySDK29TransactionTrackingReportItemC8editableSbSgvp",
-            "mangledName": "$s10HistorySDK29TransactionTrackingReportItemC8editableSbSgvp",
-            "moduleName": "HistorySDK",
-            "declAttributes": [
-              "HasInitialValue",
-              "HasStorage",
-              "AccessControl"
-            ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "Swift.Bool?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Bool",
-                        "printedName": "Swift.Bool",
-                        "usr": "s:Sb"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:10HistorySDK29TransactionTrackingReportItemC8editableSbSgvg",
-                "mangledName": "$s10HistorySDK29TransactionTrackingReportItemC8editableSbSgvg",
-                "moduleName": "HistorySDK",
-                "implicit": true,
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "Swift.Bool?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Bool",
-                        "printedName": "Swift.Bool",
-                        "usr": "s:Sb"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:10HistorySDK29TransactionTrackingReportItemC8editableSbSgvs",
-                "mangledName": "$s10HistorySDK29TransactionTrackingReportItemC8editableSbSgvs",
-                "moduleName": "HistorySDK",
-                "implicit": true,
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:10HistorySDK29TransactionTrackingReportItemC8editableSbSgvM",
-                "mangledName": "$s10HistorySDK29TransactionTrackingReportItemC8editableSbSgvM",
-                "moduleName": "HistorySDK",
-                "implicit": true,
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init(from:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "TransactionTrackingReportItem",
-                "printedName": "HistorySDK.TransactionTrackingReportItem",
-                "usr": "s:10HistorySDK29TransactionTrackingReportItemC"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Decoder",
-                "printedName": "any Swift.Decoder",
-                "usr": "s:s7DecoderP"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "s:10HistorySDK29TransactionTrackingReportItemC4fromACs7Decoder_p_tKcfc",
-            "mangledName": "$s10HistorySDK29TransactionTrackingReportItemC4fromACs7Decoder_p_tKcfc",
-            "moduleName": "HistorySDK",
-            "declAttributes": [
-              "AccessControl",
-              "Required"
-            ],
-            "throwing": true,
-            "init_kind": "Designated"
-          },
-          {
-            "kind": "Function",
-            "name": "encode",
-            "printedName": "encode(to:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Encoder",
-                "printedName": "any Swift.Encoder",
-                "usr": "s:s7EncoderP"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:10HistorySDK29TransactionTrackingReportItemC6encode2toys7Encoder_p_tKF",
-            "mangledName": "$s10HistorySDK29TransactionTrackingReportItemC6encode2toys7Encoder_p_tKF",
-            "moduleName": "HistorySDK",
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "throwing": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "==",
-            "printedName": "==(_:_:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "TransactionTrackingReportItem",
-                "printedName": "HistorySDK.TransactionTrackingReportItem",
-                "usr": "s:10HistorySDK29TransactionTrackingReportItemC"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "TransactionTrackingReportItem",
-                "printedName": "HistorySDK.TransactionTrackingReportItem",
-                "usr": "s:10HistorySDK29TransactionTrackingReportItemC"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:10HistorySDK29TransactionTrackingReportItemC2eeoiySbAC_ACtFZ",
-            "mangledName": "$s10HistorySDK29TransactionTrackingReportItemC2eeoiySbAC_ACtFZ",
-            "moduleName": "HistorySDK",
-            "static": true,
-            "declAttributes": [
-              "Final",
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          }
-        ],
-        "declKind": "Class",
-        "usr": "s:10HistorySDK29TransactionTrackingReportItemC",
-        "mangledName": "$s10HistorySDK29TransactionTrackingReportItemC",
-        "moduleName": "HistorySDK",
-        "declAttributes": [
-          "AccessControl"
-        ],
-        "hasMissingDesignatedInitializers": true,
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Decodable",
-            "printedName": "Decodable",
-            "usr": "s:Se",
-            "mangledName": "$sSe"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Encodable",
-            "printedName": "Encodable",
-            "usr": "s:SE",
-            "mangledName": "$sSE"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          }
-        ]
-      },
-      {
         "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
@@ -7246,6 +6002,13 @@
         "kind": "Import",
         "name": "CoreSDK",
         "printedName": "CoreSDK",
+        "declKind": "Import",
+        "moduleName": "HistorySDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
         "declKind": "Import",
         "moduleName": "HistorySDK"
       },
@@ -12238,7 +11001,7 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(Swift.Result<HistorySDK.ActivitiesResponse, any Swift.Error>) -> ()",
+                "printedName": "(Swift.Result<HistorySDK.HistoryActivitiesResponse, any Swift.Error>) -> ()",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -12248,13 +11011,13 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Result",
-                    "printedName": "Swift.Result<HistorySDK.ActivitiesResponse, any Swift.Error>",
+                    "printedName": "Swift.Result<HistorySDK.HistoryActivitiesResponse, any Swift.Error>",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "ActivitiesResponse",
-                        "printedName": "HistorySDK.ActivitiesResponse",
-                        "usr": "s:10HistorySDK18ActivitiesResponseC"
+                        "name": "HistoryActivitiesResponse",
+                        "printedName": "HistorySDK.HistoryActivitiesResponse",
+                        "usr": "s:10HistorySDK0A18ActivitiesResponseC"
                       },
                       {
                         "kind": "TypeNominal",
@@ -12269,8 +11032,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:10HistorySDK0A3SdkP22getPaginatedActivities6cardId11sourceIndex8pageSize10completionySS_SiSgAIys6ResultOyAA0F8ResponseCs5Error_pGctF",
-            "mangledName": "$s10HistorySDK0A3SdkP22getPaginatedActivities6cardId11sourceIndex8pageSize10completionySS_SiSgAIys6ResultOyAA0F8ResponseCs5Error_pGctF",
+            "usr": "s:10HistorySDK0A3SdkP22getPaginatedActivities6cardId11sourceIndex8pageSize10completionySS_SiSgAIys6ResultOyAA0aF8ResponseCs5Error_pGctF",
+            "mangledName": "$s10HistorySDK0A3SdkP22getPaginatedActivities6cardId11sourceIndex8pageSize10completionySS_SiSgAIys6ResultOyAA0aF8ResponseCs5Error_pGctF",
             "moduleName": "HistorySDK",
             "genericSig": "<τ_0_0 where τ_0_0 : HistorySDK.HistorySdk>",
             "sugared_genericSig": "<Self where Self : HistorySDK.HistorySdk>",
@@ -12351,8 +11114,8 @@
           },
           {
             "kind": "Function",
-            "name": "getActivityFundingSources",
-            "printedName": "getActivityFundingSources(cardId:activityId:completion:)",
+            "name": "getActivityPaymentAccounts",
+            "printedName": "getActivityPaymentAccounts(cardId:activityId:completion:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -12413,8 +11176,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:10HistorySDK0A3SdkP25getActivityFundingSources6cardId08activityI010completionySS_SSys6ResultOySayAA011TransactionF6SourceCGs5Error_pGctF",
-            "mangledName": "$s10HistorySDK0A3SdkP25getActivityFundingSources6cardId08activityI010completionySS_SSys6ResultOySayAA011TransactionF6SourceCGs5Error_pGctF",
+            "usr": "s:10HistorySDK0A3SdkP26getActivityPaymentAccounts6cardId08activityI010completionySS_SSys6ResultOySayAA24TransactionFundingSourceCGs5Error_pGctF",
+            "mangledName": "$s10HistorySDK0A3SdkP26getActivityPaymentAccounts6cardId08activityI010completionySS_SSys6ResultOySayAA24TransactionFundingSourceCGs5Error_pGctF",
             "moduleName": "HistorySDK",
             "genericSig": "<τ_0_0 where τ_0_0 : HistorySDK.HistorySdk>",
             "sugared_genericSig": "<Self where Self : HistorySDK.HistorySdk>",
@@ -12427,8 +11190,8 @@
           },
           {
             "kind": "Function",
-            "name": "setActivityFundingSource",
-            "printedName": "setActivityFundingSource(cardId:activityId:body:completion:)",
+            "name": "setActivityPaymentAccount",
+            "printedName": "setActivityPaymentAccount(cardId:activityId:sources:completion:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -12449,9 +11212,17 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "ActivityFundingRequest",
-                "printedName": "HistorySDK.ActivityFundingRequest",
-                "usr": "s:10HistorySDK22ActivityFundingRequestC"
+                "name": "Array",
+                "printedName": "[HistorySDK.TransactionFundingSource]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TransactionFundingSource",
+                    "printedName": "HistorySDK.TransactionFundingSource",
+                    "usr": "s:10HistorySDK24TransactionFundingSourceC"
+                  }
+                ],
+                "usr": "s:Sa"
               },
               {
                 "kind": "TypeFunc",
@@ -12487,8 +11258,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:10HistorySDK0A3SdkP24setActivityFundingSource6cardId08activityI04body10completionySS_SSAA0eF7RequestCys6ResultOyAA06UpdateefG0Cs5Error_pGctF",
-            "mangledName": "$s10HistorySDK0A3SdkP24setActivityFundingSource6cardId08activityI04body10completionySS_SSAA0eF7RequestCys6ResultOyAA06UpdateefG0Cs5Error_pGctF",
+            "usr": "s:10HistorySDK0A3SdkP25setActivityPaymentAccount6cardId08activityI07sources10completionySS_SSSayAA24TransactionFundingSourceCGys6ResultOyAA06UpdateenO0Cs5Error_pGctF",
+            "mangledName": "$s10HistorySDK0A3SdkP25setActivityPaymentAccount6cardId08activityI07sources10completionySS_SSSayAA24TransactionFundingSourceCGys6ResultOyAA06UpdateenO0Cs5Error_pGctF",
             "moduleName": "HistorySDK",
             "genericSig": "<τ_0_0 where τ_0_0 : HistorySDK.HistorySdk>",
             "sugared_genericSig": "<Self where Self : HistorySDK.HistorySdk>",
@@ -12591,9 +11362,9 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "TransactionMetadataRequest",
-                "printedName": "HistorySDK.TransactionMetadataRequest",
-                "usr": "s:10HistorySDK26TransactionMetadataRequestC"
+                "name": "TransactionMetadata",
+                "printedName": "HistorySDK.TransactionMetadata",
+                "usr": "s:10HistorySDK19TransactionMetadataC"
               },
               {
                 "kind": "TypeFunc",
@@ -12629,8 +11400,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:10HistorySDK0A3SdkP19addActivityMetadata6cardId08activityH08metadata10completionySS_SSAA011TransactionF7RequestCys6ResultOyAA0lF0Cs5Error_pGctF",
-            "mangledName": "$s10HistorySDK0A3SdkP19addActivityMetadata6cardId08activityH08metadata10completionySS_SSAA011TransactionF7RequestCys6ResultOyAA0lF0Cs5Error_pGctF",
+            "usr": "s:10HistorySDK0A3SdkP19addActivityMetadata6cardId08activityH08metadata10completionySS_SSAA011TransactionF0Cys6ResultOyAJs5Error_pGctF",
+            "mangledName": "$s10HistorySDK0A3SdkP19addActivityMetadata6cardId08activityH08metadata10completionySS_SSAA011TransactionF0Cys6ResultOyAJs5Error_pGctF",
             "moduleName": "HistorySDK",
             "genericSig": "<τ_0_0 where τ_0_0 : HistorySDK.HistorySdk>",
             "sugared_genericSig": "<Self where Self : HistorySDK.HistorySdk>",
@@ -12672,7 +11443,7 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(Swift.Result<HistorySDK.MetadataUploadImageSuccess, any Swift.Error>) -> ()",
+                "printedName": "(Swift.Result<Swift.Bool, any Swift.Error>) -> ()",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -12682,13 +11453,13 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Result",
-                    "printedName": "Swift.Result<HistorySDK.MetadataUploadImageSuccess, any Swift.Error>",
+                    "printedName": "Swift.Result<Swift.Bool, any Swift.Error>",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "MetadataUploadImageSuccess",
-                        "printedName": "HistorySDK.MetadataUploadImageSuccess",
-                        "usr": "s:10HistorySDK26MetadataUploadImageSuccessC"
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
                       },
                       {
                         "kind": "TypeNominal",
@@ -12703,8 +11474,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:10HistorySDK0A3SdkP24addActivityMetadataPhoto6cardId08activityI09photoData10completionySS_S2Sys6ResultOyAA0F18UploadImageSuccessCs5Error_pGctF",
-            "mangledName": "$s10HistorySDK0A3SdkP24addActivityMetadataPhoto6cardId08activityI09photoData10completionySS_S2Sys6ResultOyAA0F18UploadImageSuccessCs5Error_pGctF",
+            "usr": "s:10HistorySDK0A3SdkP24addActivityMetadataPhoto6cardId08activityI09photoData10completionySS_S2Sys6ResultOySbs5Error_pGctF",
+            "mangledName": "$s10HistorySDK0A3SdkP24addActivityMetadataPhoto6cardId08activityI09photoData10completionySS_S2Sys6ResultOySbs5Error_pGctF",
             "moduleName": "HistorySDK",
             "genericSig": "<τ_0_0 where τ_0_0 : HistorySDK.HistorySdk>",
             "sugared_genericSig": "<Self where Self : HistorySDK.HistorySdk>",
@@ -13630,6 +12401,27 @@
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
+        "moduleName": "HistorySDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "HistorySDK"
+      },
+      {
+        "kind": "Import",
+        "name": "CoreSDK",
+        "printedName": "CoreSDK",
+        "declKind": "Import",
+        "moduleName": "HistorySDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
         "moduleName": "HistorySDK",
         "declAttributes": [
           "RawDocComment"
@@ -14418,6 +13210,116 @@
             ]
           },
           {
+            "kind": "Var",
+            "name": "type",
+            "printedName": "type",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10HistorySDK24TransactionFundingSourceC4typeSSSgvp",
+            "mangledName": "$s10HistorySDK24TransactionFundingSourceC4typeSSSgvp",
+            "moduleName": "HistorySDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10HistorySDK24TransactionFundingSourceC4typeSSSgvg",
+                "mangledName": "$s10HistorySDK24TransactionFundingSourceC4typeSSSgvg",
+                "moduleName": "HistorySDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10HistorySDK24TransactionFundingSourceC4typeSSSgvs",
+                "mangledName": "$s10HistorySDK24TransactionFundingSourceC4typeSSSgvs",
+                "moduleName": "HistorySDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10HistorySDK24TransactionFundingSourceC4typeSSSgvM",
+                "mangledName": "$s10HistorySDK24TransactionFundingSourceC4typeSSSgvM",
+                "moduleName": "HistorySDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
             "kind": "Constructor",
             "name": "init",
             "printedName": "init(from:)",
@@ -14984,8 +13886,443 @@
       },
       {
         "kind": "TypeDecl",
-        "name": "ActivitiesResponse",
-        "printedName": "ActivitiesResponse",
+        "name": "Pagination",
+        "printedName": "Pagination",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "page",
+            "printedName": "page",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10HistorySDK10PaginationV4pageSivp",
+            "mangledName": "$s10HistorySDK10PaginationV4pageSivp",
+            "moduleName": "HistorySDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10HistorySDK10PaginationV4pageSivg",
+                "mangledName": "$s10HistorySDK10PaginationV4pageSivg",
+                "moduleName": "HistorySDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10HistorySDK10PaginationV4pageSivs",
+                "mangledName": "$s10HistorySDK10PaginationV4pageSivs",
+                "moduleName": "HistorySDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10HistorySDK10PaginationV4pageSivM",
+                "mangledName": "$s10HistorySDK10PaginationV4pageSivM",
+                "moduleName": "HistorySDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "perPage",
+            "printedName": "perPage",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10HistorySDK10PaginationV7perPageSivp",
+            "mangledName": "$s10HistorySDK10PaginationV7perPageSivp",
+            "moduleName": "HistorySDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10HistorySDK10PaginationV7perPageSivg",
+                "mangledName": "$s10HistorySDK10PaginationV7perPageSivg",
+                "moduleName": "HistorySDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10HistorySDK10PaginationV7perPageSivs",
+                "mangledName": "$s10HistorySDK10PaginationV7perPageSivs",
+                "moduleName": "HistorySDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10HistorySDK10PaginationV7perPageSivM",
+                "mangledName": "$s10HistorySDK10PaginationV7perPageSivM",
+                "moduleName": "HistorySDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "count",
+            "printedName": "count",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10HistorySDK10PaginationV5countSivp",
+            "mangledName": "$s10HistorySDK10PaginationV5countSivp",
+            "moduleName": "HistorySDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10HistorySDK10PaginationV5countSivg",
+                "mangledName": "$s10HistorySDK10PaginationV5countSivg",
+                "moduleName": "HistorySDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10HistorySDK10PaginationV5countSivs",
+                "mangledName": "$s10HistorySDK10PaginationV5countSivs",
+                "moduleName": "HistorySDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10HistorySDK10PaginationV5countSivM",
+                "mangledName": "$s10HistorySDK10PaginationV5countSivM",
+                "moduleName": "HistorySDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "totalCount",
+            "printedName": "totalCount",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10HistorySDK10PaginationV10totalCountSivp",
+            "mangledName": "$s10HistorySDK10PaginationV10totalCountSivp",
+            "moduleName": "HistorySDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10HistorySDK10PaginationV10totalCountSivg",
+                "mangledName": "$s10HistorySDK10PaginationV10totalCountSivg",
+                "moduleName": "HistorySDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10HistorySDK10PaginationV10totalCountSivs",
+                "mangledName": "$s10HistorySDK10PaginationV10totalCountSivs",
+                "moduleName": "HistorySDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10HistorySDK10PaginationV10totalCountSivM",
+                "mangledName": "$s10HistorySDK10PaginationV10totalCountSivM",
+                "moduleName": "HistorySDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Pagination",
+                "printedName": "HistorySDK.Pagination",
+                "usr": "s:10HistorySDK10PaginationV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "any Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:10HistorySDK10PaginationV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s10HistorySDK10PaginationV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "HistorySDK",
+            "implicit": true,
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "any Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10HistorySDK10PaginationV6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s10HistorySDK10PaginationV6encode2toys7Encoder_p_tKF",
+            "moduleName": "HistorySDK",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:10HistorySDK10PaginationV",
+        "mangledName": "$s10HistorySDK10PaginationV",
+        "moduleName": "HistorySDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "HistoryActivitiesResponse",
+        "printedName": "HistoryActivitiesResponse",
         "children": [
           {
             "kind": "Var",
@@ -15016,8 +14353,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:10HistorySDK18ActivitiesResponseC10activitiesSayAA0A8ActivityCGSgvp",
-            "mangledName": "$s10HistorySDK18ActivitiesResponseC10activitiesSayAA0A8ActivityCGSgvp",
+            "usr": "s:10HistorySDK0A18ActivitiesResponseC10activitiesSayAA0A8ActivityCGSgvp",
+            "mangledName": "$s10HistorySDK0A18ActivitiesResponseC10activitiesSayAA0A8ActivityCGSgvp",
             "moduleName": "HistorySDK",
             "declAttributes": [
               "HasInitialValue",
@@ -15055,8 +14392,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:10HistorySDK18ActivitiesResponseC10activitiesSayAA0A8ActivityCGSgvg",
-                "mangledName": "$s10HistorySDK18ActivitiesResponseC10activitiesSayAA0A8ActivityCGSgvg",
+                "usr": "s:10HistorySDK0A18ActivitiesResponseC10activitiesSayAA0A8ActivityCGSgvg",
+                "mangledName": "$s10HistorySDK0A18ActivitiesResponseC10activitiesSayAA0A8ActivityCGSgvg",
                 "moduleName": "HistorySDK",
                 "implicit": true,
                 "accessorKind": "get"
@@ -15095,8 +14432,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:10HistorySDK18ActivitiesResponseC10activitiesSayAA0A8ActivityCGSgvs",
-                "mangledName": "$s10HistorySDK18ActivitiesResponseC10activitiesSayAA0A8ActivityCGSgvs",
+                "usr": "s:10HistorySDK0A18ActivitiesResponseC10activitiesSayAA0A8ActivityCGSgvs",
+                "mangledName": "$s10HistorySDK0A18ActivitiesResponseC10activitiesSayAA0A8ActivityCGSgvs",
                 "moduleName": "HistorySDK",
                 "implicit": true,
                 "accessorKind": "set"
@@ -15113,8 +14450,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:10HistorySDK18ActivitiesResponseC10activitiesSayAA0A8ActivityCGSgvM",
-                "mangledName": "$s10HistorySDK18ActivitiesResponseC10activitiesSayAA0A8ActivityCGSgvM",
+                "usr": "s:10HistorySDK0A18ActivitiesResponseC10activitiesSayAA0A8ActivityCGSgvM",
+                "mangledName": "$s10HistorySDK0A18ActivitiesResponseC10activitiesSayAA0A8ActivityCGSgvM",
                 "moduleName": "HistorySDK",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -15123,21 +14460,30 @@
           },
           {
             "kind": "Var",
-            "name": "count",
-            "printedName": "count",
+            "name": "pagination",
+            "printedName": "pagination",
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "Int",
-                "printedName": "Swift.Int",
-                "usr": "s:Si"
+                "name": "Optional",
+                "printedName": "HistorySDK.Pagination?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Pagination",
+                    "printedName": "HistorySDK.Pagination",
+                    "usr": "s:10HistorySDK10PaginationV"
+                  }
+                ],
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Var",
-            "usr": "s:10HistorySDK18ActivitiesResponseC5countSivp",
-            "mangledName": "$s10HistorySDK18ActivitiesResponseC5countSivp",
+            "usr": "s:10HistorySDK0A18ActivitiesResponseC10paginationAA10PaginationVSgvp",
+            "mangledName": "$s10HistorySDK0A18ActivitiesResponseC10paginationAA10PaginationVSgvp",
             "moduleName": "HistorySDK",
             "declAttributes": [
+              "HasInitialValue",
               "HasStorage",
               "AccessControl"
             ],
@@ -15150,14 +14496,22 @@
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "Int",
-                    "printedName": "Swift.Int",
-                    "usr": "s:Si"
+                    "name": "Optional",
+                    "printedName": "HistorySDK.Pagination?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Pagination",
+                        "printedName": "HistorySDK.Pagination",
+                        "usr": "s:10HistorySDK10PaginationV"
+                      }
+                    ],
+                    "usr": "s:Sq"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:10HistorySDK18ActivitiesResponseC5countSivg",
-                "mangledName": "$s10HistorySDK18ActivitiesResponseC5countSivg",
+                "usr": "s:10HistorySDK0A18ActivitiesResponseC10paginationAA10PaginationVSgvg",
+                "mangledName": "$s10HistorySDK0A18ActivitiesResponseC10paginationAA10PaginationVSgvg",
                 "moduleName": "HistorySDK",
                 "implicit": true,
                 "accessorKind": "get"
@@ -15174,14 +14528,22 @@
                   },
                   {
                     "kind": "TypeNominal",
-                    "name": "Int",
-                    "printedName": "Swift.Int",
-                    "usr": "s:Si"
+                    "name": "Optional",
+                    "printedName": "HistorySDK.Pagination?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Pagination",
+                        "printedName": "HistorySDK.Pagination",
+                        "usr": "s:10HistorySDK10PaginationV"
+                      }
+                    ],
+                    "usr": "s:Sq"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:10HistorySDK18ActivitiesResponseC5countSivs",
-                "mangledName": "$s10HistorySDK18ActivitiesResponseC5countSivs",
+                "usr": "s:10HistorySDK0A18ActivitiesResponseC10paginationAA10PaginationVSgvs",
+                "mangledName": "$s10HistorySDK0A18ActivitiesResponseC10paginationAA10PaginationVSgvs",
                 "moduleName": "HistorySDK",
                 "implicit": true,
                 "accessorKind": "set"
@@ -15198,348 +14560,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:10HistorySDK18ActivitiesResponseC5countSivM",
-                "mangledName": "$s10HistorySDK18ActivitiesResponseC5countSivM",
-                "moduleName": "HistorySDK",
-                "implicit": true,
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "page",
-            "printedName": "page",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Int",
-                "printedName": "Swift.Int",
-                "usr": "s:Si"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:10HistorySDK18ActivitiesResponseC4pageSivp",
-            "mangledName": "$s10HistorySDK18ActivitiesResponseC4pageSivp",
-            "moduleName": "HistorySDK",
-            "declAttributes": [
-              "HasStorage",
-              "AccessControl"
-            ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Int",
-                    "printedName": "Swift.Int",
-                    "usr": "s:Si"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:10HistorySDK18ActivitiesResponseC4pageSivg",
-                "mangledName": "$s10HistorySDK18ActivitiesResponseC4pageSivg",
-                "moduleName": "HistorySDK",
-                "implicit": true,
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Int",
-                    "printedName": "Swift.Int",
-                    "usr": "s:Si"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:10HistorySDK18ActivitiesResponseC4pageSivs",
-                "mangledName": "$s10HistorySDK18ActivitiesResponseC4pageSivs",
-                "moduleName": "HistorySDK",
-                "implicit": true,
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:10HistorySDK18ActivitiesResponseC4pageSivM",
-                "mangledName": "$s10HistorySDK18ActivitiesResponseC4pageSivM",
-                "moduleName": "HistorySDK",
-                "implicit": true,
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "perPage",
-            "printedName": "perPage",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Int",
-                "printedName": "Swift.Int",
-                "usr": "s:Si"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:10HistorySDK18ActivitiesResponseC7perPageSivp",
-            "mangledName": "$s10HistorySDK18ActivitiesResponseC7perPageSivp",
-            "moduleName": "HistorySDK",
-            "declAttributes": [
-              "HasStorage",
-              "AccessControl"
-            ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Int",
-                    "printedName": "Swift.Int",
-                    "usr": "s:Si"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:10HistorySDK18ActivitiesResponseC7perPageSivg",
-                "mangledName": "$s10HistorySDK18ActivitiesResponseC7perPageSivg",
-                "moduleName": "HistorySDK",
-                "implicit": true,
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Int",
-                    "printedName": "Swift.Int",
-                    "usr": "s:Si"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:10HistorySDK18ActivitiesResponseC7perPageSivs",
-                "mangledName": "$s10HistorySDK18ActivitiesResponseC7perPageSivs",
-                "moduleName": "HistorySDK",
-                "implicit": true,
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:10HistorySDK18ActivitiesResponseC7perPageSivM",
-                "mangledName": "$s10HistorySDK18ActivitiesResponseC7perPageSivM",
-                "moduleName": "HistorySDK",
-                "implicit": true,
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "totalCount",
-            "printedName": "totalCount",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Int",
-                "printedName": "Swift.Int",
-                "usr": "s:Si"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:10HistorySDK18ActivitiesResponseC10totalCountSivp",
-            "mangledName": "$s10HistorySDK18ActivitiesResponseC10totalCountSivp",
-            "moduleName": "HistorySDK",
-            "declAttributes": [
-              "HasStorage",
-              "AccessControl"
-            ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Int",
-                    "printedName": "Swift.Int",
-                    "usr": "s:Si"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:10HistorySDK18ActivitiesResponseC10totalCountSivg",
-                "mangledName": "$s10HistorySDK18ActivitiesResponseC10totalCountSivg",
-                "moduleName": "HistorySDK",
-                "implicit": true,
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Int",
-                    "printedName": "Swift.Int",
-                    "usr": "s:Si"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:10HistorySDK18ActivitiesResponseC10totalCountSivs",
-                "mangledName": "$s10HistorySDK18ActivitiesResponseC10totalCountSivs",
-                "moduleName": "HistorySDK",
-                "implicit": true,
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:10HistorySDK18ActivitiesResponseC10totalCountSivM",
-                "mangledName": "$s10HistorySDK18ActivitiesResponseC10totalCountSivM",
-                "moduleName": "HistorySDK",
-                "implicit": true,
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "badge",
-            "printedName": "badge",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Int",
-                "printedName": "Swift.Int",
-                "usr": "s:Si"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:10HistorySDK18ActivitiesResponseC5badgeSivp",
-            "mangledName": "$s10HistorySDK18ActivitiesResponseC5badgeSivp",
-            "moduleName": "HistorySDK",
-            "declAttributes": [
-              "HasStorage",
-              "AccessControl"
-            ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Int",
-                    "printedName": "Swift.Int",
-                    "usr": "s:Si"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:10HistorySDK18ActivitiesResponseC5badgeSivg",
-                "mangledName": "$s10HistorySDK18ActivitiesResponseC5badgeSivg",
-                "moduleName": "HistorySDK",
-                "implicit": true,
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Int",
-                    "printedName": "Swift.Int",
-                    "usr": "s:Si"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:10HistorySDK18ActivitiesResponseC5badgeSivs",
-                "mangledName": "$s10HistorySDK18ActivitiesResponseC5badgeSivs",
-                "moduleName": "HistorySDK",
-                "implicit": true,
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:10HistorySDK18ActivitiesResponseC5badgeSivM",
-                "mangledName": "$s10HistorySDK18ActivitiesResponseC5badgeSivM",
+                "usr": "s:10HistorySDK0A18ActivitiesResponseC10paginationAA10PaginationVSgvM",
+                "mangledName": "$s10HistorySDK0A18ActivitiesResponseC10paginationAA10PaginationVSgvM",
                 "moduleName": "HistorySDK",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -15549,13 +14571,72 @@
           {
             "kind": "Constructor",
             "name": "init",
+            "printedName": "init(activities:pagination:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "HistoryActivitiesResponse",
+                "printedName": "HistorySDK.HistoryActivitiesResponse",
+                "usr": "s:10HistorySDK0A18ActivitiesResponseC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[HistorySDK.HistoryActivity]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[HistorySDK.HistoryActivity]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "HistoryActivity",
+                        "printedName": "HistorySDK.HistoryActivity",
+                        "usr": "s:10HistorySDK0A8ActivityC"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "HistorySDK.Pagination?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Pagination",
+                    "printedName": "HistorySDK.Pagination",
+                    "usr": "s:10HistorySDK10PaginationV"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:10HistorySDK0A18ActivitiesResponseC10activities10paginationACSayAA0A8ActivityCGSg_AA10PaginationVSgtcfc",
+            "mangledName": "$s10HistorySDK0A18ActivitiesResponseC10activities10paginationACSayAA0A8ActivityCGSg_AA10PaginationVSgtcfc",
+            "moduleName": "HistorySDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
             "printedName": "init(from:)",
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "ActivitiesResponse",
-                "printedName": "HistorySDK.ActivitiesResponse",
-                "usr": "s:10HistorySDK18ActivitiesResponseC"
+                "name": "HistoryActivitiesResponse",
+                "printedName": "HistorySDK.HistoryActivitiesResponse",
+                "usr": "s:10HistorySDK0A18ActivitiesResponseC"
               },
               {
                 "kind": "TypeNominal",
@@ -15565,8 +14646,8 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:10HistorySDK18ActivitiesResponseC4fromACs7Decoder_p_tKcfc",
-            "mangledName": "$s10HistorySDK18ActivitiesResponseC4fromACs7Decoder_p_tKcfc",
+            "usr": "s:10HistorySDK0A18ActivitiesResponseC4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s10HistorySDK0A18ActivitiesResponseC4fromACs7Decoder_p_tKcfc",
             "moduleName": "HistorySDK",
             "declAttributes": [
               "AccessControl",
@@ -15593,8 +14674,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:10HistorySDK18ActivitiesResponseC6encode2toys7Encoder_p_tKF",
-            "mangledName": "$s10HistorySDK18ActivitiesResponseC6encode2toys7Encoder_p_tKF",
+            "usr": "s:10HistorySDK0A18ActivitiesResponseC6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s10HistorySDK0A18ActivitiesResponseC6encode2toys7Encoder_p_tKF",
             "moduleName": "HistorySDK",
             "declAttributes": [
               "AccessControl"
@@ -15604,13 +14685,12 @@
           }
         ],
         "declKind": "Class",
-        "usr": "s:10HistorySDK18ActivitiesResponseC",
-        "mangledName": "$s10HistorySDK18ActivitiesResponseC",
+        "usr": "s:10HistorySDK0A18ActivitiesResponseC",
+        "mangledName": "$s10HistorySDK0A18ActivitiesResponseC",
         "moduleName": "HistorySDK",
         "declAttributes": [
           "AccessControl"
         ],
-        "hasMissingDesignatedInitializers": true,
         "conformances": [
           {
             "kind": "Conformance",
@@ -16710,14 +15790,14 @@
     {
       "filePath": "\/Users\/yaro\/Work\/MCards\/HistorySDK\/Sources\/HistorySDK\/Models\/ActivityFundingRequest.swift",
       "kind": "StringLiteral",
-      "offset": 1814,
+      "offset": 2458,
       "length": 14,
       "value": "\"total_amount\""
     },
     {
       "filePath": "\/Users\/yaro\/Work\/MCards\/HistorySDK\/Sources\/HistorySDK\/Models\/UpdateTransactionTrackingReportRequest.swift",
       "kind": "StringLiteral",
-      "offset": 1490,
+      "offset": 1504,
       "length": 16,
       "value": "\"trackingreport\""
     },
@@ -17018,63 +16098,28 @@
     {
       "filePath": "\/Users\/yaro\/Work\/MCards\/HistorySDK\/Sources\/HistorySDK\/Models\/TransactionFundingSource.swift",
       "kind": "StringLiteral",
-      "offset": 2378,
+      "offset": 2586,
       "length": 14,
       "value": "\"total_amount\""
     },
     {
       "filePath": "\/Users\/yaro\/Work\/MCards\/HistorySDK\/Sources\/HistorySDK\/Models\/TransactionFundingSource.swift",
       "kind": "StringLiteral",
-      "offset": 2429,
+      "offset": 2637,
       "length": 24,
       "value": "\"formatted_total_amount\""
     },
     {
-      "filePath": "\/Users\/yaro\/Work\/MCards\/HistorySDK\/Sources\/HistorySDK\/Models\/ActivitiesResponse.swift",
-      "kind": "IntegerLiteral",
-      "offset": 314,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/yaro\/Work\/MCards\/HistorySDK\/Sources\/HistorySDK\/Models\/ActivitiesResponse.swift",
-      "kind": "IntegerLiteral",
-      "offset": 329,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/yaro\/Work\/MCards\/HistorySDK\/Sources\/HistorySDK\/Models\/ActivitiesResponse.swift",
-      "kind": "IntegerLiteral",
-      "offset": 347,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/yaro\/Work\/MCards\/HistorySDK\/Sources\/HistorySDK\/Models\/ActivitiesResponse.swift",
-      "kind": "IntegerLiteral",
-      "offset": 368,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/yaro\/Work\/MCards\/HistorySDK\/Sources\/HistorySDK\/Models\/ActivitiesResponse.swift",
-      "kind": "IntegerLiteral",
-      "offset": 384,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/yaro\/Work\/MCards\/HistorySDK\/Sources\/HistorySDK\/Models\/ActivitiesResponse.swift",
+      "filePath": "\/Users\/yaro\/Work\/MCards\/HistorySDK\/Sources\/HistorySDK\/Models\/HistoryActivitiesResponse.swift",
       "kind": "StringLiteral",
-      "offset": 1872,
+      "offset": 248,
       "length": 10,
       "value": "\"per_page\""
     },
     {
-      "filePath": "\/Users\/yaro\/Work\/MCards\/HistorySDK\/Sources\/HistorySDK\/Models\/ActivitiesResponse.swift",
+      "filePath": "\/Users\/yaro\/Work\/MCards\/HistorySDK\/Sources\/HistorySDK\/Models\/HistoryActivitiesResponse.swift",
       "kind": "StringLiteral",
-      "offset": 1909,
+      "offset": 304,
       "length": 13,
       "value": "\"total_count\""
     },
