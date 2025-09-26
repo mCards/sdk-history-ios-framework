@@ -7575,8 +7575,8 @@
           },
           {
             "kind": "Var",
-            "name": "taxAmount",
-            "printedName": "taxAmount",
+            "name": "imageUrl",
+            "printedName": "imageUrl",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -7594,8 +7594,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:10HistorySDK19TransactionMetadataC9taxAmountSSSgvp",
-            "mangledName": "$s10HistorySDK19TransactionMetadataC9taxAmountSSSgvp",
+            "usr": "s:10HistorySDK19TransactionMetadataC8imageUrlSSSgvp",
+            "mangledName": "$s10HistorySDK19TransactionMetadataC8imageUrlSSSgvp",
             "moduleName": "HistorySDK",
             "declAttributes": [
               "HasInitialValue",
@@ -7625,8 +7625,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:10HistorySDK19TransactionMetadataC9taxAmountSSSgvg",
-                "mangledName": "$s10HistorySDK19TransactionMetadataC9taxAmountSSSgvg",
+                "usr": "s:10HistorySDK19TransactionMetadataC8imageUrlSSSgvg",
+                "mangledName": "$s10HistorySDK19TransactionMetadataC8imageUrlSSSgvg",
                 "moduleName": "HistorySDK",
                 "implicit": true,
                 "accessorKind": "get"
@@ -7657,8 +7657,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:10HistorySDK19TransactionMetadataC9taxAmountSSSgvs",
-                "mangledName": "$s10HistorySDK19TransactionMetadataC9taxAmountSSSgvs",
+                "usr": "s:10HistorySDK19TransactionMetadataC8imageUrlSSSgvs",
+                "mangledName": "$s10HistorySDK19TransactionMetadataC8imageUrlSSSgvs",
                 "moduleName": "HistorySDK",
                 "implicit": true,
                 "accessorKind": "set"
@@ -7675,228 +7675,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:10HistorySDK19TransactionMetadataC9taxAmountSSSgvM",
-                "mangledName": "$s10HistorySDK19TransactionMetadataC9taxAmountSSSgvM",
-                "moduleName": "HistorySDK",
-                "implicit": true,
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "formattedTaxAmount",
-            "printedName": "formattedTaxAmount",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.String?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:10HistorySDK19TransactionMetadataC18formattedTaxAmountSSSgvp",
-            "mangledName": "$s10HistorySDK19TransactionMetadataC18formattedTaxAmountSSSgvp",
-            "moduleName": "HistorySDK",
-            "declAttributes": [
-              "HasInitialValue",
-              "HasStorage",
-              "AccessControl"
-            ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "Swift.String?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:10HistorySDK19TransactionMetadataC18formattedTaxAmountSSSgvg",
-                "mangledName": "$s10HistorySDK19TransactionMetadataC18formattedTaxAmountSSSgvg",
-                "moduleName": "HistorySDK",
-                "implicit": true,
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "Swift.String?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:10HistorySDK19TransactionMetadataC18formattedTaxAmountSSSgvs",
-                "mangledName": "$s10HistorySDK19TransactionMetadataC18formattedTaxAmountSSSgvs",
-                "moduleName": "HistorySDK",
-                "implicit": true,
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:10HistorySDK19TransactionMetadataC18formattedTaxAmountSSSgvM",
-                "mangledName": "$s10HistorySDK19TransactionMetadataC18formattedTaxAmountSSSgvM",
-                "moduleName": "HistorySDK",
-                "implicit": true,
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "tipAmount",
-            "printedName": "tipAmount",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.String?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:10HistorySDK19TransactionMetadataC9tipAmountSSSgvp",
-            "mangledName": "$s10HistorySDK19TransactionMetadataC9tipAmountSSSgvp",
-            "moduleName": "HistorySDK",
-            "declAttributes": [
-              "HasInitialValue",
-              "HasStorage",
-              "AccessControl"
-            ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "Swift.String?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:10HistorySDK19TransactionMetadataC9tipAmountSSSgvg",
-                "mangledName": "$s10HistorySDK19TransactionMetadataC9tipAmountSSSgvg",
-                "moduleName": "HistorySDK",
-                "implicit": true,
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "Swift.String?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:10HistorySDK19TransactionMetadataC9tipAmountSSSgvs",
-                "mangledName": "$s10HistorySDK19TransactionMetadataC9tipAmountSSSgvs",
-                "moduleName": "HistorySDK",
-                "implicit": true,
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:10HistorySDK19TransactionMetadataC9tipAmountSSSgvM",
-                "mangledName": "$s10HistorySDK19TransactionMetadataC9tipAmountSSSgvM",
+                "usr": "s:10HistorySDK19TransactionMetadataC8imageUrlSSSgvM",
+                "mangledName": "$s10HistorySDK19TransactionMetadataC8imageUrlSSSgvM",
                 "moduleName": "HistorySDK",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -8015,8 +7795,8 @@
           },
           {
             "kind": "Var",
-            "name": "notes",
-            "printedName": "notes",
+            "name": "formattedTaxAmount",
+            "printedName": "formattedTaxAmount",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -8034,8 +7814,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:10HistorySDK19TransactionMetadataC5notesSSSgvp",
-            "mangledName": "$s10HistorySDK19TransactionMetadataC5notesSSSgvp",
+            "usr": "s:10HistorySDK19TransactionMetadataC18formattedTaxAmountSSSgvp",
+            "mangledName": "$s10HistorySDK19TransactionMetadataC18formattedTaxAmountSSSgvp",
             "moduleName": "HistorySDK",
             "declAttributes": [
               "HasInitialValue",
@@ -8065,8 +7845,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:10HistorySDK19TransactionMetadataC5notesSSSgvg",
-                "mangledName": "$s10HistorySDK19TransactionMetadataC5notesSSSgvg",
+                "usr": "s:10HistorySDK19TransactionMetadataC18formattedTaxAmountSSSgvg",
+                "mangledName": "$s10HistorySDK19TransactionMetadataC18formattedTaxAmountSSSgvg",
                 "moduleName": "HistorySDK",
                 "implicit": true,
                 "accessorKind": "get"
@@ -8097,8 +7877,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:10HistorySDK19TransactionMetadataC5notesSSSgvs",
-                "mangledName": "$s10HistorySDK19TransactionMetadataC5notesSSSgvs",
+                "usr": "s:10HistorySDK19TransactionMetadataC18formattedTaxAmountSSSgvs",
+                "mangledName": "$s10HistorySDK19TransactionMetadataC18formattedTaxAmountSSSgvs",
                 "moduleName": "HistorySDK",
                 "implicit": true,
                 "accessorKind": "set"
@@ -8115,118 +7895,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:10HistorySDK19TransactionMetadataC5notesSSSgvM",
-                "mangledName": "$s10HistorySDK19TransactionMetadataC5notesSSSgvM",
-                "moduleName": "HistorySDK",
-                "implicit": true,
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "imageUrl",
-            "printedName": "imageUrl",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.String?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:10HistorySDK19TransactionMetadataC8imageUrlSSSgvp",
-            "mangledName": "$s10HistorySDK19TransactionMetadataC8imageUrlSSSgvp",
-            "moduleName": "HistorySDK",
-            "declAttributes": [
-              "HasInitialValue",
-              "HasStorage",
-              "AccessControl"
-            ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "Swift.String?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:10HistorySDK19TransactionMetadataC8imageUrlSSSgvg",
-                "mangledName": "$s10HistorySDK19TransactionMetadataC8imageUrlSSSgvg",
-                "moduleName": "HistorySDK",
-                "implicit": true,
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "Swift.String?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:10HistorySDK19TransactionMetadataC8imageUrlSSSgvs",
-                "mangledName": "$s10HistorySDK19TransactionMetadataC8imageUrlSSSgvs",
-                "moduleName": "HistorySDK",
-                "implicit": true,
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:10HistorySDK19TransactionMetadataC8imageUrlSSSgvM",
-                "mangledName": "$s10HistorySDK19TransactionMetadataC8imageUrlSSSgvM",
+                "usr": "s:10HistorySDK19TransactionMetadataC18formattedTaxAmountSSSgvM",
+                "mangledName": "$s10HistorySDK19TransactionMetadataC18formattedTaxAmountSSSgvM",
                 "moduleName": "HistorySDK",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -8365,6 +8035,7 @@
             "usr": "s:10HistorySDK19TransactionMetadataC4fromACs7Decoder_p_tKcfc",
             "mangledName": "$s10HistorySDK19TransactionMetadataC4fromACs7Decoder_p_tKcfc",
             "moduleName": "HistorySDK",
+            "overriding": true,
             "declAttributes": [
               "AccessControl",
               "Required"
@@ -8393,11 +8064,87 @@
             "usr": "s:10HistorySDK19TransactionMetadataC6encode2toys7Encoder_p_tKF",
             "mangledName": "$s10HistorySDK19TransactionMetadataC6encode2toys7Encoder_p_tKF",
             "moduleName": "HistorySDK",
+            "overriding": true,
             "declAttributes": [
+              "Override",
               "AccessControl"
             ],
             "throwing": true,
             "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "addDefaultValues",
+            "printedName": "addDefaultValues(metadata:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "TransactionMetadata",
+                "printedName": "HistorySDK.TransactionMetadata",
+                "usr": "s:10HistorySDK19TransactionMetadataC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "TransactionMetadata",
+                "printedName": "HistorySDK.TransactionMetadata",
+                "usr": "s:10HistorySDK19TransactionMetadataC"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10HistorySDK19TransactionMetadataC16addDefaultValues8metadataA2C_tFZ",
+            "mangledName": "$s10HistorySDK19TransactionMetadataC16addDefaultValues8metadataA2C_tFZ",
+            "moduleName": "HistorySDK",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(tipAmount:taxAmount:note:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "TransactionMetadata",
+                "printedName": "HistorySDK.TransactionMetadata",
+                "usr": "s:10HistorySDK19TransactionMetadataC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Float",
+                "printedName": "Swift.Float",
+                "hasDefaultArg": true,
+                "usr": "s:Sf"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Float",
+                "printedName": "Swift.Float",
+                "hasDefaultArg": true,
+                "usr": "s:Sf"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:10HistorySDK19TransactionMetadataC9tipAmount03taxF04noteACSf_SfSStcfc",
+            "mangledName": "$s10HistorySDK19TransactionMetadataC9tipAmount03taxF04noteACSf_SfSStcfc",
+            "moduleName": "HistorySDK",
+            "overriding": true,
+            "implicit": true,
+            "declAttributes": [
+              "Override"
+            ],
+            "init_kind": "Designated"
           }
         ],
         "declKind": "Class",
@@ -8407,7 +8154,11 @@
         "declAttributes": [
           "AccessControl"
         ],
+        "superclassUsr": "s:10HistorySDK22AddTransactionMetadataC",
         "hasMissingDesignatedInitializers": true,
+        "superclassNames": [
+          "HistorySDK.AddTransactionMetadata"
+        ],
         "conformances": [
           {
             "kind": "Conformance",
@@ -11362,9 +11113,9 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "TransactionMetadata",
-                "printedName": "HistorySDK.TransactionMetadata",
-                "usr": "s:10HistorySDK19TransactionMetadataC"
+                "name": "AddTransactionMetadata",
+                "printedName": "HistorySDK.AddTransactionMetadata",
+                "usr": "s:10HistorySDK22AddTransactionMetadataC"
               },
               {
                 "kind": "TypeFunc",
@@ -11400,8 +11151,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:10HistorySDK0A3SdkP19addActivityMetadata6cardId08activityH08metadata10completionySS_SSAA011TransactionF0Cys6ResultOyAJs5Error_pGctF",
-            "mangledName": "$s10HistorySDK0A3SdkP19addActivityMetadata6cardId08activityH08metadata10completionySS_SSAA011TransactionF0Cys6ResultOyAJs5Error_pGctF",
+            "usr": "s:10HistorySDK0A3SdkP19addActivityMetadata6cardId08activityH08metadata10completionySS_SSAA014AddTransactionF0Cys6ResultOyAA0mF0Cs5Error_pGctF",
+            "mangledName": "$s10HistorySDK0A3SdkP19addActivityMetadata6cardId08activityH08metadata10completionySS_SSAA014AddTransactionF0Cys6ResultOyAA0mF0Cs5Error_pGctF",
             "moduleName": "HistorySDK",
             "genericSig": "<τ_0_0 where τ_0_0 : HistorySDK.HistorySdk>",
             "sugared_genericSig": "<Self where Self : HistorySDK.HistorySdk>",
@@ -11533,6 +11284,411 @@
             "printedName": "Copyable",
             "usr": "s:s8CopyableP",
             "mangledName": "$ss8CopyableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "HistorySDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AddTransactionMetadata",
+        "printedName": "AddTransactionMetadata",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "tipAmount",
+            "printedName": "tipAmount",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Float",
+                "printedName": "Swift.Float",
+                "usr": "s:Sf"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10HistorySDK22AddTransactionMetadataC9tipAmountSfvp",
+            "mangledName": "$s10HistorySDK22AddTransactionMetadataC9tipAmountSfvp",
+            "moduleName": "HistorySDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Float",
+                    "printedName": "Swift.Float",
+                    "usr": "s:Sf"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10HistorySDK22AddTransactionMetadataC9tipAmountSfvg",
+                "mangledName": "$s10HistorySDK22AddTransactionMetadataC9tipAmountSfvg",
+                "moduleName": "HistorySDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Float",
+                    "printedName": "Swift.Float",
+                    "usr": "s:Sf"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10HistorySDK22AddTransactionMetadataC9tipAmountSfvs",
+                "mangledName": "$s10HistorySDK22AddTransactionMetadataC9tipAmountSfvs",
+                "moduleName": "HistorySDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10HistorySDK22AddTransactionMetadataC9tipAmountSfvM",
+                "mangledName": "$s10HistorySDK22AddTransactionMetadataC9tipAmountSfvM",
+                "moduleName": "HistorySDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "taxAmount",
+            "printedName": "taxAmount",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Float",
+                "printedName": "Swift.Float",
+                "usr": "s:Sf"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10HistorySDK22AddTransactionMetadataC9taxAmountSfvp",
+            "mangledName": "$s10HistorySDK22AddTransactionMetadataC9taxAmountSfvp",
+            "moduleName": "HistorySDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Float",
+                    "printedName": "Swift.Float",
+                    "usr": "s:Sf"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10HistorySDK22AddTransactionMetadataC9taxAmountSfvg",
+                "mangledName": "$s10HistorySDK22AddTransactionMetadataC9taxAmountSfvg",
+                "moduleName": "HistorySDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Float",
+                    "printedName": "Swift.Float",
+                    "usr": "s:Sf"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10HistorySDK22AddTransactionMetadataC9taxAmountSfvs",
+                "mangledName": "$s10HistorySDK22AddTransactionMetadataC9taxAmountSfvs",
+                "moduleName": "HistorySDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10HistorySDK22AddTransactionMetadataC9taxAmountSfvM",
+                "mangledName": "$s10HistorySDK22AddTransactionMetadataC9taxAmountSfvM",
+                "moduleName": "HistorySDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "note",
+            "printedName": "note",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10HistorySDK22AddTransactionMetadataC4noteSSvp",
+            "mangledName": "$s10HistorySDK22AddTransactionMetadataC4noteSSvp",
+            "moduleName": "HistorySDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10HistorySDK22AddTransactionMetadataC4noteSSvg",
+                "mangledName": "$s10HistorySDK22AddTransactionMetadataC4noteSSvg",
+                "moduleName": "HistorySDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10HistorySDK22AddTransactionMetadataC4noteSSvs",
+                "mangledName": "$s10HistorySDK22AddTransactionMetadataC4noteSSvs",
+                "moduleName": "HistorySDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10HistorySDK22AddTransactionMetadataC4noteSSvM",
+                "mangledName": "$s10HistorySDK22AddTransactionMetadataC4noteSSvM",
+                "moduleName": "HistorySDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(tipAmount:taxAmount:note:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AddTransactionMetadata",
+                "printedName": "HistorySDK.AddTransactionMetadata",
+                "usr": "s:10HistorySDK22AddTransactionMetadataC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Float",
+                "printedName": "Swift.Float",
+                "hasDefaultArg": true,
+                "usr": "s:Sf"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Float",
+                "printedName": "Swift.Float",
+                "hasDefaultArg": true,
+                "usr": "s:Sf"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:10HistorySDK22AddTransactionMetadataC9tipAmount03taxG04noteACSf_SfSStcfc",
+            "mangledName": "$s10HistorySDK22AddTransactionMetadataC9tipAmount03taxG04noteACSf_SfSStcfc",
+            "moduleName": "HistorySDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AddTransactionMetadata",
+                "printedName": "HistorySDK.AddTransactionMetadata",
+                "usr": "s:10HistorySDK22AddTransactionMetadataC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "any Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:10HistorySDK22AddTransactionMetadataC4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s10HistorySDK22AddTransactionMetadataC4fromACs7Decoder_p_tKcfc",
+            "moduleName": "HistorySDK",
+            "declAttributes": [
+              "AccessControl",
+              "Required"
+            ],
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "any Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10HistorySDK22AddTransactionMetadataC6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s10HistorySDK22AddTransactionMetadataC6encode2toys7Encoder_p_tKF",
+            "moduleName": "HistorySDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:10HistorySDK22AddTransactionMetadataC",
+        "mangledName": "$s10HistorySDK22AddTransactionMetadataC",
+        "moduleName": "HistorySDK",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
           }
         ]
       },
@@ -15985,38 +16141,45 @@
     },
     {
       "filePath": "\/Users\/yaro\/Work\/MCards\/HistorySDK\/Sources\/HistorySDK\/Models\/TransactionMetadata.swift",
-      "kind": "StringLiteral",
-      "offset": 2569,
-      "length": 12,
-      "value": "\"tax_amount\""
+      "kind": "FloatLiteral",
+      "offset": 363,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/yaro\/Work\/MCards\/HistorySDK\/Sources\/HistorySDK\/Models\/TransactionMetadata.swift",
+      "kind": "FloatLiteral",
+      "offset": 438,
+      "length": 3,
+      "value": "0.0"
     },
     {
       "filePath": "\/Users\/yaro\/Work\/MCards\/HistorySDK\/Sources\/HistorySDK\/Models\/TransactionMetadata.swift",
       "kind": "StringLiteral",
-      "offset": 2616,
-      "length": 22,
-      "value": "\"formatted_tax_amount\""
+      "offset": 509,
+      "length": 15,
+      "value": "\"No note added\""
     },
     {
       "filePath": "\/Users\/yaro\/Work\/MCards\/HistorySDK\/Sources\/HistorySDK\/Models\/TransactionMetadata.swift",
       "kind": "StringLiteral",
-      "offset": 2664,
-      "length": 12,
-      "value": "\"tip_amount\""
+      "offset": 2136,
+      "length": 11,
+      "value": "\"image_url\""
     },
     {
       "filePath": "\/Users\/yaro\/Work\/MCards\/HistorySDK\/Sources\/HistorySDK\/Models\/TransactionMetadata.swift",
       "kind": "StringLiteral",
-      "offset": 2711,
+      "offset": 2182,
       "length": 22,
       "value": "\"formatted_tip_amount\""
     },
     {
       "filePath": "\/Users\/yaro\/Work\/MCards\/HistorySDK\/Sources\/HistorySDK\/Models\/TransactionMetadata.swift",
       "kind": "StringLiteral",
-      "offset": 2777,
-      "length": 11,
-      "value": "\"image_url\""
+      "offset": 2239,
+      "length": 22,
+      "value": "\"formatted_tax_amount\""
     },
     {
       "filePath": "\/Users\/yaro\/Work\/MCards\/HistorySDK\/Sources\/HistorySDK\/Models\/Item.swift",
@@ -16066,6 +16229,48 @@
       "offset": 1204,
       "length": 12,
       "value": "\"tip_amount\""
+    },
+    {
+      "filePath": "\/Users\/yaro\/Work\/MCards\/HistorySDK\/Sources\/HistorySDK\/Models\/AddTransactionMetadata.swift",
+      "kind": "FloatLiteral",
+      "offset": 388,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/yaro\/Work\/MCards\/HistorySDK\/Sources\/HistorySDK\/Models\/AddTransactionMetadata.swift",
+      "kind": "FloatLiteral",
+      "offset": 412,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/yaro\/Work\/MCards\/HistorySDK\/Sources\/HistorySDK\/Models\/AddTransactionMetadata.swift",
+      "kind": "StringLiteral",
+      "offset": 432,
+      "length": 15,
+      "value": "\"No note added\""
+    },
+    {
+      "filePath": "\/Users\/yaro\/Work\/MCards\/HistorySDK\/Sources\/HistorySDK\/Models\/AddTransactionMetadata.swift",
+      "kind": "StringLiteral",
+      "offset": 1349,
+      "length": 12,
+      "value": "\"tip_amount\""
+    },
+    {
+      "filePath": "\/Users\/yaro\/Work\/MCards\/HistorySDK\/Sources\/HistorySDK\/Models\/AddTransactionMetadata.swift",
+      "kind": "StringLiteral",
+      "offset": 1387,
+      "length": 12,
+      "value": "\"tax_amount\""
+    },
+    {
+      "filePath": "\/Users\/yaro\/Work\/MCards\/HistorySDK\/Sources\/HistorySDK\/Models\/AddTransactionMetadata.swift",
+      "kind": "StringLiteral",
+      "offset": 1420,
+      "length": 7,
+      "value": "\"notes\""
     },
     {
       "filePath": "\/Users\/yaro\/Work\/MCards\/HistorySDK\/Sources\/HistorySDK\/Models\/ActionCell.swift",

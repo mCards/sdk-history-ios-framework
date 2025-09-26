@@ -1,7 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.1 effective-5.10 (swiftlang-6.1.0.110.21 clang-1700.0.13.3)
+// swift-compiler-version: Apple Swift version 6.1.2 effective-5.10 (swiftlang-6.1.2.1.2 clang-1700.0.13.5)
 // swift-module-flags: -target x86_64-apple-ios14.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name HistorySDK
-// swift-module-flags-ignorable:  -interface-compiler-version 6.1
+// swift-module-flags-ignorable:  -interface-compiler-version 6.1.2
 import CoreSDK
 import DeveloperToolsSupport
 import Foundation
@@ -185,17 +185,15 @@ public struct ReportRequest : Swift.Encodable {
   public func encode(to encoder: any Swift.Encoder) throws
   @objc deinit
 }
-@_hasMissingDesignatedInitializers public class TransactionMetadata : Swift.Codable {
+@_hasMissingDesignatedInitializers public class TransactionMetadata : HistorySDK.AddTransactionMetadata {
   public var uuid: Swift.String?
-  public var taxAmount: Swift.String?
-  public var formattedTaxAmount: Swift.String?
-  public var tipAmount: Swift.String?
-  public var formattedTipAmount: Swift.String?
-  public var notes: Swift.String?
   public var imageUrl: Swift.String?
+  public var formattedTipAmount: Swift.String?
+  public var formattedTaxAmount: Swift.String?
   public var isEditable: Swift.Bool?
   required public init(from decoder: any Swift.Decoder) throws
-  public func encode(to encoder: any Swift.Encoder) throws
+  override public func encode(to encoder: any Swift.Encoder) throws
+  public static func addDefaultValues(metadata: HistorySDK.TransactionMetadata) -> HistorySDK.TransactionMetadata
   @objc deinit
 }
 @_hasMissingDesignatedInitializers public class MetadataUploadImageSuccess : Swift.Codable {
@@ -259,9 +257,18 @@ public protocol HistorySdk {
   func getActivityPaymentAccounts(cardId: Swift.String, activityId: Swift.String, completion: @escaping (_ result: Swift.Result<[HistorySDK.TransactionFundingSource], any Swift.Error>) -> Swift.Void)
   func setActivityPaymentAccount(cardId: Swift.String, activityId: Swift.String, sources: [HistorySDK.TransactionFundingSource], completion: @escaping (_ result: Swift.Result<HistorySDK.UpdateActivityFundingSource, any Swift.Error>) -> Swift.Void)
   func getActivityMetadata(cardId: Swift.String, activityId: Swift.String, completion: @escaping (_ result: Swift.Result<HistorySDK.TransactionMetadata, any Swift.Error>) -> Swift.Void)
-  func addActivityMetadata(cardId: Swift.String, activityId: Swift.String, metadata: HistorySDK.TransactionMetadata, completion: @escaping (_ result: Swift.Result<HistorySDK.TransactionMetadata, any Swift.Error>) -> Swift.Void)
+  func addActivityMetadata(cardId: Swift.String, activityId: Swift.String, metadata: HistorySDK.AddTransactionMetadata, completion: @escaping (_ result: Swift.Result<HistorySDK.TransactionMetadata, any Swift.Error>) -> Swift.Void)
   func addActivityMetadataPhoto(cardId: Swift.String, activityId: Swift.String, photoData: Swift.String, completion: @escaping (_ result: Swift.Result<Swift.Bool, any Swift.Error>) -> Swift.Void)
   func logout()
+}
+public class AddTransactionMetadata : Swift.Codable {
+  public var tipAmount: Swift.Float
+  public var taxAmount: Swift.Float
+  public var note: Swift.String
+  public init(tipAmount: Swift.Float = 0.0, taxAmount: Swift.Float = 0.0, note: Swift.String = "No note added")
+  required public init(from decoder: any Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+  @objc deinit
 }
 @_hasMissingDesignatedInitializers public class UpdateActivityFundingSource : Swift.Codable {
   public var notification: HistorySDK.UpdateFundingNotification?
