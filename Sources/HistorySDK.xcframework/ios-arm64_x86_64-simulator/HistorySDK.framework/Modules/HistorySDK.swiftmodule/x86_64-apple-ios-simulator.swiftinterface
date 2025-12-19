@@ -1,7 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.1.2 effective-5.10 (swiftlang-6.1.2.1.2 clang-1700.0.13.5)
+// swift-compiler-version: Apple Swift version 6.2.1 effective-5.10 (swiftlang-6.2.1.4.8 clang-1700.4.4.1)
 // swift-module-flags: -target x86_64-apple-ios14.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name HistorySDK
-// swift-module-flags-ignorable:  -interface-compiler-version 6.1.2
+// swift-module-flags-ignorable:  -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2.1
 import CoreSDK
 import DeveloperToolsSupport
 import Foundation
@@ -31,10 +31,14 @@ public enum ActivityIcons : Swift.String, Swift.Equatable, Swift.Codable {
   case info
   case block
   case creditCard
+  #if compiler(>=5.3) && $NonescapableTypes
   public var image: UIKit.UIImage? {
     get
   }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.String)
+  #endif
   public typealias RawValue = Swift.String
   public var rawValue: Swift.String {
     get
@@ -57,7 +61,9 @@ public enum ActivityIcons : Swift.String, Swift.Equatable, Swift.Codable {
       case cardTransaction
       case balanceTransfer
       case userTransaction
+      #if compiler(>=5.3) && $NonescapableTypes
       public init?(rawValue: Swift.String)
+      #endif
       public typealias RawValue = Swift.String
       public var rawValue: Swift.String {
         get
@@ -74,17 +80,25 @@ public enum ActivityIcons : Swift.String, Swift.Equatable, Swift.Codable {
         case title
         case logo
         case address
+        #if compiler(>=5.3) && $NonescapableTypes
         public init?(rawValue: Swift.String)
+        #endif
+        #if compiler(>=5.3) && $NonescapableTypes
         public init?(stringValue: Swift.String)
+        #endif
+        #if compiler(>=5.3) && $NonescapableTypes
         public init?(intValue: Swift.Int)
+        #endif
         public typealias AllCases = [HistorySDK.HistoryActivity.Action.Location.CodingKeys]
         public typealias RawValue = Swift.String
         nonisolated public static var allCases: [HistorySDK.HistoryActivity.Action.Location.CodingKeys] {
           get
         }
+        #if compiler(>=5.3) && $NonescapableTypes
         public var intValue: Swift.Int? {
           get
         }
+        #endif
         public var rawValue: Swift.String {
           get
         }
@@ -120,7 +134,9 @@ public class UpdateTransactionTrackingReportRequest : Swift.Codable {
   public var trackingReport: HistorySDK.UpdateTransactionTrackingReportRequest.TrackingReport
   public class TrackingReport : Swift.Codable {
     public var uuid: Swift.String?
+    #if compiler(>=5.3) && $NonescapableTypes
     public init(uuid: Swift.String? = nil)
+    #endif
     required public init(from decoder: any Swift.Decoder) throws
     public func encode(to encoder: any Swift.Encoder) throws
     @objc deinit
@@ -151,7 +167,9 @@ public struct ReportRequest : Swift.Encodable {
   public enum Status : Swift.String, Swift.Codable, Swift.Equatable, Swift.CaseIterable {
     case active
     case inactive
+    #if compiler(>=5.3) && $NonescapableTypes
     public init?(rawValue: Swift.String)
+    #endif
     public typealias AllCases = [HistorySDK.TrackingReport.Status]
     public typealias RawValue = Swift.String
     nonisolated public static var allCases: [HistorySDK.TrackingReport.Status] {
@@ -165,7 +183,9 @@ public struct ReportRequest : Swift.Encodable {
     case daily
     case weekly
     case monthly
+    #if compiler(>=5.3) && $NonescapableTypes
     public init?(rawValue: Swift.String)
+    #endif
     public typealias AllCases = [HistorySDK.TrackingReport.Schedule]
     public typealias RawValue = Swift.String
     nonisolated public static var allCases: [HistorySDK.TrackingReport.Schedule] {
@@ -227,7 +247,9 @@ public struct ReportRequest : Swift.Encodable {
   public enum Layout : Swift.String, Swift.Codable, Swift.Equatable, Swift.CaseIterable {
     case oneCol
     case twoCol
+    #if compiler(>=5.3) && $NonescapableTypes
     public init?(rawValue: Swift.String)
+    #endif
     public typealias AllCases = [HistorySDK.Item.Layout]
     public typealias RawValue = Swift.String
     nonisolated public static var allCases: [HistorySDK.Item.Layout] {
@@ -243,7 +265,9 @@ public class TransactionMetadataRequest : Swift.Codable {
   public var taxAmount: Swift.Double?
   public var tipAmount: Swift.Double?
   public var notes: Swift.String?
+  #if compiler(>=5.3) && $NonescapableTypes
   public init(taxAmount: Swift.Double? = nil, tipAmount: Swift.Double? = nil, notes: Swift.String? = nil)
+  #endif
   required public init(from decoder: any Swift.Decoder) throws
   public func encode(to encoder: any Swift.Encoder) throws
   @objc deinit
@@ -252,13 +276,27 @@ public protocol HistorySdk {
   func configure(accessToken: Swift.String, tokenRefreshCallback: any HistorySDK.HSDKTokenRefreshCallback)
   func configure(accessToken: Swift.String, debugMode: Swift.Bool, tokenRefreshCallback: any HistorySDK.HSDKTokenRefreshCallback, loggingCallback: any CoreSDK.LoggingCallback)
   func launch(with controller: UIKit.UIViewController)
+  #if compiler(>=5.3) && $NonescapableTypes
   func getPaginatedActivities(cardId: Swift.String, sourceIndex: Swift.Int?, pageSize: Swift.Int?, completion: @escaping (_ result: Swift.Result<HistorySDK.HistoryActivitiesResponse, any Swift.Error>) -> Swift.Void)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   func getActivity(cardId: Swift.String, activityId: Swift.String, completion: @escaping (_ result: Swift.Result<HistorySDK.HistoryActivity, any Swift.Error>) -> Swift.Void)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   func getActivityPaymentAccounts(cardId: Swift.String, activityId: Swift.String, completion: @escaping (_ result: Swift.Result<[HistorySDK.TransactionFundingSource], any Swift.Error>) -> Swift.Void)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   func setActivityPaymentAccount(cardId: Swift.String, activityId: Swift.String, sources: [HistorySDK.TransactionFundingSource], completion: @escaping (_ result: Swift.Result<HistorySDK.UpdateActivityFundingSource, any Swift.Error>) -> Swift.Void)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   func getActivityMetadata(cardId: Swift.String, activityId: Swift.String, completion: @escaping (_ result: Swift.Result<HistorySDK.TransactionMetadata, any Swift.Error>) -> Swift.Void)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   func addActivityMetadata(cardId: Swift.String, activityId: Swift.String, metadata: HistorySDK.AddTransactionMetadata, completion: @escaping (_ result: Swift.Result<HistorySDK.TransactionMetadata, any Swift.Error>) -> Swift.Void)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   func addActivityMetadataPhoto(cardId: Swift.String, activityId: Swift.String, photoData: Swift.String, completion: @escaping (_ result: Swift.Result<Swift.Bool, any Swift.Error>) -> Swift.Void)
+  #endif
   func logout()
 }
 public class AddTransactionMetadata : Swift.Codable {
@@ -325,7 +363,9 @@ public struct Pagination : Swift.Codable {
 public class HistoryActivitiesResponse : Swift.Codable {
   public var activities: [HistorySDK.HistoryActivity]?
   public var pagination: HistorySDK.Pagination?
+  #if compiler(>=5.3) && $NonescapableTypes
   public init(activities: [HistorySDK.HistoryActivity]? = nil, pagination: HistorySDK.Pagination? = nil)
+  #endif
   required public init(from decoder: any Swift.Decoder) throws
   public func encode(to encoder: any Swift.Encoder) throws
   @objc deinit
