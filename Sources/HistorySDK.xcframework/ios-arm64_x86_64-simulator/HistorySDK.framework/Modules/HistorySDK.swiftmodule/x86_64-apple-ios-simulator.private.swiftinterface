@@ -1,7 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.2.1 effective-5.10 (swiftlang-6.2.1.4.8 clang-1700.4.4.1)
+// swift-compiler-version: Apple Swift version 6.2.4 effective-5.10 (swiftlang-6.2.4.1.4 clang-1700.6.4.2)
 // swift-module-flags: -target x86_64-apple-ios14.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name HistorySDK
-// swift-module-flags-ignorable:  -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2.1
+// swift-module-flags-ignorable:  -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2.4
 import CoreSDK
 import DeveloperToolsSupport
 import Foundation
@@ -21,111 +21,68 @@ import _SwiftConcurrencyShims
   public func encode(to encoder: any Swift.Encoder) throws
   @objc deinit
 }
-public enum ActivityIcons : Swift.String, Swift.Equatable, Swift.Codable {
-  case accountBalance
-  case giftCard
-  case arrowDownward
-  case arrowUpward
-  case done
-  case undo
-  case info
-  case block
-  case creditCard
-  #if compiler(>=5.3) && $NonescapableTypes
-  public var image: UIKit.UIImage? {
-    get
-  }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
-  public init?(rawValue: Swift.String)
-  #endif
-  public typealias RawValue = Swift.String
-  public var rawValue: Swift.String {
-    get
-  }
-}
-@_hasMissingDesignatedInitializers public class HistoryActivity : Swift.Codable {
-  public var action: HistorySDK.HistoryActivity.Action?
-  public var createdAt: Foundation.Date
-  public var description: Swift.String
-  public var imageUrl: Swift.String?
-  public var formattedTotalAmount: Swift.String
-  public var formattedCreatedAt: Swift.String?
-  public var icon: HistorySDK.ActivityIcons?
-  public var subtitle: Swift.String
-  public var title: Swift.String
-  public var totalAmount: Swift.Double?
+public class HistoryActivity : Swift.Codable {
   public var uuid: Swift.String
-  @_hasMissingDesignatedInitializers public class Action : Swift.Codable {
-    public enum ActionType : Swift.String, Swift.Codable {
-      case cardTransaction
-      case balanceTransfer
-      case userTransaction
-      #if compiler(>=5.3) && $NonescapableTypes
-      public init?(rawValue: Swift.String)
-      #endif
-      public typealias RawValue = Swift.String
-      public var rawValue: Swift.String {
-        get
-      }
+  public var title: Swift.String
+  public var createdAt: Foundation.Date
+  public var iconUrl: Swift.String?
+  public var value: Swift.String?
+  public var totalAmount: Swift.Double?
+  public var type: HistorySDK.HistoryActivity.ActivityType?
+  public var message: HistorySDK.HistoryActivity.Message?
+  public var metadata: HistorySDK.HistoryActivity.ActivityMetadata?
+  public var lineItems: [HistorySDK.ActivityLineItem]?
+  public enum ActivityType : Swift.String, Swift.Codable {
+    case cardTransaction
+    case balanceTransfer
+    case cardBalanceTransfer
+    case userTransaction
+    case productPurchase
+    case convertPoints
+    #if compiler(>=5.3) && $NonescapableTypes
+    public init?(rawValue: Swift.String)
+    #endif
+    public typealias RawValue = Swift.String
+    public var rawValue: Swift.String {
+      get
     }
-    public var cells: [HistorySDK.ActionCell]
-    public var metadata: HistorySDK.HistoryActivity.Action.Metadata?
-    public var type: HistorySDK.HistoryActivity.Action.ActionType?
-    @_hasMissingDesignatedInitializers public class Location : Swift.Codable {
-      public var title: Swift.String
-      public var logo: Swift.String
-      public var address: Swift.String
-      public enum CodingKeys : Swift.String, Swift.CodingKey, Swift.CaseIterable {
-        case title
-        case logo
-        case address
-        #if compiler(>=5.3) && $NonescapableTypes
-        public init?(rawValue: Swift.String)
-        #endif
-        #if compiler(>=5.3) && $NonescapableTypes
-        public init?(stringValue: Swift.String)
-        #endif
-        #if compiler(>=5.3) && $NonescapableTypes
-        public init?(intValue: Swift.Int)
-        #endif
-        public typealias AllCases = [HistorySDK.HistoryActivity.Action.Location.CodingKeys]
-        public typealias RawValue = Swift.String
-        nonisolated public static var allCases: [HistorySDK.HistoryActivity.Action.Location.CodingKeys] {
-          get
-        }
-        #if compiler(>=5.3) && $NonescapableTypes
-        public var intValue: Swift.Int? {
-          get
-        }
-        #endif
-        public var rawValue: Swift.String {
-          get
-        }
-        public var stringValue: Swift.String {
-          get
-        }
-      }
-      required public init(from decoder: any Swift.Decoder) throws
-      public func encode(to encoder: any Swift.Encoder) throws
-      @objc deinit
-    }
-    @_hasMissingDesignatedInitializers public class Metadata : Swift.Codable {
-      public var points: Swift.String
-      public var isSettled: Swift.Bool
-      public var isReallocatable: Swift.Bool
-      public var transactionTracking: Swift.Bool
-      public var settlementDate: Foundation.Date
-      public var location: HistorySDK.HistoryActivity.Action.Location
-      public var userDetailMetadata: HistorySDK.TransactionMetadata?
-      required public init(from decoder: any Swift.Decoder) throws
-      public func encode(to encoder: any Swift.Encoder) throws
-      @objc deinit
-    }
+  }
+  public class Message : Swift.Codable {
+    public var title: Swift.String
+    public var body: Swift.String
+    public init(title: Swift.String = "", body: Swift.String = "")
+    required public init(from decoder: any Swift.Decoder) throws
+    @objc deinit
+    public func encode(to encoder: any Swift.Encoder) throws
+  }
+  public class ActivityMetadata : Swift.Codable {
+    public var settlementDate: Foundation.Date?
+    public var reallocatable: Swift.Bool
+    public var userMetadataDetail: HistorySDK.HistoryActivity.UserMetadataDetail?
+    #if compiler(>=5.3) && $NonescapableTypes
+    public init(settlementDate: Foundation.Date? = nil, reallocatable: Swift.Bool = false, userMetadataDetail: HistorySDK.HistoryActivity.UserMetadataDetail? = nil)
+    #endif
     required public init(from decoder: any Swift.Decoder) throws
     public func encode(to encoder: any Swift.Encoder) throws
     @objc deinit
   }
+  public class UserMetadataDetail : Swift.Codable {
+    public var imageUrl: Swift.String?
+    public var taxAmount: Swift.Double?
+    public var formattedTaxAmount: Swift.String?
+    public var tipAmount: Swift.Double?
+    public var formattedTipAmount: Swift.String?
+    public var notes: Swift.String?
+    #if compiler(>=5.3) && $NonescapableTypes
+    public init(imageUrl: Swift.String? = nil, taxAmount: Swift.Double? = nil, formattedTaxAmount: Swift.String? = nil, tipAmount: Swift.Double? = nil, formattedTipAmount: Swift.String? = nil, notes: Swift.String? = nil)
+    #endif
+    @objc deinit
+    public func encode(to encoder: any Swift.Encoder) throws
+    required public init(from decoder: any Swift.Decoder) throws
+  }
+  #if compiler(>=5.3) && $NonescapableTypes
+  public init(uuid: Swift.String = "", title: Swift.String = "", createdAt: Foundation.Date = Date(), iconUrl: Swift.String? = nil, value: Swift.String? = nil, totalAmount: Swift.Double? = nil, type: HistorySDK.HistoryActivity.ActivityType? = nil, message: HistorySDK.HistoryActivity.Message? = nil, metadata: HistorySDK.HistoryActivity.ActivityMetadata? = nil, lineItems: [HistorySDK.ActivityLineItem]? = nil)
+  #endif
   required public init(from decoder: any Swift.Decoder) throws
   public func encode(to encoder: any Swift.Encoder) throws
   @objc deinit
@@ -232,35 +189,6 @@ public struct ReportRequest : Swift.Encodable {
   public func encode(to encoder: any Swift.Encoder) throws
   @objc deinit
 }
-@_hasMissingDesignatedInitializers public class Item : Swift.Equatable, Swift.Codable {
-  public var customStyle: Swift.String
-  public var icon: HistorySDK.ActivityIcons?
-  public var layout: HistorySDK.Item.Layout
-  public var title: Swift.String
-  public var value: Swift.String?
-  public var isLineSeparator: Swift.Bool {
-    get
-  }
-  required public init(from decoder: any Swift.Decoder) throws
-  public func encode(to encoder: any Swift.Encoder) throws
-  public static func == (lhs: HistorySDK.Item, rhs: HistorySDK.Item) -> Swift.Bool
-  public enum Layout : Swift.String, Swift.Codable, Swift.Equatable, Swift.CaseIterable {
-    case oneCol
-    case twoCol
-    #if compiler(>=5.3) && $NonescapableTypes
-    public init?(rawValue: Swift.String)
-    #endif
-    public typealias AllCases = [HistorySDK.Item.Layout]
-    public typealias RawValue = Swift.String
-    nonisolated public static var allCases: [HistorySDK.Item.Layout] {
-      get
-    }
-    public var rawValue: Swift.String {
-      get
-    }
-  }
-  @objc deinit
-}
 public class TransactionMetadataRequest : Swift.Codable {
   public var taxAmount: Swift.Double?
   public var tipAmount: Swift.Double?
@@ -312,16 +240,6 @@ public class AddTransactionMetadata : Swift.Codable {
   public var notification: HistorySDK.UpdateFundingNotification?
   required public init(from decoder: any Swift.Decoder) throws
   public func encode(to encoder: any Swift.Encoder) throws
-  @objc deinit
-}
-@_hasMissingDesignatedInitializers public class ActionCell : Swift.Codable, Swift.Equatable {
-  public var items: [HistorySDK.Item]
-  public var subtitle: Swift.String
-  public var createdAt: Swift.String?
-  public var title: Swift.String
-  required public init(from decoder: any Swift.Decoder) throws
-  public func encode(to encoder: any Swift.Encoder) throws
-  public static func == (lhs: HistorySDK.ActionCell, rhs: HistorySDK.ActionCell) -> Swift.Bool
   @objc deinit
 }
 public protocol HSDKTokenRefreshCallback {
@@ -384,17 +302,47 @@ public class HistoryActivitiesResponse : Swift.Codable {
   public static func == (lhs: HistorySDK.GeneratedReport, rhs: HistorySDK.GeneratedReport) -> Swift.Bool
   @objc deinit
 }
-extension HistorySDK.ActivityIcons : Swift.Hashable {}
-extension HistorySDK.ActivityIcons : Swift.RawRepresentable {}
-extension HistorySDK.HistoryActivity.Action.ActionType : Swift.Equatable {}
-extension HistorySDK.HistoryActivity.Action.ActionType : Swift.Hashable {}
-extension HistorySDK.HistoryActivity.Action.ActionType : Swift.RawRepresentable {}
-extension HistorySDK.HistoryActivity.Action.Location.CodingKeys : Swift.Equatable {}
-extension HistorySDK.HistoryActivity.Action.Location.CodingKeys : Swift.Hashable {}
-extension HistorySDK.HistoryActivity.Action.Location.CodingKeys : Swift.RawRepresentable {}
+public class ActivityLineItem : Swift.Codable, Swift.Equatable {
+  public var title: Swift.String
+  public var subtitle: Swift.String?
+  public var createdAt: Swift.String?
+  public var value: Swift.String?
+  public var details: [HistorySDK.ActivityDetail]?
+  #if compiler(>=5.3) && $NonescapableTypes
+  public init(title: Swift.String = "", subtitle: Swift.String? = nil, createdAt: Swift.String? = nil, value: Swift.String? = nil, details: [HistorySDK.ActivityDetail]? = nil)
+  #endif
+  required public init(from decoder: any Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+  public static func == (lhs: HistorySDK.ActivityLineItem, rhs: HistorySDK.ActivityLineItem) -> Swift.Bool
+  @objc deinit
+}
+public class ActivityDetail : Swift.Equatable, Swift.Codable {
+  public var iconUrl: Swift.String?
+  public var title: Swift.String
+  public var value: HistorySDK.ActivityDetail.FlexibleValue?
+  #if compiler(>=5.3) && $NonescapableTypes
+  public init(iconUrl: Swift.String? = nil, title: Swift.String = "", value: HistorySDK.ActivityDetail.FlexibleValue? = nil)
+  #endif
+  public enum FlexibleValue : Swift.Codable, Swift.Equatable {
+    case string(Swift.String)
+    case int(Swift.Int)
+    case double(Swift.Double)
+    public init(from decoder: any Swift.Decoder) throws
+    public func encode(to encoder: any Swift.Encoder) throws
+    public var displayString: Swift.String {
+      get
+    }
+    public static func == (a: HistorySDK.ActivityDetail.FlexibleValue, b: HistorySDK.ActivityDetail.FlexibleValue) -> Swift.Bool
+  }
+  required public init(from decoder: any Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+  public static func == (lhs: HistorySDK.ActivityDetail, rhs: HistorySDK.ActivityDetail) -> Swift.Bool
+  @objc deinit
+}
+extension HistorySDK.HistoryActivity.ActivityType : Swift.Equatable {}
+extension HistorySDK.HistoryActivity.ActivityType : Swift.Hashable {}
+extension HistorySDK.HistoryActivity.ActivityType : Swift.RawRepresentable {}
 extension HistorySDK.TrackingReport.Status : Swift.Hashable {}
 extension HistorySDK.TrackingReport.Status : Swift.RawRepresentable {}
 extension HistorySDK.TrackingReport.Schedule : Swift.Hashable {}
 extension HistorySDK.TrackingReport.Schedule : Swift.RawRepresentable {}
-extension HistorySDK.Item.Layout : Swift.Hashable {}
-extension HistorySDK.Item.Layout : Swift.RawRepresentable {}
