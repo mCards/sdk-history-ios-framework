@@ -1,0 +1,14 @@
+{
+  "version": "1.1.13",
+  "artifact": "HistorySDK",
+  "referenceRepository": "Wantsa/sdk-history-ios-framework",
+  "referenceCommit": "25ffd30a1765d09a046e1b9f16892c376f538daa",
+  "referenceTree": "5f80be7b695526bed2ba831c2e3f4498775d4287",
+  "sourceCommit": "6f313cacb9f1906bb1654bf17a3411a5de160767",
+  "testedCoreSDK": "1.4.8",
+  "coreDistribution": {
+    "repository": "mCards/sdk-cards-ios-framework",
+    "version": "1.1.19",
+    "product": "CoreSDK"
+  }
+}
