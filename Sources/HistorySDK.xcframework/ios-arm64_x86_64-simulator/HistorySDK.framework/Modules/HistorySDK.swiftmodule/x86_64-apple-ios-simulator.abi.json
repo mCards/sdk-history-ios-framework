@@ -531,13 +531,6 @@
           },
           {
             "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
             "name": "Decodable",
             "printedName": "Decodable",
             "usr": "s:Se",
@@ -549,6 +542,13 @@
             "printedName": "Encodable",
             "usr": "s:SE",
             "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           }
         ]
       },
@@ -923,6 +923,336 @@
                 "declKind": "Accessor",
                 "usr": "s:10HistorySDK0A8ActivityC7iconUrlSSSgvM",
                 "mangledName": "$s10HistorySDK0A8ActivityC7iconUrlSSSgvM",
+                "moduleName": "HistorySDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "categoryKey",
+            "printedName": "categoryKey",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10HistorySDK0A8ActivityC11categoryKeySSSgvp",
+            "mangledName": "$s10HistorySDK0A8ActivityC11categoryKeySSSgvp",
+            "moduleName": "HistorySDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10HistorySDK0A8ActivityC11categoryKeySSSgvg",
+                "mangledName": "$s10HistorySDK0A8ActivityC11categoryKeySSSgvg",
+                "moduleName": "HistorySDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10HistorySDK0A8ActivityC11categoryKeySSSgvs",
+                "mangledName": "$s10HistorySDK0A8ActivityC11categoryKeySSSgvs",
+                "moduleName": "HistorySDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10HistorySDK0A8ActivityC11categoryKeySSSgvM",
+                "mangledName": "$s10HistorySDK0A8ActivityC11categoryKeySSSgvM",
+                "moduleName": "HistorySDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "backgroundColor",
+            "printedName": "backgroundColor",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10HistorySDK0A8ActivityC15backgroundColorSSSgvp",
+            "mangledName": "$s10HistorySDK0A8ActivityC15backgroundColorSSSgvp",
+            "moduleName": "HistorySDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10HistorySDK0A8ActivityC15backgroundColorSSSgvg",
+                "mangledName": "$s10HistorySDK0A8ActivityC15backgroundColorSSSgvg",
+                "moduleName": "HistorySDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10HistorySDK0A8ActivityC15backgroundColorSSSgvs",
+                "mangledName": "$s10HistorySDK0A8ActivityC15backgroundColorSSSgvs",
+                "moduleName": "HistorySDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10HistorySDK0A8ActivityC15backgroundColorSSSgvM",
+                "mangledName": "$s10HistorySDK0A8ActivityC15backgroundColorSSSgvM",
+                "moduleName": "HistorySDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "processor",
+            "printedName": "processor",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10HistorySDK0A8ActivityC9processorSSSgvp",
+            "mangledName": "$s10HistorySDK0A8ActivityC9processorSSSgvp",
+            "moduleName": "HistorySDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10HistorySDK0A8ActivityC9processorSSSgvg",
+                "mangledName": "$s10HistorySDK0A8ActivityC9processorSSSgvg",
+                "moduleName": "HistorySDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10HistorySDK0A8ActivityC9processorSSSgvs",
+                "mangledName": "$s10HistorySDK0A8ActivityC9processorSSSgvs",
+                "moduleName": "HistorySDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10HistorySDK0A8ActivityC9processorSSSgvM",
+                "mangledName": "$s10HistorySDK0A8ActivityC9processorSSSgvM",
                 "moduleName": "HistorySDK",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -1931,17 +2261,17 @@
               },
               {
                 "kind": "Conformance",
-                "name": "Escapable",
-                "printedName": "Escapable",
-                "usr": "s:s9EscapableP",
-                "mangledName": "$ss9EscapableP"
-              },
-              {
-                "kind": "Conformance",
                 "name": "Equatable",
                 "printedName": "Equatable",
                 "usr": "s:SQ",
                 "mangledName": "$sSQ"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
               },
               {
                 "kind": "Conformance",
@@ -2270,13 +2600,6 @@
               },
               {
                 "kind": "Conformance",
-                "name": "Escapable",
-                "printedName": "Escapable",
-                "usr": "s:s9EscapableP",
-                "mangledName": "$ss9EscapableP"
-              },
-              {
-                "kind": "Conformance",
                 "name": "Decodable",
                 "printedName": "Decodable",
                 "usr": "s:Se",
@@ -2288,6 +2611,13 @@
                 "printedName": "Encodable",
                 "usr": "s:SE",
                 "mangledName": "$sSE"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
               }
             ]
           },
@@ -2733,13 +3063,6 @@
               },
               {
                 "kind": "Conformance",
-                "name": "Escapable",
-                "printedName": "Escapable",
-                "usr": "s:s9EscapableP",
-                "mangledName": "$ss9EscapableP"
-              },
-              {
-                "kind": "Conformance",
                 "name": "Decodable",
                 "printedName": "Decodable",
                 "usr": "s:Se",
@@ -2751,6 +3074,13 @@
                 "printedName": "Encodable",
                 "usr": "s:SE",
                 "mangledName": "$sSE"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
               }
             ]
           },
@@ -3602,13 +3932,6 @@
               },
               {
                 "kind": "Conformance",
-                "name": "Escapable",
-                "printedName": "Escapable",
-                "usr": "s:s9EscapableP",
-                "mangledName": "$ss9EscapableP"
-              },
-              {
-                "kind": "Conformance",
                 "name": "Decodable",
                 "printedName": "Decodable",
                 "usr": "s:Se",
@@ -3620,13 +3943,20 @@
                 "printedName": "Encodable",
                 "usr": "s:SE",
                 "mangledName": "$sSE"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
               }
             ]
           },
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(uuid:title:createdAt:iconUrl:value:totalAmount:type:message:metadata:lineItems:)",
+            "printedName": "init(uuid:title:createdAt:iconUrl:categoryKey:backgroundColor:processor:value:totalAmount:type:message:metadata:lineItems:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -3654,6 +3984,51 @@
                 "printedName": "Foundation.Date",
                 "hasDefaultArg": true,
                 "usr": "s:10Foundation4DateV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
               },
               {
                 "kind": "TypeNominal",
@@ -3770,8 +4145,8 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:10HistorySDK0A8ActivityC4uuid5title9createdAt7iconUrl5value11totalAmount4type7message8metadata9lineItemsACSS_SS10Foundation4DateVSSSgAQSdSgAC0C4TypeOSgAC7MessageCSgAC0C8MetadataCSgSayAA0C8LineItemCGSgtcfc",
-            "mangledName": "$s10HistorySDK0A8ActivityC4uuid5title9createdAt7iconUrl5value11totalAmount4type7message8metadata9lineItemsACSS_SS10Foundation4DateVSSSgAQSdSgAC0C4TypeOSgAC7MessageCSgAC0C8MetadataCSgSayAA0C8LineItemCGSgtcfc",
+            "usr": "s:10HistorySDK0A8ActivityC4uuid5title9createdAt7iconUrl11categoryKey15backgroundColor9processor5value11totalAmount4type7message8metadata9lineItemsACSS_SS10Foundation4DateVSSSgA4TSdSgAC0C4TypeOSgAC7MessageCSgAC0C8MetadataCSgSayAA0C8LineItemCGSgtcfc",
+            "mangledName": "$s10HistorySDK0A8ActivityC4uuid5title9createdAt7iconUrl11categoryKey15backgroundColor9processor5value11totalAmount4type7message8metadata9lineItemsACSS_SS10Foundation4DateVSSSgA4TSdSgAC0C4TypeOSgAC7MessageCSgAC0C8MetadataCSgSayAA0C8LineItemCGSgtcfc",
             "moduleName": "HistorySDK",
             "declAttributes": [
               "AccessControl"
@@ -3852,13 +4227,6 @@
           },
           {
             "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
             "name": "Decodable",
             "printedName": "Decodable",
             "usr": "s:Se",
@@ -3870,6 +4238,13 @@
             "printedName": "Encodable",
             "usr": "s:SE",
             "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           }
         ]
       },
@@ -4209,13 +4584,6 @@
               },
               {
                 "kind": "Conformance",
-                "name": "Escapable",
-                "printedName": "Escapable",
-                "usr": "s:s9EscapableP",
-                "mangledName": "$ss9EscapableP"
-              },
-              {
-                "kind": "Conformance",
                 "name": "Decodable",
                 "printedName": "Decodable",
                 "usr": "s:Se",
@@ -4227,6 +4595,13 @@
                 "printedName": "Encodable",
                 "usr": "s:SE",
                 "mangledName": "$sSE"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
               }
             ]
           },
@@ -4331,13 +4706,6 @@
           },
           {
             "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
             "name": "Decodable",
             "printedName": "Decodable",
             "usr": "s:Se",
@@ -4349,6 +4717,13 @@
             "printedName": "Encodable",
             "usr": "s:SE",
             "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           }
         ]
       },
@@ -5179,13 +5554,6 @@
           },
           {
             "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
             "name": "Decodable",
             "printedName": "Decodable",
             "usr": "s:Se",
@@ -5204,6 +5572,13 @@
             "printedName": "Equatable",
             "usr": "s:SQ",
             "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           }
         ]
       },
@@ -5265,17 +5640,17 @@
           },
           {
             "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
             "name": "Encodable",
             "printedName": "Encodable",
             "usr": "s:SE",
             "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           }
         ]
       },
@@ -5559,17 +5934,40 @@
             "conformances": [
               {
                 "kind": "Conformance",
+                "name": "CaseIterable",
+                "printedName": "CaseIterable",
+                "children": [
+                  {
+                    "kind": "TypeWitness",
+                    "name": "AllCases",
+                    "printedName": "AllCases",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[HistorySDK.TrackingReport.Status]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Status",
+                            "printedName": "HistorySDK.TrackingReport.Status",
+                            "usr": "s:10HistorySDK14TrackingReportC6StatusO"
+                          }
+                        ],
+                        "usr": "s:Sa"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:s12CaseIterableP",
+                "mangledName": "$ss12CaseIterableP"
+              },
+              {
+                "kind": "Conformance",
                 "name": "Copyable",
                 "printedName": "Copyable",
                 "usr": "s:s8CopyableP",
                 "mangledName": "$ss8CopyableP"
-              },
-              {
-                "kind": "Conformance",
-                "name": "Escapable",
-                "printedName": "Escapable",
-                "usr": "s:s9EscapableP",
-                "mangledName": "$ss9EscapableP"
               },
               {
                 "kind": "Conformance",
@@ -5623,33 +6021,10 @@
               },
               {
                 "kind": "Conformance",
-                "name": "CaseIterable",
-                "printedName": "CaseIterable",
-                "children": [
-                  {
-                    "kind": "TypeWitness",
-                    "name": "AllCases",
-                    "printedName": "AllCases",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Array",
-                        "printedName": "[HistorySDK.TrackingReport.Status]",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "Status",
-                            "printedName": "HistorySDK.TrackingReport.Status",
-                            "usr": "s:10HistorySDK14TrackingReportC6StatusO"
-                          }
-                        ],
-                        "usr": "s:Sa"
-                      }
-                    ]
-                  }
-                ],
-                "usr": "s:s12CaseIterableP",
-                "mangledName": "$ss12CaseIterableP"
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
               }
             ]
           },
@@ -5913,17 +6288,40 @@
             "conformances": [
               {
                 "kind": "Conformance",
+                "name": "CaseIterable",
+                "printedName": "CaseIterable",
+                "children": [
+                  {
+                    "kind": "TypeWitness",
+                    "name": "AllCases",
+                    "printedName": "AllCases",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[HistorySDK.TrackingReport.Schedule]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Schedule",
+                            "printedName": "HistorySDK.TrackingReport.Schedule",
+                            "usr": "s:10HistorySDK14TrackingReportC8ScheduleO"
+                          }
+                        ],
+                        "usr": "s:Sa"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:s12CaseIterableP",
+                "mangledName": "$ss12CaseIterableP"
+              },
+              {
+                "kind": "Conformance",
                 "name": "Copyable",
                 "printedName": "Copyable",
                 "usr": "s:s8CopyableP",
                 "mangledName": "$ss8CopyableP"
-              },
-              {
-                "kind": "Conformance",
-                "name": "Escapable",
-                "printedName": "Escapable",
-                "usr": "s:s9EscapableP",
-                "mangledName": "$ss9EscapableP"
               },
               {
                 "kind": "Conformance",
@@ -5977,33 +6375,10 @@
               },
               {
                 "kind": "Conformance",
-                "name": "CaseIterable",
-                "printedName": "CaseIterable",
-                "children": [
-                  {
-                    "kind": "TypeWitness",
-                    "name": "AllCases",
-                    "printedName": "AllCases",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Array",
-                        "printedName": "[HistorySDK.TrackingReport.Schedule]",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "Schedule",
-                            "printedName": "HistorySDK.TrackingReport.Schedule",
-                            "usr": "s:10HistorySDK14TrackingReportC8ScheduleO"
-                          }
-                        ],
-                        "usr": "s:Sa"
-                      }
-                    ]
-                  }
-                ],
-                "usr": "s:s12CaseIterableP",
-                "mangledName": "$ss12CaseIterableP"
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
               }
             ]
           },
@@ -6742,13 +7117,6 @@
           },
           {
             "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
             "name": "Decodable",
             "printedName": "Decodable",
             "usr": "s:Se",
@@ -6760,6 +7128,13 @@
             "printedName": "Encodable",
             "usr": "s:SE",
             "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           }
         ]
       },
@@ -7481,13 +7856,6 @@
           },
           {
             "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
             "name": "Decodable",
             "printedName": "Decodable",
             "usr": "s:Se",
@@ -7499,6 +7867,13 @@
             "printedName": "Encodable",
             "usr": "s:SE",
             "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           }
         ]
       },
@@ -7692,13 +8067,6 @@
           },
           {
             "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
             "name": "Decodable",
             "printedName": "Decodable",
             "usr": "s:Se",
@@ -7710,6 +8078,13 @@
             "printedName": "Encodable",
             "usr": "s:SE",
             "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           }
         ]
       },
@@ -8374,13 +8749,6 @@
           },
           {
             "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
             "name": "Decodable",
             "printedName": "Decodable",
             "usr": "s:Se",
@@ -8392,6 +8760,13 @@
             "printedName": "Encodable",
             "usr": "s:SE",
             "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           }
         ]
       },
@@ -8877,13 +9252,6 @@
           },
           {
             "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
             "name": "Decodable",
             "printedName": "Decodable",
             "usr": "s:Se",
@@ -8895,6 +9263,13 @@
             "printedName": "Encodable",
             "usr": "s:SE",
             "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           }
         ]
       },
@@ -10001,13 +10376,6 @@
           },
           {
             "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
             "name": "Decodable",
             "printedName": "Decodable",
             "usr": "s:Se",
@@ -10019,6 +10387,13 @@
             "printedName": "Encodable",
             "usr": "s:SE",
             "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           }
         ]
       },
@@ -10219,13 +10594,6 @@
           },
           {
             "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
             "name": "Decodable",
             "printedName": "Decodable",
             "usr": "s:Se",
@@ -10237,6 +10605,13 @@
             "printedName": "Encodable",
             "usr": "s:SE",
             "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           }
         ]
       },
@@ -11376,13 +11751,6 @@
           },
           {
             "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
             "name": "Decodable",
             "printedName": "Decodable",
             "usr": "s:Se",
@@ -11401,6 +11769,13 @@
             "printedName": "Equatable",
             "usr": "s:SQ",
             "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           }
         ]
       },
@@ -11803,13 +12178,6 @@
           },
           {
             "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
             "name": "Decodable",
             "printedName": "Decodable",
             "usr": "s:Se",
@@ -11821,6 +12189,13 @@
             "printedName": "Encodable",
             "usr": "s:SE",
             "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           }
         ]
       },
@@ -12245,13 +12620,6 @@
           },
           {
             "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
             "name": "Decodable",
             "printedName": "Decodable",
             "usr": "s:Se",
@@ -12263,6 +12631,13 @@
             "printedName": "Encodable",
             "usr": "s:SE",
             "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           }
         ]
       },
@@ -12648,13 +13023,6 @@
           },
           {
             "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
             "name": "Decodable",
             "printedName": "Decodable",
             "usr": "s:Se",
@@ -12666,6 +13034,13 @@
             "printedName": "Encodable",
             "usr": "s:SE",
             "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           }
         ]
       },
@@ -13471,13 +13846,6 @@
           },
           {
             "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
             "name": "Decodable",
             "printedName": "Decodable",
             "usr": "s:Se",
@@ -13496,6 +13864,13 @@
             "printedName": "Equatable",
             "usr": "s:SQ",
             "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           }
         ]
       },
@@ -14265,13 +14640,6 @@
           },
           {
             "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
             "name": "Decodable",
             "printedName": "Decodable",
             "usr": "s:Se",
@@ -14290,6 +14658,13 @@
             "printedName": "Equatable",
             "usr": "s:SQ",
             "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           }
         ]
       },
@@ -14970,13 +15345,6 @@
               },
               {
                 "kind": "Conformance",
-                "name": "Escapable",
-                "printedName": "Escapable",
-                "usr": "s:s9EscapableP",
-                "mangledName": "$ss9EscapableP"
-              },
-              {
-                "kind": "Conformance",
                 "name": "Decodable",
                 "printedName": "Decodable",
                 "usr": "s:Se",
@@ -14995,6 +15363,13 @@
                 "printedName": "Equatable",
                 "usr": "s:SQ",
                 "mangledName": "$sSQ"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
               }
             ]
           },
@@ -15107,13 +15482,6 @@
           },
           {
             "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -15132,6 +15500,13 @@
             "printedName": "Encodable",
             "usr": "s:SE",
             "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           }
         ]
       },
@@ -15168,714 +15543,728 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/yaro\/Work\/MCards\/HistorySDK\/Sources\/HistorySDK\/Models\/HistoryActivity.swift",
+      "filePath": "\/Users\/vagrant\/git\/Sources\/HistorySDK\/Models\/HistoryActivity.swift",
       "kind": "StringLiteral",
-      "offset": 524,
+      "offset": 634,
       "length": 18,
       "value": "\"card_transaction\""
     },
     {
-      "filePath": "\/Users\/yaro\/Work\/MCards\/HistorySDK\/Sources\/HistorySDK\/Models\/HistoryActivity.swift",
+      "filePath": "\/Users\/vagrant\/git\/Sources\/HistorySDK\/Models\/HistoryActivity.swift",
       "kind": "StringLiteral",
-      "offset": 574,
+      "offset": 684,
       "length": 18,
       "value": "\"balance_transfer\""
     },
     {
-      "filePath": "\/Users\/yaro\/Work\/MCards\/HistorySDK\/Sources\/HistorySDK\/Models\/HistoryActivity.swift",
+      "filePath": "\/Users\/vagrant\/git\/Sources\/HistorySDK\/Models\/HistoryActivity.swift",
       "kind": "StringLiteral",
-      "offset": 628,
+      "offset": 738,
       "length": 23,
       "value": "\"card_balance_transfer\""
     },
     {
-      "filePath": "\/Users\/yaro\/Work\/MCards\/HistorySDK\/Sources\/HistorySDK\/Models\/HistoryActivity.swift",
+      "filePath": "\/Users\/vagrant\/git\/Sources\/HistorySDK\/Models\/HistoryActivity.swift",
       "kind": "StringLiteral",
-      "offset": 683,
+      "offset": 793,
       "length": 18,
       "value": "\"user_transaction\""
     },
     {
-      "filePath": "\/Users\/yaro\/Work\/MCards\/HistorySDK\/Sources\/HistorySDK\/Models\/HistoryActivity.swift",
+      "filePath": "\/Users\/vagrant\/git\/Sources\/HistorySDK\/Models\/HistoryActivity.swift",
       "kind": "StringLiteral",
-      "offset": 733,
+      "offset": 843,
       "length": 18,
       "value": "\"product_purchase\""
     },
     {
-      "filePath": "\/Users\/yaro\/Work\/MCards\/HistorySDK\/Sources\/HistorySDK\/Models\/HistoryActivity.swift",
+      "filePath": "\/Users\/vagrant\/git\/Sources\/HistorySDK\/Models\/HistoryActivity.swift",
       "kind": "StringLiteral",
-      "offset": 781,
+      "offset": 891,
       "length": 16,
       "value": "\"convert_points\""
     },
     {
-      "filePath": "\/Users\/yaro\/Work\/MCards\/HistorySDK\/Sources\/HistorySDK\/Models\/HistoryActivity.swift",
+      "filePath": "\/Users\/vagrant\/git\/Sources\/HistorySDK\/Models\/HistoryActivity.swift",
       "kind": "StringLiteral",
-      "offset": 943,
+      "offset": 1053,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/yaro\/Work\/MCards\/HistorySDK\/Sources\/HistorySDK\/Models\/HistoryActivity.swift",
+      "filePath": "\/Users\/vagrant\/git\/Sources\/HistorySDK\/Models\/HistoryActivity.swift",
       "kind": "StringLiteral",
-      "offset": 962,
+      "offset": 1072,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/yaro\/Work\/MCards\/HistorySDK\/Sources\/HistorySDK\/Models\/HistoryActivity.swift",
+      "filePath": "\/Users\/vagrant\/git\/Sources\/HistorySDK\/Models\/HistoryActivity.swift",
       "kind": "BooleanLiteral",
-      "offset": 1743,
+      "offset": 1853,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/yaro\/Work\/MCards\/HistorySDK\/Sources\/HistorySDK\/Models\/HistoryActivity.swift",
+      "filePath": "\/Users\/vagrant\/git\/Sources\/HistorySDK\/Models\/HistoryActivity.swift",
       "kind": "StringLiteral",
-      "offset": 2063,
+      "offset": 2173,
       "length": 17,
       "value": "\"settlement_date\""
     },
     {
-      "filePath": "\/Users\/yaro\/Work\/MCards\/HistorySDK\/Sources\/HistorySDK\/Models\/HistoryActivity.swift",
+      "filePath": "\/Users\/vagrant\/git\/Sources\/HistorySDK\/Models\/HistoryActivity.swift",
       "kind": "StringLiteral",
-      "offset": 2150,
+      "offset": 2260,
       "length": 22,
       "value": "\"user_metadata_detail\""
     },
     {
-      "filePath": "\/Users\/yaro\/Work\/MCards\/HistorySDK\/Sources\/HistorySDK\/Models\/HistoryActivity.swift",
+      "filePath": "\/Users\/vagrant\/git\/Sources\/HistorySDK\/Models\/HistoryActivity.swift",
       "kind": "StringLiteral",
-      "offset": 3944,
+      "offset": 4054,
       "length": 11,
       "value": "\"image_url\""
     },
     {
-      "filePath": "\/Users\/yaro\/Work\/MCards\/HistorySDK\/Sources\/HistorySDK\/Models\/HistoryActivity.swift",
+      "filePath": "\/Users\/vagrant\/git\/Sources\/HistorySDK\/Models\/HistoryActivity.swift",
       "kind": "StringLiteral",
-      "offset": 3985,
+      "offset": 4095,
       "length": 12,
       "value": "\"tax_amount\""
     },
     {
-      "filePath": "\/Users\/yaro\/Work\/MCards\/HistorySDK\/Sources\/HistorySDK\/Models\/HistoryActivity.swift",
+      "filePath": "\/Users\/vagrant\/git\/Sources\/HistorySDK\/Models\/HistoryActivity.swift",
       "kind": "StringLiteral",
-      "offset": 4036,
+      "offset": 4146,
       "length": 22,
       "value": "\"formatted_tax_amount\""
     },
     {
-      "filePath": "\/Users\/yaro\/Work\/MCards\/HistorySDK\/Sources\/HistorySDK\/Models\/HistoryActivity.swift",
+      "filePath": "\/Users\/vagrant\/git\/Sources\/HistorySDK\/Models\/HistoryActivity.swift",
       "kind": "StringLiteral",
-      "offset": 4088,
+      "offset": 4198,
       "length": 12,
       "value": "\"tip_amount\""
     },
     {
-      "filePath": "\/Users\/yaro\/Work\/MCards\/HistorySDK\/Sources\/HistorySDK\/Models\/HistoryActivity.swift",
+      "filePath": "\/Users\/vagrant\/git\/Sources\/HistorySDK\/Models\/HistoryActivity.swift",
       "kind": "StringLiteral",
-      "offset": 4139,
+      "offset": 4249,
       "length": 22,
       "value": "\"formatted_tip_amount\""
     },
     {
-      "filePath": "\/Users\/yaro\/Work\/MCards\/HistorySDK\/Sources\/HistorySDK\/Models\/HistoryActivity.swift",
+      "filePath": "\/Users\/vagrant\/git\/Sources\/HistorySDK\/Models\/HistoryActivity.swift",
       "kind": "StringLiteral",
-      "offset": 4242,
+      "offset": 4352,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/yaro\/Work\/MCards\/HistorySDK\/Sources\/HistorySDK\/Models\/HistoryActivity.swift",
+      "filePath": "\/Users\/vagrant\/git\/Sources\/HistorySDK\/Models\/HistoryActivity.swift",
       "kind": "StringLiteral",
-      "offset": 4270,
+      "offset": 4380,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/yaro\/Work\/MCards\/HistorySDK\/Sources\/HistorySDK\/Models\/HistoryActivity.swift",
+      "filePath": "\/Users\/vagrant\/git\/Sources\/HistorySDK\/Models\/HistoryActivity.swift",
       "kind": "StringLiteral",
-      "offset": 4988,
+      "offset": 5329,
       "length": 12,
       "value": "\"created_at\""
     },
     {
-      "filePath": "\/Users\/yaro\/Work\/MCards\/HistorySDK\/Sources\/HistorySDK\/Models\/HistoryActivity.swift",
+      "filePath": "\/Users\/vagrant\/git\/Sources\/HistorySDK\/Models\/HistoryActivity.swift",
       "kind": "StringLiteral",
-      "offset": 5024,
+      "offset": 5365,
       "length": 10,
       "value": "\"icon_url\""
     },
     {
-      "filePath": "\/Users\/yaro\/Work\/MCards\/HistorySDK\/Sources\/HistorySDK\/Models\/HistoryActivity.swift",
+      "filePath": "\/Users\/vagrant\/git\/Sources\/HistorySDK\/Models\/HistoryActivity.swift",
       "kind": "StringLiteral",
-      "offset": 5081,
+      "offset": 5403,
+      "length": 14,
+      "value": "\"category_key\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/Sources\/HistorySDK\/Models\/HistoryActivity.swift",
+      "kind": "StringLiteral",
+      "offset": 5449,
+      "length": 18,
+      "value": "\"background_color\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/Sources\/HistorySDK\/Models\/HistoryActivity.swift",
+      "kind": "StringLiteral",
+      "offset": 5537,
       "length": 14,
       "value": "\"total_amount\""
     },
     {
-      "filePath": "\/Users\/yaro\/Work\/MCards\/HistorySDK\/Sources\/HistorySDK\/Models\/HistoryActivity.swift",
+      "filePath": "\/Users\/vagrant\/git\/Sources\/HistorySDK\/Models\/HistoryActivity.swift",
       "kind": "StringLiteral",
-      "offset": 5182,
+      "offset": 5638,
       "length": 12,
       "value": "\"line_items\""
     },
     {
-      "filePath": "\/Users\/yaro\/Work\/MCards\/HistorySDK\/Sources\/HistorySDK\/Models\/HistoryActivity.swift",
+      "filePath": "\/Users\/vagrant\/git\/Sources\/HistorySDK\/Models\/HistoryActivity.swift",
       "kind": "StringLiteral",
-      "offset": 5225,
+      "offset": 5681,
       "length": 17,
       "value": "\"formatted_value\""
     },
     {
-      "filePath": "\/Users\/yaro\/Work\/MCards\/HistorySDK\/Sources\/HistorySDK\/Models\/HistoryActivity.swift",
+      "filePath": "\/Users\/vagrant\/git\/Sources\/HistorySDK\/Models\/HistoryActivity.swift",
       "kind": "StringLiteral",
-      "offset": 5319,
+      "offset": 5775,
       "length": 24,
       "value": "\"formatted_total_amount\""
     },
     {
-      "filePath": "\/Users\/yaro\/Work\/MCards\/HistorySDK\/Sources\/HistorySDK\/Models\/HistoryActivity.swift",
+      "filePath": "\/Users\/vagrant\/git\/Sources\/HistorySDK\/Models\/HistoryActivity.swift",
       "kind": "StringLiteral",
-      "offset": 5388,
+      "offset": 5844,
       "length": 11,
       "value": "\"image_url\""
     },
     {
-      "filePath": "\/Users\/yaro\/Work\/MCards\/HistorySDK\/Sources\/HistorySDK\/Models\/HistoryActivity.swift",
+      "filePath": "\/Users\/vagrant\/git\/Sources\/HistorySDK\/Models\/HistoryActivity.swift",
       "kind": "StringLiteral",
-      "offset": 5898,
+      "offset": 6354,
       "length": 12,
       "value": "\"created_at\""
     },
     {
-      "filePath": "\/Users\/yaro\/Work\/MCards\/HistorySDK\/Sources\/HistorySDK\/Models\/ActivityFundingRequest.swift",
+      "filePath": "\/Users\/vagrant\/git\/Sources\/HistorySDK\/Models\/ActivityFundingRequest.swift",
       "kind": "StringLiteral",
       "offset": 2458,
       "length": 14,
       "value": "\"total_amount\""
     },
     {
-      "filePath": "\/Users\/yaro\/Work\/MCards\/HistorySDK\/Sources\/HistorySDK\/Models\/UpdateTransactionTrackingReportRequest.swift",
+      "filePath": "\/Users\/vagrant\/git\/Sources\/HistorySDK\/Models\/UpdateTransactionTrackingReportRequest.swift",
       "kind": "StringLiteral",
       "offset": 1504,
       "length": 16,
       "value": "\"trackingreport\""
     },
     {
-      "filePath": "\/Users\/yaro\/Work\/MCards\/HistorySDK\/Sources\/HistorySDK\/Models\/GeneratedReportItem.swift",
+      "filePath": "\/Users\/vagrant\/git\/Sources\/HistorySDK\/Models\/GeneratedReportItem.swift",
       "kind": "StringLiteral",
       "offset": 371,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/yaro\/Work\/MCards\/HistorySDK\/Sources\/HistorySDK\/Models\/GeneratedReportItem.swift",
+      "filePath": "\/Users\/vagrant\/git\/Sources\/HistorySDK\/Models\/GeneratedReportItem.swift",
       "kind": "StringLiteral",
       "offset": 417,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/yaro\/Work\/MCards\/HistorySDK\/Sources\/HistorySDK\/Models\/GeneratedReportItem.swift",
+      "filePath": "\/Users\/vagrant\/git\/Sources\/HistorySDK\/Models\/GeneratedReportItem.swift",
       "kind": "StringLiteral",
       "offset": 440,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/yaro\/Work\/MCards\/HistorySDK\/Sources\/HistorySDK\/Models\/GeneratedReportItem.swift",
+      "filePath": "\/Users\/vagrant\/git\/Sources\/HistorySDK\/Models\/GeneratedReportItem.swift",
       "kind": "StringLiteral",
       "offset": 474,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/yaro\/Work\/MCards\/HistorySDK\/Sources\/HistorySDK\/Models\/GeneratedReportItem.swift",
+      "filePath": "\/Users\/vagrant\/git\/Sources\/HistorySDK\/Models\/GeneratedReportItem.swift",
       "kind": "FloatLiteral",
       "offset": 508,
       "length": 3,
       "value": "0.0"
     },
     {
-      "filePath": "\/Users\/yaro\/Work\/MCards\/HistorySDK\/Sources\/HistorySDK\/Models\/GeneratedReportItem.swift",
+      "filePath": "\/Users\/vagrant\/git\/Sources\/HistorySDK\/Models\/GeneratedReportItem.swift",
       "kind": "StringLiteral",
       "offset": 552,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/yaro\/Work\/MCards\/HistorySDK\/Sources\/HistorySDK\/Models\/GeneratedReportItem.swift",
+      "filePath": "\/Users\/vagrant\/git\/Sources\/HistorySDK\/Models\/GeneratedReportItem.swift",
       "kind": "StringLiteral",
       "offset": 1103,
       "length": 14,
       "value": "\"total_amount\""
     },
     {
-      "filePath": "\/Users\/yaro\/Work\/MCards\/HistorySDK\/Sources\/HistorySDK\/Models\/GeneratedReportItem.swift",
+      "filePath": "\/Users\/vagrant\/git\/Sources\/HistorySDK\/Models\/GeneratedReportItem.swift",
       "kind": "StringLiteral",
       "offset": 1154,
       "length": 24,
       "value": "\"formatted_total_amount\""
     },
     {
-      "filePath": "\/Users\/yaro\/Work\/MCards\/HistorySDK\/Sources\/HistorySDK\/Models\/GeneratedReportItem.swift",
+      "filePath": "\/Users\/vagrant\/git\/Sources\/HistorySDK\/Models\/GeneratedReportItem.swift",
       "kind": "StringLiteral",
       "offset": 1204,
       "length": 12,
       "value": "\"created_at\""
     },
     {
-      "filePath": "\/Users\/yaro\/Work\/MCards\/HistorySDK\/Sources\/HistorySDK\/Assets\/Asset.swift",
+      "filePath": "\/Users\/vagrant\/git\/Sources\/HistorySDK\/Assets\/Asset.swift",
       "kind": "StringLiteral",
       "offset": 269,
       "length": 21,
       "value": "\"Receipts\/Background\""
     },
     {
-      "filePath": "\/Users\/yaro\/Work\/MCards\/HistorySDK\/Sources\/HistorySDK\/Assets\/Asset.swift",
+      "filePath": "\/Users\/vagrant\/git\/Sources\/HistorySDK\/Assets\/Asset.swift",
       "kind": "StringLiteral",
       "offset": 344,
       "length": 15,
       "value": "\"Receipts\/cash\""
     },
     {
-      "filePath": "\/Users\/yaro\/Work\/MCards\/HistorySDK\/Sources\/HistorySDK\/Assets\/Asset.swift",
+      "filePath": "\/Users\/vagrant\/git\/Sources\/HistorySDK\/Assets\/Asset.swift",
       "kind": "StringLiteral",
       "offset": 415,
       "length": 17,
       "value": "\"Receipts\/points\""
     },
     {
-      "filePath": "\/Users\/yaro\/Work\/MCards\/HistorySDK\/Sources\/HistorySDK\/Assets\/Asset.swift",
+      "filePath": "\/Users\/vagrant\/git\/Sources\/HistorySDK\/Assets\/Asset.swift",
       "kind": "StringLiteral",
       "offset": 491,
       "length": 20,
       "value": "\"Receipts\/TintColor\""
     },
     {
-      "filePath": "\/Users\/yaro\/Work\/MCards\/HistorySDK\/Sources\/HistorySDK\/Assets\/Asset.swift",
+      "filePath": "\/Users\/vagrant\/git\/Sources\/HistorySDK\/Assets\/Asset.swift",
       "kind": "StringLiteral",
       "offset": 571,
       "length": 21,
       "value": "\"Receipts\/TitleColor\""
     },
     {
-      "filePath": "\/Users\/yaro\/Work\/MCards\/HistorySDK\/Sources\/HistorySDK\/Assets\/Asset.swift",
+      "filePath": "\/Users\/vagrant\/git\/Sources\/HistorySDK\/Assets\/Asset.swift",
       "kind": "StringLiteral",
       "offset": 656,
       "length": 26,
       "value": "\"Receipts\/account_balance\""
     },
     {
-      "filePath": "\/Users\/yaro\/Work\/MCards\/HistorySDK\/Sources\/HistorySDK\/Assets\/Asset.swift",
+      "filePath": "\/Users\/vagrant\/git\/Sources\/HistorySDK\/Assets\/Asset.swift",
       "kind": "StringLiteral",
       "offset": 745,
       "length": 25,
       "value": "\"Receipts\/arrow_downward\""
     },
     {
-      "filePath": "\/Users\/yaro\/Work\/MCards\/HistorySDK\/Sources\/HistorySDK\/Assets\/Asset.swift",
+      "filePath": "\/Users\/vagrant\/git\/Sources\/HistorySDK\/Assets\/Asset.swift",
       "kind": "StringLiteral",
       "offset": 831,
       "length": 23,
       "value": "\"Receipts\/arrow_upward\""
     },
     {
-      "filePath": "\/Users\/yaro\/Work\/MCards\/HistorySDK\/Sources\/HistorySDK\/Assets\/Asset.swift",
+      "filePath": "\/Users\/vagrant\/git\/Sources\/HistorySDK\/Assets\/Asset.swift",
       "kind": "StringLiteral",
       "offset": 909,
       "length": 16,
       "value": "\"Receipts\/block\""
     },
     {
-      "filePath": "\/Users\/yaro\/Work\/MCards\/HistorySDK\/Sources\/HistorySDK\/Assets\/Asset.swift",
+      "filePath": "\/Users\/vagrant\/git\/Sources\/HistorySDK\/Assets\/Asset.swift",
       "kind": "StringLiteral",
       "offset": 987,
       "length": 24,
       "value": "\"Receipts\/card_giftcard\""
     },
     {
-      "filePath": "\/Users\/yaro\/Work\/MCards\/HistorySDK\/Sources\/HistorySDK\/Assets\/Asset.swift",
+      "filePath": "\/Users\/vagrant\/git\/Sources\/HistorySDK\/Assets\/Asset.swift",
       "kind": "StringLiteral",
       "offset": 1071,
       "length": 22,
       "value": "\"Receipts\/credit_card\""
     },
     {
-      "filePath": "\/Users\/yaro\/Work\/MCards\/HistorySDK\/Sources\/HistorySDK\/Assets\/Asset.swift",
+      "filePath": "\/Users\/vagrant\/git\/Sources\/HistorySDK\/Assets\/Asset.swift",
       "kind": "StringLiteral",
       "offset": 1147,
       "length": 15,
       "value": "\"Receipts\/done\""
     },
     {
-      "filePath": "\/Users\/yaro\/Work\/MCards\/HistorySDK\/Sources\/HistorySDK\/Assets\/Asset.swift",
+      "filePath": "\/Users\/vagrant\/git\/Sources\/HistorySDK\/Assets\/Asset.swift",
       "kind": "StringLiteral",
       "offset": 1216,
       "length": 15,
       "value": "\"Receipts\/info\""
     },
     {
-      "filePath": "\/Users\/yaro\/Work\/MCards\/HistorySDK\/Sources\/HistorySDK\/Assets\/Asset.swift",
+      "filePath": "\/Users\/vagrant\/git\/Sources\/HistorySDK\/Assets\/Asset.swift",
       "kind": "StringLiteral",
       "offset": 1299,
       "length": 30,
       "value": "\"Receipts\/receipt-placeholder\""
     },
     {
-      "filePath": "\/Users\/yaro\/Work\/MCards\/HistorySDK\/Sources\/HistorySDK\/Assets\/Asset.swift",
+      "filePath": "\/Users\/vagrant\/git\/Sources\/HistorySDK\/Assets\/Asset.swift",
       "kind": "StringLiteral",
       "offset": 1383,
       "length": 15,
       "value": "\"Receipts\/undo\""
     },
     {
-      "filePath": "\/Users\/yaro\/Work\/MCards\/HistorySDK\/Sources\/HistorySDK\/Assets\/Asset.swift",
+      "filePath": "\/Users\/vagrant\/git\/Sources\/HistorySDK\/Assets\/Asset.swift",
       "kind": "StringLiteral",
       "offset": 3820,
       "length": 43,
       "value": "\"Unable to load color asset named \""
     },
     {
-      "filePath": "\/Users\/yaro\/Work\/MCards\/HistorySDK\/Sources\/HistorySDK\/Assets\/Asset.swift",
+      "filePath": "\/Users\/vagrant\/git\/Sources\/HistorySDK\/Assets\/Asset.swift",
       "kind": "StringLiteral",
       "offset": 3861,
       "length": 1,
       "value": "\".\""
     },
     {
-      "filePath": "\/Users\/yaro\/Work\/MCards\/HistorySDK\/Sources\/HistorySDK\/Models\/TransactionMetadata.swift",
+      "filePath": "\/Users\/vagrant\/git\/Sources\/HistorySDK\/Models\/TransactionMetadata.swift",
       "kind": "FloatLiteral",
       "offset": 363,
       "length": 3,
       "value": "0.0"
     },
     {
-      "filePath": "\/Users\/yaro\/Work\/MCards\/HistorySDK\/Sources\/HistorySDK\/Models\/TransactionMetadata.swift",
+      "filePath": "\/Users\/vagrant\/git\/Sources\/HistorySDK\/Models\/TransactionMetadata.swift",
       "kind": "FloatLiteral",
       "offset": 438,
       "length": 3,
       "value": "0.0"
     },
     {
-      "filePath": "\/Users\/yaro\/Work\/MCards\/HistorySDK\/Sources\/HistorySDK\/Models\/TransactionMetadata.swift",
+      "filePath": "\/Users\/vagrant\/git\/Sources\/HistorySDK\/Models\/TransactionMetadata.swift",
       "kind": "StringLiteral",
       "offset": 509,
       "length": 15,
       "value": "\"No note added\""
     },
     {
-      "filePath": "\/Users\/yaro\/Work\/MCards\/HistorySDK\/Sources\/HistorySDK\/Models\/TransactionMetadata.swift",
+      "filePath": "\/Users\/vagrant\/git\/Sources\/HistorySDK\/Models\/TransactionMetadata.swift",
       "kind": "StringLiteral",
       "offset": 2136,
       "length": 11,
       "value": "\"image_url\""
     },
     {
-      "filePath": "\/Users\/yaro\/Work\/MCards\/HistorySDK\/Sources\/HistorySDK\/Models\/TransactionMetadata.swift",
+      "filePath": "\/Users\/vagrant\/git\/Sources\/HistorySDK\/Models\/TransactionMetadata.swift",
       "kind": "StringLiteral",
       "offset": 2182,
       "length": 22,
       "value": "\"formatted_tip_amount\""
     },
     {
-      "filePath": "\/Users\/yaro\/Work\/MCards\/HistorySDK\/Sources\/HistorySDK\/Models\/TransactionMetadata.swift",
+      "filePath": "\/Users\/vagrant\/git\/Sources\/HistorySDK\/Models\/TransactionMetadata.swift",
       "kind": "StringLiteral",
       "offset": 2239,
       "length": 22,
       "value": "\"formatted_tax_amount\""
     },
     {
-      "filePath": "\/Users\/yaro\/Work\/MCards\/HistorySDK\/Sources\/HistorySDK\/Models\/TransactionMetadataRequest.swift",
+      "filePath": "\/Users\/vagrant\/git\/Sources\/HistorySDK\/Models\/TransactionMetadataRequest.swift",
       "kind": "StringLiteral",
       "offset": 1166,
       "length": 12,
       "value": "\"tax_amount\""
     },
     {
-      "filePath": "\/Users\/yaro\/Work\/MCards\/HistorySDK\/Sources\/HistorySDK\/Models\/TransactionMetadataRequest.swift",
+      "filePath": "\/Users\/vagrant\/git\/Sources\/HistorySDK\/Models\/TransactionMetadataRequest.swift",
       "kind": "StringLiteral",
       "offset": 1204,
       "length": 12,
       "value": "\"tip_amount\""
     },
     {
-      "filePath": "\/Users\/yaro\/Work\/MCards\/HistorySDK\/Sources\/HistorySDK\/Models\/AddTransactionMetadata.swift",
+      "filePath": "\/Users\/vagrant\/git\/Sources\/HistorySDK\/Models\/AddTransactionMetadata.swift",
       "kind": "FloatLiteral",
       "offset": 388,
       "length": 3,
       "value": "0.0"
     },
     {
-      "filePath": "\/Users\/yaro\/Work\/MCards\/HistorySDK\/Sources\/HistorySDK\/Models\/AddTransactionMetadata.swift",
+      "filePath": "\/Users\/vagrant\/git\/Sources\/HistorySDK\/Models\/AddTransactionMetadata.swift",
       "kind": "FloatLiteral",
       "offset": 412,
       "length": 3,
       "value": "0.0"
     },
     {
-      "filePath": "\/Users\/yaro\/Work\/MCards\/HistorySDK\/Sources\/HistorySDK\/Models\/AddTransactionMetadata.swift",
+      "filePath": "\/Users\/vagrant\/git\/Sources\/HistorySDK\/Models\/AddTransactionMetadata.swift",
       "kind": "StringLiteral",
       "offset": 432,
       "length": 15,
       "value": "\"No note added\""
     },
     {
-      "filePath": "\/Users\/yaro\/Work\/MCards\/HistorySDK\/Sources\/HistorySDK\/Models\/AddTransactionMetadata.swift",
+      "filePath": "\/Users\/vagrant\/git\/Sources\/HistorySDK\/Models\/AddTransactionMetadata.swift",
       "kind": "StringLiteral",
       "offset": 1349,
       "length": 12,
       "value": "\"tip_amount\""
     },
     {
-      "filePath": "\/Users\/yaro\/Work\/MCards\/HistorySDK\/Sources\/HistorySDK\/Models\/AddTransactionMetadata.swift",
+      "filePath": "\/Users\/vagrant\/git\/Sources\/HistorySDK\/Models\/AddTransactionMetadata.swift",
       "kind": "StringLiteral",
       "offset": 1387,
       "length": 12,
       "value": "\"tax_amount\""
     },
     {
-      "filePath": "\/Users\/yaro\/Work\/MCards\/HistorySDK\/Sources\/HistorySDK\/Models\/AddTransactionMetadata.swift",
+      "filePath": "\/Users\/vagrant\/git\/Sources\/HistorySDK\/Models\/AddTransactionMetadata.swift",
       "kind": "StringLiteral",
       "offset": 1420,
       "length": 7,
       "value": "\"notes\""
     },
     {
-      "filePath": "\/Users\/yaro\/Work\/MCards\/HistorySDK\/Sources\/HistorySDK\/Models\/TransactionFundingSource.swift",
+      "filePath": "\/Users\/vagrant\/git\/Sources\/HistorySDK\/Models\/TransactionFundingSource.swift",
       "kind": "StringLiteral",
       "offset": 2586,
       "length": 14,
       "value": "\"total_amount\""
     },
     {
-      "filePath": "\/Users\/yaro\/Work\/MCards\/HistorySDK\/Sources\/HistorySDK\/Models\/TransactionFundingSource.swift",
+      "filePath": "\/Users\/vagrant\/git\/Sources\/HistorySDK\/Models\/TransactionFundingSource.swift",
       "kind": "StringLiteral",
       "offset": 2637,
       "length": 24,
       "value": "\"formatted_total_amount\""
     },
     {
-      "filePath": "\/Users\/yaro\/Work\/MCards\/HistorySDK\/Sources\/HistorySDK\/Models\/HistoryActivitiesResponse.swift",
+      "filePath": "\/Users\/vagrant\/git\/Sources\/HistorySDK\/Models\/HistoryActivitiesResponse.swift",
       "kind": "StringLiteral",
       "offset": 248,
       "length": 10,
       "value": "\"per_page\""
     },
     {
-      "filePath": "\/Users\/yaro\/Work\/MCards\/HistorySDK\/Sources\/HistorySDK\/Models\/HistoryActivitiesResponse.swift",
+      "filePath": "\/Users\/vagrant\/git\/Sources\/HistorySDK\/Models\/HistoryActivitiesResponse.swift",
       "kind": "StringLiteral",
       "offset": 304,
       "length": 13,
       "value": "\"total_count\""
     },
     {
-      "filePath": "\/Users\/yaro\/Work\/MCards\/HistorySDK\/Sources\/HistorySDK\/Models\/GeneratedReport.swift",
+      "filePath": "\/Users\/vagrant\/git\/Sources\/HistorySDK\/Models\/GeneratedReport.swift",
       "kind": "StringLiteral",
       "offset": 348,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/yaro\/Work\/MCards\/HistorySDK\/Sources\/HistorySDK\/Models\/GeneratedReport.swift",
+      "filePath": "\/Users\/vagrant\/git\/Sources\/HistorySDK\/Models\/GeneratedReport.swift",
       "kind": "StringLiteral",
       "offset": 367,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/yaro\/Work\/MCards\/HistorySDK\/Sources\/HistorySDK\/Models\/GeneratedReport.swift",
+      "filePath": "\/Users\/vagrant\/git\/Sources\/HistorySDK\/Models\/GeneratedReport.swift",
       "kind": "StringLiteral",
       "offset": 387,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/yaro\/Work\/MCards\/HistorySDK\/Sources\/HistorySDK\/Models\/GeneratedReport.swift",
+      "filePath": "\/Users\/vagrant\/git\/Sources\/HistorySDK\/Models\/GeneratedReport.swift",
       "kind": "IntegerLiteral",
       "offset": 416,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/yaro\/Work\/MCards\/HistorySDK\/Sources\/HistorySDK\/Models\/GeneratedReport.swift",
+      "filePath": "\/Users\/vagrant\/git\/Sources\/HistorySDK\/Models\/GeneratedReport.swift",
       "kind": "StringLiteral",
       "offset": 437,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/yaro\/Work\/MCards\/HistorySDK\/Sources\/HistorySDK\/Models\/GeneratedReport.swift",
+      "filePath": "\/Users\/vagrant\/git\/Sources\/HistorySDK\/Models\/GeneratedReport.swift",
       "kind": "StringLiteral",
       "offset": 459,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/yaro\/Work\/MCards\/HistorySDK\/Sources\/HistorySDK\/Models\/GeneratedReport.swift",
+      "filePath": "\/Users\/vagrant\/git\/Sources\/HistorySDK\/Models\/GeneratedReport.swift",
       "kind": "StringLiteral",
       "offset": 490,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/yaro\/Work\/MCards\/HistorySDK\/Sources\/HistorySDK\/Models\/GeneratedReport.swift",
+      "filePath": "\/Users\/vagrant\/git\/Sources\/HistorySDK\/Models\/GeneratedReport.swift",
       "kind": "StringLiteral",
       "offset": 946,
       "length": 12,
       "value": "\"item_count\""
     },
     {
-      "filePath": "\/Users\/yaro\/Work\/MCards\/HistorySDK\/Sources\/HistorySDK\/Models\/GeneratedReport.swift",
+      "filePath": "\/Users\/vagrant\/git\/Sources\/HistorySDK\/Models\/GeneratedReport.swift",
       "kind": "StringLiteral",
       "offset": 991,
       "length": 19,
       "value": "\"generated_pdf_url\""
     },
     {
-      "filePath": "\/Users\/yaro\/Work\/MCards\/HistorySDK\/Sources\/HistorySDK\/Models\/GeneratedReport.swift",
+      "filePath": "\/Users\/vagrant\/git\/Sources\/HistorySDK\/Models\/GeneratedReport.swift",
       "kind": "StringLiteral",
       "offset": 1042,
       "length": 19,
       "value": "\"generated_csv_url\""
     },
     {
-      "filePath": "\/Users\/yaro\/Work\/MCards\/HistorySDK\/Sources\/HistorySDK\/Models\/GeneratedReport.swift",
+      "filePath": "\/Users\/vagrant\/git\/Sources\/HistorySDK\/Models\/GeneratedReport.swift",
       "kind": "StringLiteral",
       "offset": 1109,
       "length": 12,
       "value": "\"created_at\""
     },
     {
-      "filePath": "\/Users\/yaro\/Work\/MCards\/HistorySDK\/Sources\/HistorySDK\/Models\/ActivityLineItem.swift",
+      "filePath": "\/Users\/vagrant\/git\/Sources\/HistorySDK\/Models\/ActivityLineItem.swift",
       "kind": "StringLiteral",
       "offset": 281,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/yaro\/Work\/MCards\/HistorySDK\/Sources\/HistorySDK\/Models\/ActivityLineItem.swift",
+      "filePath": "\/Users\/vagrant\/git\/Sources\/HistorySDK\/Models\/ActivityLineItem.swift",
       "kind": "StringLiteral",
       "offset": 698,
       "length": 12,
       "value": "\"created_at\""
     },
     {
-      "filePath": "\/Users\/yaro\/Work\/MCards\/HistorySDK\/Sources\/HistorySDK\/Models\/ActivityDetail.swift",
+      "filePath": "\/Users\/vagrant\/git\/Sources\/HistorySDK\/Models\/ActivityDetail.swift",
       "kind": "StringLiteral",
       "offset": 224,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/yaro\/Work\/MCards\/HistorySDK\/Sources\/HistorySDK\/Models\/ActivityDetail.swift",
+      "filePath": "\/Users\/vagrant\/git\/Sources\/HistorySDK\/Models\/ActivityDetail.swift",
       "kind": "StringLiteral",
       "offset": 1803,
       "length": 10,
       "value": "\"icon_url\""
     },
     {
-      "filePath": "\/Users\/yaro\/Library\/Developer\/Xcode\/DerivedData\/HistorySDK-gbbcikkwehzcuubbdtvwayixsjyk\/Build\/Intermediates.noindex\/ArchiveIntermediates\/HistorySDK\/IntermediateBuildFilesPath\/HistorySDK.build\/Release-iphonesimulator\/HistorySDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/vagrant\/Library\/Developer\/Xcode\/DerivedData\/HistorySDK-bopbhvdgnrdkescooumdqzlqoatn\/Build\/Intermediates.noindex\/ArchiveIntermediates\/HistorySDK\/IntermediateBuildFilesPath\/HistorySDK.build\/Release-iphonesimulator\/HistorySDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 716,
       "length": 20,
       "value": "\"Receipts\/TintColor\""
     },
     {
-      "filePath": "\/Users\/yaro\/Library\/Developer\/Xcode\/DerivedData\/HistorySDK-gbbcikkwehzcuubbdtvwayixsjyk\/Build\/Intermediates.noindex\/ArchiveIntermediates\/HistorySDK\/IntermediateBuildFilesPath\/HistorySDK.build\/Release-iphonesimulator\/HistorySDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/vagrant\/Library\/Developer\/Xcode\/DerivedData\/HistorySDK-bopbhvdgnrdkescooumdqzlqoatn\/Build\/Intermediates.noindex\/ArchiveIntermediates\/HistorySDK\/IntermediateBuildFilesPath\/HistorySDK.build\/Release-iphonesimulator\/HistorySDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 878,
       "length": 21,
       "value": "\"Receipts\/TitleColor\""
     },
     {
-      "filePath": "\/Users\/yaro\/Library\/Developer\/Xcode\/DerivedData\/HistorySDK-gbbcikkwehzcuubbdtvwayixsjyk\/Build\/Intermediates.noindex\/ArchiveIntermediates\/HistorySDK\/IntermediateBuildFilesPath\/HistorySDK.build\/Release-iphonesimulator\/HistorySDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/vagrant\/Library\/Developer\/Xcode\/DerivedData\/HistorySDK-bopbhvdgnrdkescooumdqzlqoatn\/Build\/Intermediates.noindex\/ArchiveIntermediates\/HistorySDK\/IntermediateBuildFilesPath\/HistorySDK.build\/Release-iphonesimulator\/HistorySDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 1236,
       "length": 21,
       "value": "\"Receipts\/Background\""
     },
     {
-      "filePath": "\/Users\/yaro\/Library\/Developer\/Xcode\/DerivedData\/HistorySDK-gbbcikkwehzcuubbdtvwayixsjyk\/Build\/Intermediates.noindex\/ArchiveIntermediates\/HistorySDK\/IntermediateBuildFilesPath\/HistorySDK.build\/Release-iphonesimulator\/HistorySDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/vagrant\/Library\/Developer\/Xcode\/DerivedData\/HistorySDK-bopbhvdgnrdkescooumdqzlqoatn\/Build\/Intermediates.noindex\/ArchiveIntermediates\/HistorySDK\/IntermediateBuildFilesPath\/HistorySDK.build\/Release-iphonesimulator\/HistorySDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 1413,
       "length": 26,
       "value": "\"Receipts\/account_balance\""
     },
     {
-      "filePath": "\/Users\/yaro\/Library\/Developer\/Xcode\/DerivedData\/HistorySDK-gbbcikkwehzcuubbdtvwayixsjyk\/Build\/Intermediates.noindex\/ArchiveIntermediates\/HistorySDK\/IntermediateBuildFilesPath\/HistorySDK.build\/Release-iphonesimulator\/HistorySDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/vagrant\/Library\/Developer\/Xcode\/DerivedData\/HistorySDK-bopbhvdgnrdkescooumdqzlqoatn\/Build\/Intermediates.noindex\/ArchiveIntermediates\/HistorySDK\/IntermediateBuildFilesPath\/HistorySDK.build\/Release-iphonesimulator\/HistorySDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 1593,
       "length": 25,
       "value": "\"Receipts\/arrow_downward\""
     },
     {
-      "filePath": "\/Users\/yaro\/Library\/Developer\/Xcode\/DerivedData\/HistorySDK-gbbcikkwehzcuubbdtvwayixsjyk\/Build\/Intermediates.noindex\/ArchiveIntermediates\/HistorySDK\/IntermediateBuildFilesPath\/HistorySDK.build\/Release-iphonesimulator\/HistorySDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/vagrant\/Library\/Developer\/Xcode\/DerivedData\/HistorySDK-bopbhvdgnrdkescooumdqzlqoatn\/Build\/Intermediates.noindex\/ArchiveIntermediates\/HistorySDK\/IntermediateBuildFilesPath\/HistorySDK.build\/Release-iphonesimulator\/HistorySDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 1768,
       "length": 23,
       "value": "\"Receipts\/arrow_upward\""
     },
     {
-      "filePath": "\/Users\/yaro\/Library\/Developer\/Xcode\/DerivedData\/HistorySDK-gbbcikkwehzcuubbdtvwayixsjyk\/Build\/Intermediates.noindex\/ArchiveIntermediates\/HistorySDK\/IntermediateBuildFilesPath\/HistorySDK.build\/Release-iphonesimulator\/HistorySDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/vagrant\/Library\/Developer\/Xcode\/DerivedData\/HistorySDK-bopbhvdgnrdkescooumdqzlqoatn\/Build\/Intermediates.noindex\/ArchiveIntermediates\/HistorySDK\/IntermediateBuildFilesPath\/HistorySDK.build\/Release-iphonesimulator\/HistorySDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 1928,
       "length": 16,
       "value": "\"Receipts\/block\""
     },
     {
-      "filePath": "\/Users\/yaro\/Library\/Developer\/Xcode\/DerivedData\/HistorySDK-gbbcikkwehzcuubbdtvwayixsjyk\/Build\/Intermediates.noindex\/ArchiveIntermediates\/HistorySDK\/IntermediateBuildFilesPath\/HistorySDK.build\/Release-iphonesimulator\/HistorySDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/vagrant\/Library\/Developer\/Xcode\/DerivedData\/HistorySDK-bopbhvdgnrdkescooumdqzlqoatn\/Build\/Intermediates.noindex\/ArchiveIntermediates\/HistorySDK\/IntermediateBuildFilesPath\/HistorySDK.build\/Release-iphonesimulator\/HistorySDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 2096,
       "length": 24,
       "value": "\"Receipts\/card_giftcard\""
     },
     {
-      "filePath": "\/Users\/yaro\/Library\/Developer\/Xcode\/DerivedData\/HistorySDK-gbbcikkwehzcuubbdtvwayixsjyk\/Build\/Intermediates.noindex\/ArchiveIntermediates\/HistorySDK\/IntermediateBuildFilesPath\/HistorySDK.build\/Release-iphonesimulator\/HistorySDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/vagrant\/Library\/Developer\/Xcode\/DerivedData\/HistorySDK-bopbhvdgnrdkescooumdqzlqoatn\/Build\/Intermediates.noindex\/ArchiveIntermediates\/HistorySDK\/IntermediateBuildFilesPath\/HistorySDK.build\/Release-iphonesimulator\/HistorySDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 2255,
       "length": 15,
       "value": "\"Receipts\/cash\""
     },
     {
-      "filePath": "\/Users\/yaro\/Library\/Developer\/Xcode\/DerivedData\/HistorySDK-gbbcikkwehzcuubbdtvwayixsjyk\/Build\/Intermediates.noindex\/ArchiveIntermediates\/HistorySDK\/IntermediateBuildFilesPath\/HistorySDK.build\/Release-iphonesimulator\/HistorySDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/vagrant\/Library\/Developer\/Xcode\/DerivedData\/HistorySDK-bopbhvdgnrdkescooumdqzlqoatn\/Build\/Intermediates.noindex\/ArchiveIntermediates\/HistorySDK\/IntermediateBuildFilesPath\/HistorySDK.build\/Release-iphonesimulator\/HistorySDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 2418,
       "length": 22,
       "value": "\"Receipts\/credit_card\""
     },
     {
-      "filePath": "\/Users\/yaro\/Library\/Developer\/Xcode\/DerivedData\/HistorySDK-gbbcikkwehzcuubbdtvwayixsjyk\/Build\/Intermediates.noindex\/ArchiveIntermediates\/HistorySDK\/IntermediateBuildFilesPath\/HistorySDK.build\/Release-iphonesimulator\/HistorySDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/vagrant\/Library\/Developer\/Xcode\/DerivedData\/HistorySDK-bopbhvdgnrdkescooumdqzlqoatn\/Build\/Intermediates.noindex\/ArchiveIntermediates\/HistorySDK\/IntermediateBuildFilesPath\/HistorySDK.build\/Release-iphonesimulator\/HistorySDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 2575,
       "length": 15,
       "value": "\"Receipts\/done\""
     },
     {
-      "filePath": "\/Users\/yaro\/Library\/Developer\/Xcode\/DerivedData\/HistorySDK-gbbcikkwehzcuubbdtvwayixsjyk\/Build\/Intermediates.noindex\/ArchiveIntermediates\/HistorySDK\/IntermediateBuildFilesPath\/HistorySDK.build\/Release-iphonesimulator\/HistorySDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/vagrant\/Library\/Developer\/Xcode\/DerivedData\/HistorySDK-bopbhvdgnrdkescooumdqzlqoatn\/Build\/Intermediates.noindex\/ArchiveIntermediates\/HistorySDK\/IntermediateBuildFilesPath\/HistorySDK.build\/Release-iphonesimulator\/HistorySDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 2725,
       "length": 15,
       "value": "\"Receipts\/info\""
     },
     {
-      "filePath": "\/Users\/yaro\/Library\/Developer\/Xcode\/DerivedData\/HistorySDK-gbbcikkwehzcuubbdtvwayixsjyk\/Build\/Intermediates.noindex\/ArchiveIntermediates\/HistorySDK\/IntermediateBuildFilesPath\/HistorySDK.build\/Release-iphonesimulator\/HistorySDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/vagrant\/Library\/Developer\/Xcode\/DerivedData\/HistorySDK-bopbhvdgnrdkescooumdqzlqoatn\/Build\/Intermediates.noindex\/ArchiveIntermediates\/HistorySDK\/IntermediateBuildFilesPath\/HistorySDK.build\/Release-iphonesimulator\/HistorySDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 2879,
       "length": 17,
       "value": "\"Receipts\/points\""
     },
     {
-      "filePath": "\/Users\/yaro\/Library\/Developer\/Xcode\/DerivedData\/HistorySDK-gbbcikkwehzcuubbdtvwayixsjyk\/Build\/Intermediates.noindex\/ArchiveIntermediates\/HistorySDK\/IntermediateBuildFilesPath\/HistorySDK.build\/Release-iphonesimulator\/HistorySDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/vagrant\/Library\/Developer\/Xcode\/DerivedData\/HistorySDK-bopbhvdgnrdkescooumdqzlqoatn\/Build\/Intermediates.noindex\/ArchiveIntermediates\/HistorySDK\/IntermediateBuildFilesPath\/HistorySDK.build\/Release-iphonesimulator\/HistorySDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 3060,
       "length": 30,
       "value": "\"Receipts\/receipt-placeholder\""
     },
     {
-      "filePath": "\/Users\/yaro\/Library\/Developer\/Xcode\/DerivedData\/HistorySDK-gbbcikkwehzcuubbdtvwayixsjyk\/Build\/Intermediates.noindex\/ArchiveIntermediates\/HistorySDK\/IntermediateBuildFilesPath\/HistorySDK.build\/Release-iphonesimulator\/HistorySDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/vagrant\/Library\/Developer\/Xcode\/DerivedData\/HistorySDK-bopbhvdgnrdkescooumdqzlqoatn\/Build\/Intermediates.noindex\/ArchiveIntermediates\/HistorySDK\/IntermediateBuildFilesPath\/HistorySDK.build\/Release-iphonesimulator\/HistorySDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 3225,
       "length": 15,

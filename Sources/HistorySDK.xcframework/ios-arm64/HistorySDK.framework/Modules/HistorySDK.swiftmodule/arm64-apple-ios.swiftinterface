@@ -1,7 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.2.4 effective-5.10 (swiftlang-6.2.4.1.4 clang-1700.6.4.2)
-// swift-module-flags: -target arm64-apple-ios14.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name HistorySDK
-// swift-module-flags-ignorable:  -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2.4
+// swift-compiler-version: Apple Swift version 6.3.3 effective-5.10 (swiftlang-6.3.3.1.3 clang-2100.1.1.101)
+// swift-module-flags: -target arm64-apple-ios14.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name HistorySDK
+// swift-module-flags-ignorable:  -formal-cxx-interoperability-mode=off -interface-compiler-version 6.3.3
 import CoreSDK
 import DeveloperToolsSupport
 import Foundation
@@ -26,6 +26,9 @@ public class HistoryActivity : Swift.Codable {
   public var title: Swift.String
   public var createdAt: Foundation.Date
   public var iconUrl: Swift.String?
+  public var categoryKey: Swift.String?
+  public var backgroundColor: Swift.String?
+  public var processor: Swift.String?
   public var value: Swift.String?
   public var totalAmount: Swift.Double?
   public var type: HistorySDK.HistoryActivity.ActivityType?
@@ -39,9 +42,7 @@ public class HistoryActivity : Swift.Codable {
     case userTransaction
     case productPurchase
     case convertPoints
-    #if compiler(>=5.3) && $NonescapableTypes
     public init?(rawValue: Swift.String)
-    #endif
     public typealias RawValue = Swift.String
     public var rawValue: Swift.String {
       get
@@ -59,9 +60,7 @@ public class HistoryActivity : Swift.Codable {
     public var settlementDate: Foundation.Date?
     public var reallocatable: Swift.Bool
     public var userMetadataDetail: HistorySDK.HistoryActivity.UserMetadataDetail?
-    #if compiler(>=5.3) && $NonescapableTypes
     public init(settlementDate: Foundation.Date? = nil, reallocatable: Swift.Bool = false, userMetadataDetail: HistorySDK.HistoryActivity.UserMetadataDetail? = nil)
-    #endif
     required public init(from decoder: any Swift.Decoder) throws
     public func encode(to encoder: any Swift.Encoder) throws
     @objc deinit
@@ -73,16 +72,12 @@ public class HistoryActivity : Swift.Codable {
     public var tipAmount: Swift.Double?
     public var formattedTipAmount: Swift.String?
     public var notes: Swift.String?
-    #if compiler(>=5.3) && $NonescapableTypes
     public init(imageUrl: Swift.String? = nil, taxAmount: Swift.Double? = nil, formattedTaxAmount: Swift.String? = nil, tipAmount: Swift.Double? = nil, formattedTipAmount: Swift.String? = nil, notes: Swift.String? = nil)
-    #endif
     @objc deinit
     public func encode(to encoder: any Swift.Encoder) throws
     required public init(from decoder: any Swift.Decoder) throws
   }
-  #if compiler(>=5.3) && $NonescapableTypes
-  public init(uuid: Swift.String = "", title: Swift.String = "", createdAt: Foundation.Date = Date(), iconUrl: Swift.String? = nil, value: Swift.String? = nil, totalAmount: Swift.Double? = nil, type: HistorySDK.HistoryActivity.ActivityType? = nil, message: HistorySDK.HistoryActivity.Message? = nil, metadata: HistorySDK.HistoryActivity.ActivityMetadata? = nil, lineItems: [HistorySDK.ActivityLineItem]? = nil)
-  #endif
+  public init(uuid: Swift.String = "", title: Swift.String = "", createdAt: Foundation.Date = Date(), iconUrl: Swift.String? = nil, categoryKey: Swift.String? = nil, backgroundColor: Swift.String? = nil, processor: Swift.String? = nil, value: Swift.String? = nil, totalAmount: Swift.Double? = nil, type: HistorySDK.HistoryActivity.ActivityType? = nil, message: HistorySDK.HistoryActivity.Message? = nil, metadata: HistorySDK.HistoryActivity.ActivityMetadata? = nil, lineItems: [HistorySDK.ActivityLineItem]? = nil)
   required public init(from decoder: any Swift.Decoder) throws
   public func encode(to encoder: any Swift.Encoder) throws
   @objc deinit
@@ -91,9 +86,7 @@ public class UpdateTransactionTrackingReportRequest : Swift.Codable {
   public var trackingReport: HistorySDK.UpdateTransactionTrackingReportRequest.TrackingReport
   public class TrackingReport : Swift.Codable {
     public var uuid: Swift.String?
-    #if compiler(>=5.3) && $NonescapableTypes
     public init(uuid: Swift.String? = nil)
-    #endif
     required public init(from decoder: any Swift.Decoder) throws
     public func encode(to encoder: any Swift.Encoder) throws
     @objc deinit
@@ -124,9 +117,7 @@ public struct ReportRequest : Swift.Encodable {
   public enum Status : Swift.String, Swift.Codable, Swift.Equatable, Swift.CaseIterable {
     case active
     case inactive
-    #if compiler(>=5.3) && $NonescapableTypes
     public init?(rawValue: Swift.String)
-    #endif
     public typealias AllCases = [HistorySDK.TrackingReport.Status]
     public typealias RawValue = Swift.String
     nonisolated public static var allCases: [HistorySDK.TrackingReport.Status] {
@@ -140,9 +131,7 @@ public struct ReportRequest : Swift.Encodable {
     case daily
     case weekly
     case monthly
-    #if compiler(>=5.3) && $NonescapableTypes
     public init?(rawValue: Swift.String)
-    #endif
     public typealias AllCases = [HistorySDK.TrackingReport.Schedule]
     public typealias RawValue = Swift.String
     nonisolated public static var allCases: [HistorySDK.TrackingReport.Schedule] {
@@ -193,9 +182,7 @@ public class TransactionMetadataRequest : Swift.Codable {
   public var taxAmount: Swift.Double?
   public var tipAmount: Swift.Double?
   public var notes: Swift.String?
-  #if compiler(>=5.3) && $NonescapableTypes
   public init(taxAmount: Swift.Double? = nil, tipAmount: Swift.Double? = nil, notes: Swift.String? = nil)
-  #endif
   required public init(from decoder: any Swift.Decoder) throws
   public func encode(to encoder: any Swift.Encoder) throws
   @objc deinit
@@ -204,27 +191,13 @@ public protocol HistorySdk {
   func configure(accessToken: Swift.String, tokenRefreshCallback: any HistorySDK.HSDKTokenRefreshCallback)
   func configure(accessToken: Swift.String, debugMode: Swift.Bool, tokenRefreshCallback: any HistorySDK.HSDKTokenRefreshCallback, loggingCallback: any CoreSDK.LoggingCallback)
   func launch(with controller: UIKit.UIViewController)
-  #if compiler(>=5.3) && $NonescapableTypes
   func getPaginatedActivities(cardId: Swift.String, sourceIndex: Swift.Int?, pageSize: Swift.Int?, completion: @escaping (_ result: Swift.Result<HistorySDK.HistoryActivitiesResponse, any Swift.Error>) -> Swift.Void)
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   func getActivity(cardId: Swift.String, activityId: Swift.String, completion: @escaping (_ result: Swift.Result<HistorySDK.HistoryActivity, any Swift.Error>) -> Swift.Void)
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   func getActivityPaymentAccounts(cardId: Swift.String, activityId: Swift.String, completion: @escaping (_ result: Swift.Result<[HistorySDK.TransactionFundingSource], any Swift.Error>) -> Swift.Void)
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   func setActivityPaymentAccount(cardId: Swift.String, activityId: Swift.String, sources: [HistorySDK.TransactionFundingSource], completion: @escaping (_ result: Swift.Result<HistorySDK.UpdateActivityFundingSource, any Swift.Error>) -> Swift.Void)
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   func getActivityMetadata(cardId: Swift.String, activityId: Swift.String, completion: @escaping (_ result: Swift.Result<HistorySDK.TransactionMetadata, any Swift.Error>) -> Swift.Void)
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   func addActivityMetadata(cardId: Swift.String, activityId: Swift.String, metadata: HistorySDK.AddTransactionMetadata, completion: @escaping (_ result: Swift.Result<HistorySDK.TransactionMetadata, any Swift.Error>) -> Swift.Void)
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   func addActivityMetadataPhoto(cardId: Swift.String, activityId: Swift.String, photoData: Swift.String, completion: @escaping (_ result: Swift.Result<Swift.Bool, any Swift.Error>) -> Swift.Void)
-  #endif
   func logout()
 }
 public class AddTransactionMetadata : Swift.Codable {
@@ -281,9 +254,7 @@ public struct Pagination : Swift.Codable {
 public class HistoryActivitiesResponse : Swift.Codable {
   public var activities: [HistorySDK.HistoryActivity]?
   public var pagination: HistorySDK.Pagination?
-  #if compiler(>=5.3) && $NonescapableTypes
   public init(activities: [HistorySDK.HistoryActivity]? = nil, pagination: HistorySDK.Pagination? = nil)
-  #endif
   required public init(from decoder: any Swift.Decoder) throws
   public func encode(to encoder: any Swift.Encoder) throws
   @objc deinit
@@ -308,9 +279,7 @@ public class ActivityLineItem : Swift.Codable, Swift.Equatable {
   public var createdAt: Swift.String?
   public var value: Swift.String?
   public var details: [HistorySDK.ActivityDetail]?
-  #if compiler(>=5.3) && $NonescapableTypes
   public init(title: Swift.String = "", subtitle: Swift.String? = nil, createdAt: Swift.String? = nil, value: Swift.String? = nil, details: [HistorySDK.ActivityDetail]? = nil)
-  #endif
   required public init(from decoder: any Swift.Decoder) throws
   public func encode(to encoder: any Swift.Encoder) throws
   public static func == (lhs: HistorySDK.ActivityLineItem, rhs: HistorySDK.ActivityLineItem) -> Swift.Bool
@@ -320,9 +289,7 @@ public class ActivityDetail : Swift.Equatable, Swift.Codable {
   public var iconUrl: Swift.String?
   public var title: Swift.String
   public var value: HistorySDK.ActivityDetail.FlexibleValue?
-  #if compiler(>=5.3) && $NonescapableTypes
   public init(iconUrl: Swift.String? = nil, title: Swift.String = "", value: HistorySDK.ActivityDetail.FlexibleValue? = nil)
-  #endif
   public enum FlexibleValue : Swift.Codable, Swift.Equatable {
     case string(Swift.String)
     case int(Swift.Int)
